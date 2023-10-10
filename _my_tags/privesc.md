@@ -1,0 +1,4 @@
+---
+slug: privesc
+name: Privesc
+---
