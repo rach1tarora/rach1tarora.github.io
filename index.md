@@ -1,12 +1,21 @@
 ---
 layout: default
-title: Hello
+title: Hi
 ---
+<br>
 
-> ##### Contact
+I post blogs <a href="/blog" style="color:red;" rel="noopener">here</a> 
+<br>
+
+
+>    ##### Contact
 
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+Mail <a href = "mailto:admin@arorarachit.com" target="_blank" rel="noopener"> arorarachit@protonmail.com </a>
 
 <!-- Add font awesome icons -->
 <a href="#" class="fa fa-twitter" href = "https://twitter.com/rach1tarora" target="_blank" rel="noopener" ></a> &nbsp; 
@@ -14,16 +23,12 @@ title: Hello
 <a href="#" class="fa fa-github" href = "https://github.com/rach1tarora" target="_blank" rel="noopener" ></a> &nbsp; 
 <a href="#" class="fa fa-linkedin" href = "https://www.linkedin.com/in/rach1tarora/" target="_blank" rel="noopener" ></a> &nbsp; 
 
-Mail <a href = "mailto:admin@arorarachit.com" target="_blank" rel="noopener"> arorarachit@protonmail.com </a>
-
-
-
 > ##### Identity
 
 You can verify me on <a href="https://keybase.io/rachitaroraa" target="_blank" rel="noopener">Keybase</a> 
 
 
-I post stuff <a href="/blog" style="color:red;" rel="noopener">here</a> 
+
 
 <br>
 
@@ -147,3 +152,12 @@ They will then have a four-hour window to solve the challenges in the VM and the
     
 <br>
 
+
+Thank you!
+
+
+<br>
+
+> My fav edit 
+
+<iframe width="800" height="400" src="https://www.youtube.com/embed/QVnK9Mhin50"></iframe>
