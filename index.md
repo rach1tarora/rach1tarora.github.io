@@ -58,22 +58,6 @@ All certifications can be verified on credly <a href="https://www.credly.com/use
 - [eLearnSecurity Junior Penetration Tester](https://verified.elearnsecurity.com/certificates/f61e9c01-e250-4faa-99cb-869382a47ccd) (eJPT)
 
 <br>
-### Accomplishments
-
-- Discovered and secured vulnerabilities in my undergrad college infrastructure.
-    - Identified a bug in Groovy console which granted unauthorized command execution as root.
-    - Discovered a vulnerability in Adobe AEM CMS that was implemented on the domain which granted complete file system access.
-    - Fuzzed directories that were leaking student/professors PII.
-    
-    Received a letter of appreciation from the college
-    
-
-- Successfully reported few vulnerabilities on NCIIPC (Indian Gov RVDP)
-    - Discovered PII information exposure through “forgot password” Functionality implemented on the domain.
-    
-    Received acknowledgment 
-    
-<br>
 
 ### **Projects**
 
@@ -81,14 +65,16 @@ All certifications can be verified on credly <a href="https://www.credly.com/use
 
 > **Sentinel Heatmap (RDP Bruteforce)**
     
-    
 - Used custom PowerShell script to extract metadata from Windows Event Viewer to be forwarded to third party API in order to derive geolocation data.
 
 - Configured Log Analytics Workspace in Azure to ingest custom logs containing geographic information (latitude, longitude, state/province, and country)
 
 - Used Azure Sentinel (Microsoft's cloud SIEM) workbook to display global attack data (RDP brute force) on world map according to physical location and magnitude of attack.
 
-More information and the report [here](https://www.google.com/)
+More information and the report <a href="https://arorarachit.com/blog/sentinel-heatmap-rdp-bruteforce" style="color:red;" rel="noopener">here</a> 
+
+![https://media.discordapp.net/attachments/928373179003600907/1155463014322016287/image.png?width=1672&height=666](https://media.discordapp.net/attachments/854292624754999296/1151130590351986748/Picture1.png?width=1410&height=670)
+
 
 <br>
 
@@ -101,18 +87,18 @@ More information and the report [here](https://www.google.com/)
 More information about the challenge and the badge <a href="https://www.credly.com/org/noshitsecurity/badge/rage" style="color:red;" rel="noopener">here</a> .
 
 - The first part of the  CTF will be finding a Private key(.pem) , which will grant them access to a Linux virtual machine (VM) hosted in Microsoft Azure.
-They will then have a four-hour window to solve the challenges in the VM and the access would be given by Just-in-time (JIT) in Azure
+They will then have a four-hour window to solve the challenges in the VM and the access would be given by Just-in-time (JIT) in Azure.
 
 - The CTF comprised of the following Elements -
 
     - **Digital Forensics** and **Cryptography** ( Steganography, Morse Code, Public Key Cryptography , basic encryption, hashing and validation techniques.) 
     This will lead them to the Private key.
 
-    - Once inside the VM, they will have to **Docker Breakout** to break-out of the container and then perform a **Privilege Escalation**
+    - Once inside the VM, they will have to **Docker Breakout** to break-out of the container and then perform a **Privilege Escalation**.
 
-- Everything in the VM is being monitored by **Microsoft Sentinel**
+- Everything in the VM is being monitored by **Microsoft Sentinel**.
 
-    - A blog has been published <a href="https://arorarachit.com/blog/azure-sentinel-investigating-incidents" style="color:red;" rel="noopener">here</a> , analyzing the observations drawn from individuals attempting to compromise the VM
+    - A blog has been published <a href="https://arorarachit.com/blog/azure-sentinel-investigating-incidents" style="color:red;" rel="noopener">here</a> , analyzing the observations drawn from individuals attempting to compromise the VM.
     
     ![https://media.discordapp.net/attachments/928373179003600907/1155463014322016287/image.png?width=1672&height=666](https://media.discordapp.net/attachments/928373179003600907/1155463014322016287/image.png?width=1672&height=666)
     
@@ -138,3 +124,26 @@ They will then have a four-hour window to solve the challenges in the VM and the
     
     Company Domain Controller → **Windows Server 2022**
     
+<br>
+
+### Accomplishments
+
+- Discovered and secured vulnerabilities in my undergrad college infrastructure.
+
+    - Identified a bug in Groovy console which granted unauthorized command execution as root.
+
+    - Discovered a vulnerability in Adobe AEM CMS that was implemented on the domain which granted complete file system access.
+
+    - Fuzzed directories that were leaking student/professors PII.
+    
+    Received a letter of appreciation from the college
+    
+
+- Successfully reported few vulnerabilities on NCIIPC (Indian Gov RVDP)
+
+    - Discovered PII information exposure through “forgot password” Functionality implemented on the domain.
+    
+    Received acknowledgment 
+    
+<br>
+
