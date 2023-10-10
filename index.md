@@ -8,7 +8,7 @@ I post blogs <a href="/blog" style="color:red;" rel="noopener">here</a>
 <br>
 
 
->    ##### Contact
+> ##### Contact
 
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -160,4 +160,4 @@ Thank you!
 
 > My fav edit 
 
-<iframe width="800" height="400" src="https://www.youtube.com/embed/QVnK9Mhin50"></iframe>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/QVnK9Mhin50"></iframe>
