@@ -17,6 +17,11 @@ I post blogs <a href="/blog" style="color:red;" rel="noopener">here</a>
 
 Mail <a href = "mailto:admin@arorarachit.com" target="_blank" rel="noopener"> arorarachit@protonmail.com </a>
 
+or
+
+Mail <a href = "mailto:admin@arorarachit.com" target="_blank" rel="noopener"> rachit@umd.edu </a>
+
+
 <!-- Add font awesome icons -->
 <a href="#" class="fa fa-twitter" href = "https://twitter.com/rach1tarora" target="_blank" rel="noopener" ></a> &nbsp; 
 <a href="#" class="fa fa-steam" href = "https://steamcommunity.com/id/JediMindTr1cks" target="_blank" rel="noopener" ></a> &nbsp; 
@@ -39,13 +44,13 @@ I'm Rachit Arora, and I have a keen interest in Cloud Security and both red/blue
 - Penetration testing
 - Hackthebox &  THM writeups
 - Cloud Security
-- Miscellaneous topics
+- Miscellaneous topics (AI,OPSEC etc)
 
 Additionally, I am a student at University of Maryland, College Park where I am pursuing Masters of Engineering in Cybersecurity ( M.Eng Cybersecurity).
 
 I'm currently searching for hybrid internships in the Washington, D.C. area for the fall of 2024.
 
-Currently I’m learning stuff about C2 ( CobaltStrike, Havoc ) and trying my hands on reverse engineering. 
+Currently I’m learning stuff about C2 ( CobaltStrike, Havoc ) and learning AI. 
 
 Preparing for [CRTO](https://training.zeropointsecurity.co.uk/courses/red-team-ops) → Concepts related to adversary simulation, command & control.
 
@@ -76,7 +81,7 @@ All certifications can be verified on credly <a href="https://www.credly.com/use
 
 - Used Azure Sentinel (Microsoft's cloud SIEM) workbook to display global attack data (RDP brute force) on world map according to physical location and magnitude of attack.
 
-More information and the report <a href="https://arorarachit.com/blog/sentinel-heatmap-rdp-bruteforce" style="color:red;" rel="noopener">here</a> 
+   - More information and the report <a href="https://arorarachit.com/blog/sentinel-heatmap-rdp-bruteforce" style="color:red;" rel="noopener">here</a> 
 
 ![https://media.discordapp.net/attachments/928373179003600907/1155463014322016287/image.png?width=1672&height=666](https://media.discordapp.net/attachments/854292624754999296/1151130590351986748/Picture1.png?width=1410&height=670)
 
@@ -89,7 +94,7 @@ More information and the report <a href="https://arorarachit.com/blog/sentinel-h
     
 - Created a CTF for NSS, which involved Forensic Analysis, Cryptography and Privilege Escalation ( Docker Container Breakout). 
 
-More information about the challenge and the badge <a href="https://www.credly.com/org/noshitsecurity/badge/rage" style="color:red;" rel="noopener">here</a> .
+    - More information about the challenge and the badge <a href="https://www.credly.com/org/noshitsecurity/badge/rage" style="color:red;" rel="noopener">here</a> .
 
 - The first part of the  CTF will be finding a Private key(.pem) , which will grant them access to a Linux virtual machine (VM) hosted in Microsoft Azure.
 They will then have a four-hour window to solve the challenges in the VM and the access would be given by Just-in-time (JIT) in Azure.
@@ -109,25 +114,27 @@ They will then have a four-hour window to solve the challenges in the VM and the
     
 	<br>
 
-    > **Active Directory Homelab**
+> **Active Directory Homelab**
 
-    - Gained hands-on experience and establish a strong foundation by setting up an Active Directory Homelab.
+- Gained hands-on experience and establish a strong foundation by setting up an Active Directory Homelab.
 
-        - Custom Powershell script to populate users in the domain and the lab was made vulnerable using 'SafeBuffer Vulnerable-AD' .
+    - Custom Powershell script to populate users in the domain and the lab was made vulnerable using 'SafeBuffer Vulnerable-AD' .
 
-    - Learnt about Enumeration, Lateral Movement, Domain Privesc and Persistance.
+- Learnt about Enumeration, Lateral Movement, Domain Privesc and Persistance.
 
-    - Practiced Attacks like Kerberoasting, AS-REP Roasting and DCSync and utilized tools like BloodHound, SharpHound, Powerview & ADModule.
+- Practiced Attacks like Kerberoasting, AS-REP Roasting and DCSync and utilized tools like BloodHound, SharpHound, Powerview & ADModule.
 
-    - Fixed the vulnerabilities to explore the defensive aspect of the process.
+- Fixed the vulnerabilities to explore the defensive aspect of the process.
     
-    ![https://media.discordapp.net/attachments/928373179003600907/1161195925205700641/image.png?ex=65376afa&is=6524f5fa&hm=6efaa284f784e6fde5b39c3c1430ca3e9a081f75cb00064c8c0198677c97d406&=&width=712&height=406](https://media.discordapp.net/attachments/928373179003600907/1161195925205700641/image.png?ex=65376afa&is=6524f5fa&hm=6efaa284f784e6fde5b39c3c1430ca3e9a081f75cb00064c8c0198677c97d406&=&width=712&height=406)
+![https://media.discordapp.net/attachments/928373179003600907/1161195925205700641/image.png?ex=65376afa&is=6524f5fa&hm=6efaa284f784e6fde5b39c3c1430ca3e9a081f75cb00064c8c0198677c97d406&=&width=712&height=406](https://media.discordapp.net/attachments/928373179003600907/1161195925205700641/image.png?ex=65376afa&is=6524f5fa&hm=6efaa284f784e6fde5b39c3c1430ca3e9a081f75cb00064c8c0198677c97d406&=&width=712&height=406)
+
+ <br>
     
-    User1 Workstation → **Windows 11**
+User1 Workstation → **Windows 11**
     
-    User2 Workstation → **Windows 10**
+User2 Workstation → **Windows 10**
     
-    Company Domain Controller → **Windows Server 2022**
+Company Domain Controller → **Windows Server 2022**
     
 <br>
 
@@ -146,7 +153,7 @@ They will then have a four-hour window to solve the challenges in the VM and the
 
 - Successfully reported few vulnerabilities on NCIIPC (Indian Gov RVDP)
 
-    - Discovered PII information exposure through “forgot password” Functionality implemented on the domain.
+    - Discovered PII information exposure through “forgot password” functionality implemented on the domain.
     
     Received acknowledgment 
     
@@ -160,4 +167,4 @@ Thank you!
 
 > My fav edit 
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/QVnK9Mhin50"></iframe>
+<iframe width="450" height="350" src="https://www.youtube.com/embed/QVnK9Mhin50"></iframe>
