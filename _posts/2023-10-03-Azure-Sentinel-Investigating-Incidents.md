@@ -111,3 +111,7 @@ We can zoom in to observe the relationships between these entities and their con
 There's a wealth of information that can be further explored within these graphs, and an even broader range of insights available in the log analytics workspace, but that's a topic for another blog post.
 
 ![https://www.noshitsecurity.com/img/nss_fh.png](https://www.noshitsecurity.com/img/nss_fh.png)
+
+
+## Have any questions
+Do you have any questions? Feel free to reach out to me on [twitter](https://twitter.com/rach1tarora) or on [LinkedIn](https://www.linkedin.com/in/rach1tarora/).

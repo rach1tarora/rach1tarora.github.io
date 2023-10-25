@@ -158,3 +158,7 @@ RDP is just one of the vast attack surface area. This could be implemented in ot
 We can modify this RDP for different purpose, different protocols like FTP, SMB which are exposed to the internet and add up to the list of attack surface.
 
 This data can be used by the SOC team to address multiple problems, like BruteForce, phishing and block the employees from these IP so that they cannot access these over the internet
+
+
+## Have any questions
+Do you have any questions? Feel free to reach out to me on [twitter](https://twitter.com/rach1tarora) or on [LinkedIn](https://www.linkedin.com/in/rach1tarora/).

@@ -1,7 +1,7 @@
 ###########
 # site.title
 
-title: I'm Rachit
+title: Rachit Arora
 description: Personal Blog 
 # baseurl: "/jekyllBear" # the subpath of your site, e.g. /blog/
 url: "https://arorarachit.com" # the base hostname & protocol for your site
@@ -56,11 +56,13 @@ exclude:
 exclude: [vendor]
 
 Blog: /blog
+Projects: /projects
 
 # Add general links to site pages here
-#links:
-  #Resume: /assets/resume.pdf
-  
+links:
+  Projects: /projects
+  WeeklySecurityRoundups: /WeeklySecurityRoundups
+  Contact: /contact
 
 # Add links for more focus here
 #special_links:

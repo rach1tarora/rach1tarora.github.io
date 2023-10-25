@@ -32,3 +32,6 @@ stty columns 200 rows 200
 <br>
 This Should be enough to stabilize a netcat shell.
 If you feel this is not enough, try google.
+
+## Have any questions
+Do you have any questions? Feel free to reach out to me on [twitter](https://twitter.com/rach1tarora) or on [LinkedIn](https://www.linkedin.com/in/rach1tarora/).

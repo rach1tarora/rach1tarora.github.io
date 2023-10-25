@@ -176,3 +176,6 @@ nt authority\system
 ![https://cdn.discordapp.com/attachments/928373179003600907/1159058806349778944/image.png?ex=651e8121&is=651d2fa1&hm=3691f9cc6292a3dea0c27e2a66526177f7fd1aad6c00315717d310d7ed537fdc&](https://cdn.discordapp.com/attachments/928373179003600907/1159058806349778944/image.png?ex=651e8121&is=651d2fa1&hm=3691f9cc6292a3dea0c27e2a66526177f7fd1aad6c00315717d310d7ed537fdc&)
 
 **Key Takeaways**
+
+## Have any questions
+Do you have any questions? Feel free to reach out to me on [twitter](https://twitter.com/rach1tarora) or on [LinkedIn](https://www.linkedin.com/in/rach1tarora/).

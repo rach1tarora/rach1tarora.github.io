@@ -148,3 +148,5 @@ https://www.blackhatethicalhacking.com/tools/awesome-shodan-queries/
 ```
 
 
+## Have any questions
+Do you have any questions? Feel free to reach out to me on [twitter](https://twitter.com/rach1tarora) or on [LinkedIn](https://www.linkedin.com/in/rach1tarora/).
