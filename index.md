@@ -3,7 +3,7 @@ layout: default
 title: Personal Blog
 ---
 
-### WhoAmI
+### WhoAmIbu
 
 I'm Rachit Arora, and I have a keen interest in Cloud Security and both red/blue teaming.
 
@@ -55,4 +55,4 @@ Do you have any questions? Feel free to reach out to me on [twitter](https://twi
 
 > My fav edit 
 
-<iframe width="450" height="350" src="https://www.youtube.com/embed/QVnK9Mhin50"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M5VXCixTdEg?si=JEFXdRGTcgZeJsed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
