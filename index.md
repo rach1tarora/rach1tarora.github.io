@@ -3,7 +3,7 @@ layout: default
 title: Personal Blog
 ---
 
-### WhoAmIbu
+### Whoami.exe
 
 I'm Rachit Arora, and I have a keen interest in Cloud Security and both red/blue teaming.
 
