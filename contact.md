@@ -6,9 +6,9 @@ title: contact
 
 You can contact me on various platforms like twitter and LinkedIn or mail me at 
 
->  <a href = "mailto:admin@arorarachit.com" target="_blank" rel="noopener"> arorarachit@protonmail.com </a>
+>  <a href = "mailto:arorarachit@outlook.com" target="_blank" rel="noopener"> arorarachit@outlook.com </a>
 or
- <a href = "mailto:admin@arorarachit.com" target="_blank" rel="noopener"> rachit@umd.edu </a>
+ <a href = "mailto:arorarachit@protonmail.com" target="_blank" rel="noopener"> arorarachit@protonmail.com </a>
 
 ### Socials
 <!-- Add font awesome icons -->
