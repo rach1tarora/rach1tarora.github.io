@@ -18,7 +18,7 @@ or
 * Linkedin:<a href="#" class="fa fa-linkedin" href = "https://www.linkedin.com/in/rach1tarora/" target="_blank" rel="noopener" ></a> &nbsp; 
 <br>
 
-* Github: <a href="#" class="fa fa-github" href = "https://github.com/cont1nuum" target="_blank" rel="noopener" ></a> &nbsp; 
+* Github: <a href="#" class="fa fa-github" href = "https://github.com/rach1tarora" target="_blank" rel="noopener" ></a> &nbsp; 
 
 
 
