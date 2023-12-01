@@ -9,6 +9,7 @@ A long running series where I documented everything I did in my freetime for lea
 
 
 [WSR: #05 - November 20 - November 26th 2023](/roundups/roundup05)
+* Published : November 27th, 2023
 * CRTP
 * DSRM, Custom SSP,  Rights abuse
 * ACL modification, AdminSDHolder
@@ -17,6 +18,7 @@ A long running series where I documented everything I did in my freetime for lea
 
 
 [WSR: #04 - November 13 - November 19th 2023](/roundups/roundup04)
+* Published : November 23th, 2023
 * CRTP
 * Persistance, Golden ticket, Silver Diamond ticket, Skeleton key.
  
@@ -24,6 +26,7 @@ A long running series where I documented everything I did in my freetime for lea
 <br>
 
 [WSR: #03 - November 06 - November 13th 2023](/roundups/roundup03)
+* Published : November 15th, 2023
 * Continued with CRTP 
 * DC sync, Extracting Creds, Over pass the hash, Invisi Shell, AMSI and powershell logging bypass
 
