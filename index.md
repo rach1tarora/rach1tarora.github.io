@@ -3,7 +3,7 @@ layout: default
 title: Personal Blog
 ---
 
-### Whoami.exe
+### whoami
 
 I'm Rachit Arora, and I have a keen interest in Cloud Security and both red/blue teaming.
 
@@ -14,7 +14,6 @@ I'm currently searching for hybrid internships in the Washington, D.C. area for 
 I post blogs <a href="/blog" style="color:red;" rel="noopener">here</a> 
 
 <br>
-
 
 ### Work Experience
 
@@ -27,7 +26,12 @@ I post blogs <a href="/blog" style="color:red;" rel="noopener">here</a>
 <br>
 
 
-### Training & Certifications
+### Certifications & CVEs
+
+
+
+* Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Proper Fraction LLC. Admin Bar & Dashboard Access Control plugin <= 1.2.8 versions. 
+* More information <a href="https://www.cve.org/CVERecord?id=CVE-2023-47184" style="color:red;" rel="noopener">here</a> CVE-2023-47184
 
 All certifications can be verified on credly <a href="https://www.credly.com/users/rachit-arora.6027f270" style="color:red;" rel="noopener">here</a>
 
@@ -53,6 +57,5 @@ Do you have any questions? Feel free to reach out to me on [twitter](https://twi
 
 <br>
 
-> My fav edit 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/M5VXCixTdEg?si=JEFXdRGTcgZeJsed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="250" height="250" src="https://www.youtube.com/embed/M5VXCixTdEg?si=JEFXdRGTcgZeJsed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

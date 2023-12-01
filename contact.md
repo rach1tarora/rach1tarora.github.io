@@ -12,13 +12,13 @@ or
 
 ### Socials
 <!-- Add font awesome icons -->
-* Twitter: <a href="#" class="fa fa-twitter" href = "https://twitter.com/rach1tarora" target="_blank" rel="noopener" ></a> &nbsp; 
+* Twitter: <a href="#" class="fa fa-twitter" href = "https://twitter.com/cyz1gy" target="_blank" rel="noopener" ></a> &nbsp; 
 <br>
 
 * Linkedin:<a href="#" class="fa fa-linkedin" href = "https://www.linkedin.com/in/rach1tarora/" target="_blank" rel="noopener" ></a> &nbsp; 
 <br>
 
-* Github: <a href="#" class="fa fa-github" href = "https://github.com/rach1tarora" target="_blank" rel="noopener" ></a> &nbsp; 
+* Github: <a href="#" class="fa fa-github" href = "https://github.com/cont1nuum" target="_blank" rel="noopener" ></a> &nbsp; 
 
 
 
