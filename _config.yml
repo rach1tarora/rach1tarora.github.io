@@ -2,7 +2,7 @@
 # site.title
 
 title: Rachit Arora
-description: Personal Blog 
+description: Blog
 # baseurl: "/jekyllBear" # the subpath of your site, e.g. /blog/
 url: "https://arorarachit.com" # the base hostname & protocol for your site
 # host: 0.0.0.0

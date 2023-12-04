@@ -8,6 +8,14 @@ A long running series where I documented everything I did in my freetime for lea
 
 
 
+[WSR: #06 - November 27 - Decvember 03 2023](/roundups/roundup06)
+* Published : December 04, 2023
+* CRTP
+* Started with c and assembly again
+* VisualStudio, cff explorer, procmon, process explorer, nasm
+ida
+
+
 [WSR: #05 - November 20 - November 26th 2023](/roundups/roundup05)
 * Published : November 27th, 2023
 * CRTP
