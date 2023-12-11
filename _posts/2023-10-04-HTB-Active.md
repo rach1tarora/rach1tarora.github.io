@@ -127,7 +127,7 @@ And that is enough to get user.txt
 
 
 ```bash
-root@kali# GetUserSPNs.py -request -dc-ip 10.10.10.100 active.htb/SVC_TGS -save -outputfile GetUserSPNs.out
+GetUserSPNs.py -request -dc-ip 10.10.10.100 active.htb/SVC_TGS -save -outputfile GetUserSPNs.out
 ```
 
 It also gives me the ticket, which I can try to brute force decrypt to get the user’s password:
@@ -175,7 +175,6 @@ nt authority\system
 
 ![https://cdn.discordapp.com/attachments/928373179003600907/1159058806349778944/image.png?ex=651e8121&is=651d2fa1&hm=3691f9cc6292a3dea0c27e2a66526177f7fd1aad6c00315717d310d7ed537fdc&](https://cdn.discordapp.com/attachments/928373179003600907/1159058806349778944/image.png?ex=651e8121&is=651d2fa1&hm=3691f9cc6292a3dea0c27e2a66526177f7fd1aad6c00315717d310d7ed537fdc&)
 
-**Key Takeaways**
 
 ## Have any questions
 Do you have any questions? Feel free to reach out to me on [twitter](https://twitter.com/rach1tarora) or on [LinkedIn](https://www.linkedin.com/in/rach1tarora/).

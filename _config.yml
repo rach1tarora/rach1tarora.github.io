@@ -46,7 +46,7 @@ defaults:
 
 # baseurl: ""
 permalink: /blog/:slug
-timezone: America/New_York
+timezone: Asia/Kolkata
 future: false
 
 exclude:
@@ -67,3 +67,4 @@ links:
 # Add links for more focus here
 #special_links:
   #"Search": https://duckduckgo.com
+

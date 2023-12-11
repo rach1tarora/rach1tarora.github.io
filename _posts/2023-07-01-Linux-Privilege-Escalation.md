@@ -11,6 +11,7 @@ usemathjax: true
 
 > ##### Find SUID and GUID files
 
+
 ```bash
 find / -perm -u=s -type f 2>/dev/null
 find / -perm -g=s -type f 2>/dev/null
@@ -18,6 +19,7 @@ find / -perm -u=s -type f 2>/dev/null
 
 #Find all the SUID/SGID executables on the Debian VM:
 find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null
+
 ```
 
 > ### Quick and easy wins
