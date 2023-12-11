@@ -172,6 +172,52 @@ domain object. Required to perform dcsync
 **There are more, would be writing a different blog for that**
 
 
+## **Enumerating ACLs**
+
+```bash
+# The GUID resolver parameter gets the group ID of the requested object.
+Get-DomainObjectAcl -SamAccountName studentl -ResolveGUIDs
+
+
+# Get the ACLs associated with the specified prefix to be used for search
+Get-DomainObjectAcl -SearchBase "LDAP://CN=Domain Admins,CN=Users,DC=dollarcorp,DC=moneycorp,DC=local" -ResolveGUIDs -Verbose
+
+
+
+# Check the Domain Admins permission - PowerView as normal use
+Get-DomainObjectAcl -Identity 'Domain Admins' - ResolveGUIDs | ForEach-Object {$_ | Add-Member NoteProperty 'IdentityName' $(Convert-SidToName $_.SecurityIdentifier);$_} |  {$_.IdentityName -match "student1"}
+# ActiveDirectory Module
+(Get-Acl -Path 'AD:\CN=Domain Admins,CN=Users,DC=dollarcorp,DC=moneycorp,DC=local').Access | ?{$_.IdentityReference -match 'student1'}
+
+
+# We can also enumerate ACLs using ActiveDirectory module but without resolving GUIDs (ADModule)
+(Get-Acl 'AD:\CN=Administrator,CN=Users,DC=dollarcorp,DC=moneycorp,DC=local').Access
+
+#To filter through a specific type of permission, use the equal (-eq) operator and pass it the permission type such as “GenericAll.
+Get-ObjectAcl student181 | Where-Object ActiveDirectoryRights -eq "GenericAll"
+Get-ObjectAcl student181 | select IdentityReference, ActiveDirectoryRights | Where-Object ActiveDirectoryRights -eq "GenericAll"
+
+
+# Search for interesting ACEs
+Find-InterestingDomainAcl -ResolveGUIDs
+
+
+Get-PathAcl -Path "\\dcorp-dc.dollarcorp.moneycorp.local\sysvol"
+
+
+# Get The ACLs associated with specified LDAP path
+Get-ObjectAcl -ADSpath "LDAP://CN=Domain Admins, CN=Users, DC=dollarcorp, DC=monycorp, DC=local" -ResolveGUIDS -Verbose
+
+#Search For Interesting ACEs
+Invoke-ACLScanner -ResolveGUIDS 
+Invoke-ACLScanner -ResolveGUIDS | ?{$_.IdentityReferenceName -match "RDPUsers"}
+
+Find-InterestingDomainAcl -ResolveGUIDs | ?{$_.IdentityReferenceName -match "RDPUsers"}
+Find-InterestingDomainAcl -ResolveGUIDs | ?{$_.IdentityReferenceName -match "studentx"}
+```
+
+
+
 <br>
 
 > ### AdminSDHolder

