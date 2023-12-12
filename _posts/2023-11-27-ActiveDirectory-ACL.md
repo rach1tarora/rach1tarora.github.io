@@ -174,7 +174,7 @@ domain object. Required to perform dcsync
 
 ## **Enumerating ACLs**
 
-```bash
+```powershell
 # The GUID resolver parameter gets the group ID of the requested object.
 Get-DomainObjectAcl -SamAccountName studentl -ResolveGUIDs
 
