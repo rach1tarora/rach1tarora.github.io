@@ -40,6 +40,10 @@ I post blogs <a href="/blog" style="color:red;" rel="noopener">here</a>  and my 
 More information about CVE-2023-47184 <a href="https://www.cve.org/CVERecord?id=CVE-2023-47184" style="color:red;" rel="noopener">here</a> 
 
 
+> **CVE-2023-49743**
+* Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Dashboard Widgets Suite <= 3.4.1 versions. 
+More information about CVE-2023-49743 <a href="https://www.cve.org/CVERecord?id=CVE-2023-49743" style="color:red;" rel="noopener">here</a> 
+
 <br> 
 
 > **Certifications**
