@@ -8,6 +8,13 @@ A long running series where I documented everything I did in my freetime for lea
 
 
 
+<br>
+
+Busy with packing ( Going to US for masters) and sometime with fam/friends, couldnt keep with the streak. 2024 january is where I get back to security again.
+
+
+<br>
+
 [WSR: #06 - November 27 - Decvember 03 2023](/roundups/roundup06)
 * Published : December 04, 2023
 * CRTP
@@ -15,6 +22,7 @@ A long running series where I documented everything I did in my freetime for lea
 * VisualStudio, cff explorer, procmon, process explorer, nasm
 ida
 
+<br>
 
 [WSR: #05 - November 20 - November 26th 2023](/roundups/roundup05)
 * Published : November 27th, 2023
