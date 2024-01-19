@@ -13,6 +13,9 @@ I plan to relish every moment here, and I'm currently enjoying it. Classes kick 
 * I completed the coursework in CRTP and passed it! That was the only cybersecurity activity I engaged in during December, and I was genuinely pleased with my accomplishment.
 
 
+Certificate down below 
+
+
 <iframe
   src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/90657505"
   width="800"
