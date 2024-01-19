@@ -22,7 +22,6 @@ I post blogs <a href="/blog" style="color:red;" rel="noopener">here</a>  and my 
 
 ### Work Experience
 
-* Penetration Testing Intern @ Nexus Security
 * Cybersecurity Intern @ Authbase
 * Azure Security Engineer Intern @ NoShitSecurity
 * Penetration Testing Intern @ Virtually Testing Foundation
@@ -49,6 +48,8 @@ More information about CVE-2023-49743 <a href="https://www.cve.org/CVERecord?id=
 
 > **Certifications**
 
+
+- [Certified Red Team Professional](https://www.credential.net/7a7f48e2-7cd8-4f6e-b7bf-c51ceb73cf9d) (CRTP)
 - [OffSec Certified Professional](https://www.credential.net/57148f07-f47e-497e-b34f-bb60c6ee28c3#gs.4w8fyh%5C) (OSCP)
 - [Microsoft Certified: Azure Security Engineer Associate](https://www.credly.com/badges/1c258de3-a8dc-4586-b6a9-ff4d3a53c9b7) (AZ-500)
 - [AWS Certified Cloud Practitioner](https://www.credly.com/badges/5d3ea344-ecf2-4e1e-82ed-ab175733dc48)

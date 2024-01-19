@@ -6,14 +6,19 @@ title: WeeklySecurityRoundups
 
 A long running series where I documented everything I did in my freetime for learning security.
 
-
-
 <br>
 
-Busy with packing ( Going to US for masters) and sometime with fam/friends, couldnt keep with the streak. 2024 january is where I get back to security again.
+[WSR: #06 - December 03 2023 - January 21 2024](/roundups/roundup07)
+* Lived Life, apart from security.
+* Mentally prepared myself for the Masters Challenge in UMD
+* Cleared CRTP by alteredsecurity
 
+-----------------------------------------------
+> Update
 
-<br>
+Busy with packing ( Going to US for masters) and spending some time with fam/friends, couldnt keep with the streak. 2024 january is where I get back to security again.
+
+--------
 
 [WSR: #06 - November 27 - Decvember 03 2023](/roundups/roundup06)
 * Published : December 04, 2023
