@@ -16,7 +16,7 @@ A long running series where I documented everything I did in my freetime for lea
 -----------------------------------------------
 > Update
 
-Busy with packing ( Going to US for masters) and spending some time with fam/friends, couldnt keep with the streak. 2024 january is where I get back to security again.
+Busy with packing ( Going to US for masters) and spending some time with fam/friends, couldnt keep with the streak. 2024 Feb is where I get back to security again.
 
 --------
 
