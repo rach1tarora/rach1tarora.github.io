@@ -7,6 +7,12 @@ categories: jekyll update
 usemathjax: true
 ---
 
+Contents
+
+[Link to Example Heading](#Thread)
+
+
+
 ### Resources
 
 Windows is a vast topic, some resources before I start  
