@@ -5,13 +5,26 @@ title: Personal Blog
 
 ### whoami
 
-I'm Rachit Arora, and I have a keen interest in Cloud Security and both red/blue teaming.
+I'm Rachit Arora, and I have a keen interest in Security Research and Cloud security. My profile is mainly red side. 
 
-Additionally, I am a student at University of Maryland, College Park where I am pursuing Masters of Engineering in Cybersecurity ( M.Eng Cybersecurity).
+I'm currently an international graduate student @ University of Maryland, College Park studying M.Eng Cybersecurity on F1 visa. Once i complete two semesters, I would be eligible for internships on Curricular Practical Training (CPT). 
 
-I'm currently searching for hybrid internships in the Washington, D.C. area for the fall of 2024.
+My interests lies in pentesting, and cloud. I have done 4 internships, and have around 1 year of internship exp. I've done OSCP, CRTP, AZ500 and SC100. 
 
-I post blogs <a href="/blog" style="color:red;" rel="noopener">here</a>  and my  Linkedin -> <a href="#" class="fa fa-linkedin" href = "https://www.linkedin.com/in/rach1tarora/" target="_blank" rel="noopener" ></a> &nbsp; 
+I'm currently searching for hybrid internships in the Washington, D.C. area for the Winter of 2024.
+
+Currently I'm learning exploit dev, offensive coding and focusing on personal project where i build my own c2 from ground up. 
+
+I post blogs <a href="/blog" style="color:red;" rel="noopener">here</a>  and my  Linkedin -> <a href="#" class="fa fa-linkedin" href = "https://www.linkedin.com/in/rach1tarora/" target="_blank" rel="noopener" ></a> &nbsp; ss
+
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
+<div style="text-align: center;">
+    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="rach1tarora" data-version="v1" style="display: inline-block;">
+        <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/rach1tarora?trk=profile-badge">Rachit Arora</a>
+    </div>
+</div>
+
 
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
