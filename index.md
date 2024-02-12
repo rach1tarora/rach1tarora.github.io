@@ -15,15 +15,8 @@ I'm currently searching for hybrid internships in the Washington, D.C. area for 
 
 Currently I'm learning exploit dev, offensive coding and focusing on personal project where i build my own c2 from ground up. 
 
-I post blogs <a href="/blog" style="color:red;" rel="noopener">here</a>  and my  Linkedin -> <a href="#" class="fa fa-linkedin" href = "https://www.linkedin.com/in/rach1tarora/" target="_blank" rel="noopener" ></a> &nbsp; ss
+I post blogs <a href="/blog" style="color:red;" rel="noopener">here</a>  and my  Linkedin -> <a href="#" class="fa fa-linkedin" href = "https://www.linkedin.com/in/rach1tarora/" target="_blank" rel="noopener" ></a> &nbsp;
 
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-
-<div style="text-align: center;">
-    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="rach1tarora" data-version="v1" style="display: inline-block;">
-        <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/rach1tarora?trk=profile-badge">Rachit Arora</a>
-    </div>
-</div>
 
 
 <!-- Add icon library -->

@@ -6,9 +6,19 @@ title: WeeklySecurityRoundups
 
 A long running series where I documented everything I did in my freetime for learning security.
 
+
 <br>
 
-[WSR: #06 - December 03 2023 - January 21 2024](/roundups/roundup07)
+[WSR: #08 - February 05 2024 - February 11 2024](/roundups/roundup08)
+* GDB, breakpoints, diassembly
+* NM, Strace, basic debugging using GDB
+* Windows internals: Processes, threads, jobs, handles
+* Windows system programming: Structures, 32vs64 bit, strings, errors, windows versions, WOW64, win32api.
+* Posted two blogs, GDB and Windows system programming. 
+
+<br>
+
+[WSR: #07 - December 03 2023 - January 21 2024](/roundups/roundup07)
 * Lived Life, apart from security.
 * Mentally prepared myself for the Masters Challenge in UMD
 * Cleared CRTP by alteredsecurity

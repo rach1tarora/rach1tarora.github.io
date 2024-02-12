@@ -10,13 +10,6 @@ You can contact me on various platforms like twitter and LinkedIn or mail me at
 or
  <a href = "mailto:arorarachit@protonmail.com" target="_blank" rel="noopener"> arorarachit@protonmail.com </a>
 
-
-<div style="text-align: center;">
-    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="rach1tarora" data-version="v1" style="display: inline-block;">
-        <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/rach1tarora?trk=profile-badge">Rachit Arora</a>
-    </div>
-</div>
-              
 ### Socials
 <!-- Add font awesome icons -->
 * Twitter: <a href="#" class="fa fa-twitter" href = "https://twitter.com/rach1tarora" target="_blank" rel="noopener" ></a> &nbsp; 
