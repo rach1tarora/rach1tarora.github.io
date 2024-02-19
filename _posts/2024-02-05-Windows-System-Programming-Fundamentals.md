@@ -7,7 +7,7 @@ categories: jekyll update
 usemathjax: true
 ---
 Continuation of the windows blog series.
-I have posted the part one about [windows internals theory](https://arorarachit.com/	)
+I have posted the part one about [windows internals theory](https://arorarachit.com/blog/windows-internals-theory)
 
 ### Contents
 
