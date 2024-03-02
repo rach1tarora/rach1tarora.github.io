@@ -28,7 +28,7 @@ Since this is a Windows host, Enumerating any readable shares can be really usef
 smbmap -H 10.10.10.100
 ```
 
-![https://media.discordapp.net/attachments/928373179003600907/1159031050228486154/image.png?ex=651e6748&is=651d15c8&hm=e38254578ebddf83f9564d8a9fd5148a741779776cdbf1cf6dc26490db89aa34&=&width=1144&height=388](https://media.discordapp.net/attachments/928373179003600907/1159031050228486154/image.png?ex=651e6748&is=651d15c8&hm=e38254578ebddf83f9564d8a9fd5148a741779776cdbf1cf6dc26490db89aa34&=&width=1144&height=388)
+[![image.png](https://i.postimg.cc/SNbzxzty/image.png)](https://postimg.cc/5jptPjVG)
 
 And we see that we can only access the share *Replication.*
 
@@ -38,7 +38,7 @@ Connecting to the share using **smbclient**
 smbclient //10.10.10.100/Replication
 ```
 
-![https://media.discordapp.net/attachments/928373179003600907/1159031577737703484/image.png?ex=651e67c5&is=651d1645&hm=c0cd941f3f2ebe0097a0f255d86bf23717c79ba5ca3a814b1b475b22fccee6d5&=&width=1143&height=199](https://media.discordapp.net/attachments/928373179003600907/1159031577737703484/image.png?ex=651e67c5&is=651d1645&hm=c0cd941f3f2ebe0097a0f255d86bf23717c79ba5ca3a814b1b475b22fccee6d5&=&width=1143&height=199)
+[![image.png](https://i.postimg.cc/LXrgfq93/image.png)](https://postimg.cc/sQ42CgZM)
 
 Once we gain access to the share, we can locate a file named Groups.xml within the directory path 
 
@@ -48,7 +48,7 @@ Once we gain access to the share, we can locate a file named Groups.xml within t
 
 Upon examining this file, we will discover both a username and an encrypted password.
 
-![https://media.discordapp.net/attachments/928373179003600907/1159035007248126012/4.png?ex=651e6af7&is=651d1977&hm=f5d23c8d8aa4d0c46df8361defd46598f4430774427415844bcc08b3896eb970&=&width=1260&height=150](https://media.discordapp.net/attachments/928373179003600907/1159035007248126012/4.png?ex=651e6af7&is=651d1977&hm=f5d23c8d8aa4d0c46df8361defd46598f4430774427415844bcc08b3896eb970&=&width=1260&height=150)
+[![image.png](https://i.postimg.cc/9Q3p9DRF/image.png)](https://postimg.cc/crmwy4BV)
 
 ```bash
 <?xml version="1.0" encoding="utf-8"?>
@@ -74,7 +74,7 @@ details, check out this [AD Security post](https://adsecurity.org/?p=2288).
 
 a tool called "gpp-decrypt" that can be utilized for decrypting GPP (Group Policy Preferences) passwords.
 
-![https://media.discordapp.net/attachments/928373179003600907/1159047076789887016/5.png?ex=651e7635&is=651d24b5&hm=044300dbdde47c3cea475a83a299c7ef7f9e9649141413bcf3a7831549248552&=&width=1836&height=114](https://media.discordapp.net/attachments/928373179003600907/1159047076789887016/5.png?ex=651e7635&is=651d24b5&hm=044300dbdde47c3cea475a83a299c7ef7f9e9649141413bcf3a7831549248552&=&width=1836&height=114)
+[![image.png](https://i.postimg.cc/HnsNfV4C/image.png)](https://postimg.cc/1n2MFRjW)
 
 ```bash
 gpp-decrypt edBSHOwhZLTjt/QS9FeIcJ83mjWA98gw9guKOhJOdcqh+ZGMeXOsQbCpZ3xUjTLfCuNH8pG5aSVYdYw/NglVmQ

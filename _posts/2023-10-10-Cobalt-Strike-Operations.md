@@ -111,11 +111,11 @@ username: leet hacker nickname
 
 we can match the sha256 hash
 
-![https://media.discordapp.net/attachments/928373179003600907/1161609331167465533/image.png?ex=6538ebfe&is=652676fe&hm=c9e6717c38f6ae1e6f6ca6529a6e132b9cb35c7be39ba12390a49426df0d1d39&=&width=1074&height=360](https://media.discordapp.net/attachments/928373179003600907/1161609331167465533/image.png?ex=6538ebfe&is=652676fe&hm=c9e6717c38f6ae1e6f6ca6529a6e132b9cb35c7be39ba12390a49426df0d1d39&=&width=1074&height=360)
+[![image.png](https://i.postimg.cc/8zXrmXwH/image.png)](https://postimg.cc/CRD1FN3B)
 
 > **Basic Interface of Cobalt Strike** 
 
-![https://media.discordapp.net/attachments/928373179003600907/1161609347877572668/image.png?ex=6538ec02&is=65267702&hm=4ad21a8d192e4c0bee82fbece574cbeef2680d0a8a77379cae88b9934b474dd0&=&width=1074&height=631](https://media.discordapp.net/attachments/928373179003600907/1161609347877572668/image.png?ex=6538ec02&is=65267702&hm=4ad21a8d192e4c0bee82fbece574cbeef2680d0a8a77379cae88b9934b474dd0&=&width=1074&height=631)
+[![image.png](https://i.postimg.cc/s215FC1q/image.png)](https://postimg.cc/cKyvYjRB)
 
 Three elements of a collaborative red team tool include:
 
@@ -129,15 +129,15 @@ Three elements of a collaborative red team tool include:
 
 /msg to message our teammates
 
-![https://media.discordapp.net/attachments/928373179003600907/1161610241344028702/image.png?ex=6538ecd7&is=652677d7&hm=f4c3574c30fc15f559dfb7749c03c4422ec1b560ac17cd65545bd1bb1c1df62a&=&width=724&height=232](https://media.discordapp.net/attachments/928373179003600907/1161610241344028702/image.png?ex=6538ecd7&is=652677d7&hm=f4c3574c30fc15f559dfb7749c03c4422ec1b560ac17cd65545bd1bb1c1df62a&=&width=724&height=232)
+[![image.png](https://i.postimg.cc/P5S1F5f1/image.png)](https://postimg.cc/NKryKYH0)
 
 ## **Distributed Operations**
 
-![https://media.discordapp.net/attachments/928373179003600907/1161610572773728266/image.png?ex=6538ed26&is=65267826&hm=d51c63fac0f640406405823a3a64cac74338a513955a31ed3dc37494ad9f669c&=&width=1074&height=841](https://media.discordapp.net/attachments/928373179003600907/1161610572773728266/image.png?ex=6538ed26&is=65267826&hm=d51c63fac0f640406405823a3a64cac74338a513955a31ed3dc37494ad9f669c&=&width=1074&height=841)
+[![image.png](https://i.postimg.cc/T3dr9DxR/image.png)](https://postimg.cc/Cz2BMddt)
 
 Employing distributed operations to prevent dependence on a single vulnerable point.
 
-![https://media.discordapp.net/attachments/928373179003600907/1161610608513396776/image.png?ex=6538ed2e&is=6526782e&hm=bb9ad42971339feb8e341b12c042ba81312264e5cde752bec8207aab41a66414&=&width=1074&height=612](https://media.discordapp.net/attachments/928373179003600907/1161610608513396776/image.png?ex=6538ed2e&is=6526782e&hm=bb9ad42971339feb8e341b12c042ba81312264e5cde752bec8207aab41a66414&=&width=1074&height=612)
+[![image.png](https://i.postimg.cc/Y2Ffq78w/image.png)](https://postimg.cc/vDQ63ppP)
 
 > **Team Infrastructure:**
 
@@ -163,9 +163,9 @@ Employing distributed operations to prevent dependence on a single vulnerable po
     
 ### **Logging & Reporting**
     
-![https://media.discordapp.net/attachments/928373179003600907/1161611872601120828/image.png?ex=6538ee5c&is=6526795c&hm=5491218917f132c2c0493fae8b02f94c1952c3336a1ab9fcd0e6d9e8f292db34&=&width=1074&height=745](https://media.discordapp.net/attachments/928373179003600907/1161611872601120828/image.png?ex=6538ee5c&is=6526795c&hm=5491218917f132c2c0493fae8b02f94c1952c3336a1ab9fcd0e6d9e8f292db34&=&width=1074&height=745)
+[![image.png](https://i.postimg.cc/8k494hQ5/image.png)](https://postimg.cc/6T7M54QJ)
     
-![https://media.discordapp.net/attachments/928373179003600907/1161611888266850314/image.png?ex=6538ee5f&is=6526795f&hm=bdd44706c0dade6e2ac2b2d85aeb74b99e26c33d4662edc109b7b9dd3b86c97c&=&width=1074&height=612](https://media.discordapp.net/attachments/928373179003600907/1161611888266850314/image.png?ex=6538ee5f&is=6526795f&hm=bdd44706c0dade6e2ac2b2d85aeb74b99e26c33d4662edc109b7b9dd3b86c97c&=&width=1074&height=612)
+[![image.png](https://i.postimg.cc/brg72n8Z/image.png)](https://postimg.cc/CnZP3zR0)
     
 > **Reporting:**
     
@@ -183,8 +183,7 @@ Employing distributed operations to prevent dependence on a single vulnerable po
     
 ![https://cdn.discordapp.com/attachments/928373179003600907/1161612488656297984/image.png?ex=6538eeef&is=652679ef&hm=5412e0a85851427ad08ad7acaa9f22698493977167d68876eef18239f7f7b66e&](https://cdn.discordapp.com/attachments/928373179003600907/1161612488656297984/image.png?ex=6538eeef&is=652679ef&hm=5412e0a85851427ad08ad7acaa9f22698493977167d68876eef18239f7f7b66e&)
     
-![https://media.discordapp.net/attachments/928373179003600907/1161612504242327603/image.png?ex=6538eef2&is=652679f2&hm=e340330bfad9e7ad1ba4ee048367f32fad411301f37462e8b2f522555ade4f18&=&width=1074&height=697](https://media.discordapp.net/attachments/928373179003600907/1161612504242327603/image.png?ex=6538eef2&is=652679f2&hm=e340330bfad9e7ad1ba4ee048367f32fad411301f37462e8b2f522555ade4f18&=&width=1074&height=697)
-
+[![image.png](https://i.postimg.cc/TPWvHhjs/image.png)](https://postimg.cc/3y7qk8cj)
 
 > More information about Cobalt Strike in the upcoming blogs
 

@@ -12,7 +12,7 @@ During my college , I created a project on Azure that monitors and records all a
 
 This is a report not a guide.
 
-![https://media.discordapp.net/attachments/854292624754999296/1151130590351986748/Picture1.png?width=1410&height=670](https://media.discordapp.net/attachments/854292624754999296/1151130590351986748/Picture1.png?width=1410&height=670)
+[![image.png](https://i.postimg.cc/SKjddT3G/image.png)](https://postimg.cc/XZS978VZ)
 
 > ###  ABSTRACT
 
@@ -73,7 +73,7 @@ The design strategy used for this project was Architectural diagram:
 ###  Architectural Diagram
 
 
-![https://cdn.discordapp.com/attachments/854292624754999296/1151132006114136105/image.png](https://cdn.discordapp.com/attachments/854292624754999296/1151132006114136105/image.png)
+[![image.png](https://i.postimg.cc/3Jp4mP1T/image.png)](https://postimg.cc/dLsVKNgH)
 
 **Overall Honeypot Architecture** 
 
@@ -89,11 +89,11 @@ The user interface is the front-end component of the application with which user
 
 **Microsoft Azure**: The cloud which we will be using to analyze and visualize the log
 
-![https://cdn.discordapp.com/attachments/854292624754999296/1151133074722136064/image.png](https://cdn.discordapp.com/attachments/854292624754999296/1151133074722136064/image.png)
+[![image.png](https://i.postimg.cc/NjdgH43t/image.png)](https://postimg.cc/0zJRgp5X)
 
 The virtual machine setup provides insights into its configuration. When attackers attempt unauthorized access, their actions generate log files in the event viewer. By employing a powershell script, we can extract the IP address from these logs and use an IPgeolocationAPI to obtain geographic details. This cycle continues as long as the machine remains active, or until we configure firewalls for protection. All this information is then stored in a text file.
 
-![https://media.discordapp.net/attachments/854292624754999296/1151133265269358592/image.png?width=1410&height=880](https://media.discordapp.net/attachments/854292624754999296/1151133265269358592/image.png?width=1410&height=880)
+[![image.png](https://i.postimg.cc/J7xdm2ZR/image.png)](https://postimg.cc/bdGR9Lm5)
 
 We then integrate our VM  with the log analytic agent and Microsoft sentinel and later use a workbook to visualize it.
 
@@ -107,11 +107,11 @@ The attacker then creates a custom username and password list to try and brutefo
 
 We enumerated our VM down below
 
-![https://media.discordapp.net/attachments/854292624754999296/1151134069422305360/image.png?width=1410&height=580](https://media.discordapp.net/attachments/854292624754999296/1151134069422305360/image.png?width=1410&height=580)
+[![image.png](https://i.postimg.cc/qqXDSmrZ/image.png)](https://postimg.cc/q6qGCxz8)
 
 This is how a basic nmap scan looks like when we are enumerating our VM
 
-![https://cdn.discordapp.com/attachments/854292624754999296/1151134961261367367/image.png](https://cdn.discordapp.com/attachments/854292624754999296/1151134961261367367/image.png)
+[![image.png](https://i.postimg.cc/HnpFYG6C/image.png)](https://postimg.cc/WFH58yR9)
 
  [-] indicates wrong password
 
@@ -121,19 +121,19 @@ This is how a basic nmap scan looks like when we are enumerating our VM
 
 **Victim ( Honeypot ) Perspective:**
 
-![https://media.discordapp.net/attachments/854292624754999296/1151135420197900390/image.png?width=1410&height=556](https://media.discordapp.net/attachments/854292624754999296/1151135420197900390/image.png?width=1410&height=556)
+[![image.png](https://i.postimg.cc/W3rk7zcs/image.png)](https://postimg.cc/2bkykz5t)
 
 In this we can see a lot of “failure” and “success” logs being stored, The “ Source Network Address” Reveals the attacker IP
 
-![https://media.discordapp.net/attachments/854292624754999296/1151135991885738015/image.png?width=1410&height=948](https://media.discordapp.net/attachments/854292624754999296/1151135991885738015/image.png?width=1410&height=948)
+[![image.png](https://i.postimg.cc/tRvjz5DC/image.png)](https://postimg.cc/fkdpzY66)
 
 Once the logs have been populated, we can manually parse through each log if we want, or we Can decide to further analyze the logs on abuseipdb
 
-![https://media.discordapp.net/attachments/854292624754999296/1151136011674456064/image.png?width=1410&height=678](https://media.discordapp.net/attachments/854292624754999296/1151136011674456064/image.png?width=1410&height=678)
+[![image.png](https://i.postimg.cc/bNMS41Yq/image.png)](https://postimg.cc/dL20ykTf)
 
 The provided screenshot reveals that among the IPs in our log, one of them is flagged as abusive due to its involvement in various malicious activities and has been reported as such. In response, we have the option to include this specific IP in our blacklist, effectively preventing any communication or interaction with it moving forward. This action helps to safeguard our systems and network by ensuring that this problematic IP address is barred from accessing our resources.
 
-![https://media.discordapp.net/attachments/854292624754999296/1151136035422601286/image.png?width=1390&height=1138](https://media.discordapp.net/attachments/854292624754999296/1151136035422601286/image.png?width=1390&height=1138)
+[![image.png](https://i.postimg.cc/cJVrbWdT/image.png)](https://postimg.cc/t1NqsLZV)
 
 The image displayed provides an overview of RDP brute force attempts over the past 30 days, originating from various locations globally. While a small number of these attempts, including one associated with my own "successful" endeavor, are legitimate, a substantial 99% majority of these instances are malicious in nature. These malicious attempts aim to gain unauthorized access to my virtual machine, underscoring the importance of fortifying our system's defenses against such threats.
 

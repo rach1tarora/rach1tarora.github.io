@@ -7,7 +7,6 @@ categories: jekyll update
 usemathjax: true
 ---
 
-
 > ## Overview
 
 How does Incident page in Microsoft Sentinel help SOC?
@@ -25,7 +24,7 @@ There are two key objectives sentinel aims to achieve:
 - Obtaining a comprehensive understanding of the incident
 - Minimizing the need to switch between screens or sources
 
-![https://cdn.discordapp.com/attachments/928373179003600907/1155441580698775613/image.png](https://cdn.discordapp.com/attachments/928373179003600907/1155441580698775613/image.png)
+[![image.png](https://i.postimg.cc/D0P2cJfk/image.png)](https://postimg.cc/V05QfNbD)
 
 As mentioned earlier, we want to ensure that all the necessary components and information are readily available in a single interface. As promised by microsoft, you can primarily remain on this screen and access nearly all the information and tools you require.
 
@@ -56,7 +55,7 @@ Let's begin with the incident timeline. As you are likely aware, an incident oft
 
 Now, shifting our focus to entities, it's critical for the analyst to be able to recognize the components involved in the security incident. These entities could be users, IP addresses, URLs, hosts, or even file hashes.
 
-![https://media.discordapp.net/attachments/928373179003600907/1155449412131237918/image.png?width=1672&height=840](https://media.discordapp.net/attachments/928373179003600907/1155449412131237918/image.png?width=1672&height=840)
+[![image.png](https://i.postimg.cc/wxL3v3pk/image.png)](https://postimg.cc/jCqR3xCW)
 
 You can either click on an entity or select one to access the entities grid, which displays all incident entities that are both searchable and filterable. It provides **entity information** and an **entity timeline,** enabling you to view related alerts, activities, and anomalies. You can even incorporate alerts that are not originally part of the incident into it, enhancing the incident timeline with all relevant details.
 
@@ -66,7 +65,7 @@ We also have a compact timeline tab, as previously described, further reinforcin
 
 Now, over on the left, we the **details panel**,. Within this panel, you can find information such as events, alerts, bookmarks, entities, tactics, techniques, and even the most recent comment related to the incident.
 
-![https://media.discordapp.net/attachments/928373179003600907/1155454891301548092/image.png?width=1672&height=872](https://media.discordapp.net/attachments/928373179003600907/1155454891301548092/image.png?width=1672&height=872)
+[![image.png](https://i.postimg.cc/rpsKFJVd/image.png)](https://postimg.cc/KKXZ0tgF)
 
 If you're an analyst looking to view the alerts associated with the incident, you can simply **click on the alerts**, and it will open the log analytics window directly within the incident context.
 
@@ -78,7 +77,7 @@ Furthermore, you have the capability to perform **log queries**, and it's not li
 
  This enables us to visualize the connections between alerts and entities within the incident.
 
-![https://media.discordapp.net/attachments/928373179003600907/1155463014322016287/image.png?width=1672&height=666](https://media.discordapp.net/attachments/928373179003600907/1155463014322016287/image.png?width=1672&height=666)
+[![image.png](https://i.postimg.cc/1X509FjJ/image.png)](https://postimg.cc/zb6H7y5g)
 
 We can zoom in to observe the relationships between these entities and their connections to the alerts.
 
@@ -86,27 +85,27 @@ We can zoom in to observe the relationships between these entities and their con
 
 **“Reverse shell”** 
 
-![https://media.discordapp.net/attachments/928373179003600907/1155465913076818041/Untitled_picture.png?width=1672&height=486](https://media.discordapp.net/attachments/928373179003600907/1155465913076818041/Untitled_picture.png?width=1672&height=486)
+[![image.png](https://i.postimg.cc/qB8WgHZK/image.png)](https://postimg.cc/V5kKHpws)
 
 **Linuxprivchecker Tool**
 
-![https://media.discordapp.net/attachments/928373179003600907/1155467683744194621/image.png?width=1672&height=486](https://media.discordapp.net/attachments/928373179003600907/1155467683744194621/image.png?width=1672&height=486)
+[![image.png](https://i.postimg.cc/8sQYKt5j/image.png)](https://postimg.cc/Cn7JdCbg)
 
 **Linpeas Tool**
 
-![https://media.discordapp.net/attachments/928373179003600907/1155467947834343424/image.png?width=1672&height=490](https://media.discordapp.net/attachments/928373179003600907/1155467947834343424/image.png?width=1672&height=490)
+[![image.png](https://i.postimg.cc/0yJQJQgn/image.png)](https://postimg.cc/gxmdCG2L)
 
 **“Enumeration of files with sensitive data”** 
 
-![https://media.discordapp.net/attachments/928373179003600907/1155466410928132147/image.png?width=1672&height=484](https://media.discordapp.net/attachments/928373179003600907/1155466410928132147/image.png?width=1672&height=484)
+[![image.png](https://i.postimg.cc/tTpLyrtP/image.png)](https://postimg.cc/p9c0JJSX)
 
 **“Suspicious access of sensitive files”** 
 
-![https://media.discordapp.net/attachments/928373179003600907/1155466745746821201/image.png?width=1672&height=484](https://media.discordapp.net/attachments/928373179003600907/1155466745746821201/image.png?width=1672&height=484)
+[![image.png](https://i.postimg.cc/xdYfZ37J/image.png)](https://postimg.cc/zytYbKq8)
 
 **“Suspicious credential cache setting manipulation”**
 
-![https://media.discordapp.net/attachments/928373179003600907/1155468513885028402/image.png?width=1672&height=486](https://media.discordapp.net/attachments/928373179003600907/1155468513885028402/image.png?width=1672&height=486)
+[![image.png](https://i.postimg.cc/XNLMYgtk/image.png)](https://postimg.cc/CdRrvbhR)
 
 There's a wealth of information that can be further explored within these graphs, and an even broader range of insights available in the log analytics workspace, but that's a topic for another blog post.
 
