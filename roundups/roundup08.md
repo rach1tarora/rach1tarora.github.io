@@ -26,7 +26,6 @@ title: roundup08
 * Windows virtual memory, Architecture
 * DLLs, some other foundations
 
-![https://media.discordapp.net/attachments/791571025368186890/1206410932457046107/image.png?ex=65dbe8bc&is=65c973bc&hm=f796c321883d5f8973bd74e930a0480c7fe5a79993bc1529c86c92454da50646&=&format=webp&quality=lossless&width=906&height=889](https://media.discordapp.net/attachments/791571025368186890/1206410932457046107/image.png?ex=65dbe8bc&is=65c973bc&hm=f796c321883d5f8973bd74e930a0480c7fe5a79993bc1529c86c92454da50646&=&format=webp&quality=lossless&width=906&height=889)
 
 #### 02/08/2024
 
@@ -37,7 +36,6 @@ title: roundup08
 
 * Conditional breakpoints and some windows internals yet again. 
 
-![https://media.discordapp.net/attachments/791571025368186890/1206411380232822794/image.png?ex=65dbe927&is=65c97427&hm=68cbee95d7b7ddb8d72fd2b307145f02e2a53cb6402c89eba8fe8fea352291af&=&format=webp&quality=lossless&width=846&height=889](https://media.discordapp.net/attachments/791571025368186890/1206411380232822794/image.png?ex=65dbe927&is=65c97427&hm=68cbee95d7b7ddb8d72fd2b307145f02e2a53cb6402c89eba8fe8fea352291af&=&format=webp&quality=lossless&width=846&height=889)
 
 #### 02/10/2024
 

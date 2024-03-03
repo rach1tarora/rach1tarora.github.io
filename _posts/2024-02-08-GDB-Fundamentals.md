@@ -37,15 +37,14 @@ objcopy --only-keep-debug rip_from_binary debug_file
 
 > **Example 1**
 
-![https://media.discordapp.net/attachments/791571025368186890/1206298352170307594/image.png?ex=65db7fe3&is=65c90ae3&hm=fb7b0ec1fef5e9b0615e76a069cfb638ba4721b362112eb0addf2689bd10dc73&=&format=webp&quality=lossless&width=795&height=651](https://media.discordapp.net/attachments/791571025368186890/1206298352170307594/image.png?ex=65db7fe3&is=65c90ae3&hm=fb7b0ec1fef5e9b0615e76a069cfb638ba4721b362112eb0addf2689bd10dc73&=&format=webp&quality=lossless&width=795&height=651)
+[![image.png](https://i.postimg.cc/7L6m7GCs/image.png)](https://postimg.cc/QF2QZMJ1)
 
 Upon examining the binary file, we can observe all the detailed content at the bottom. The debug symbols remain present as they have not been removed.
 
 
 we can strip out even the Non-debugging symbols like:
 
-![https://media.discordapp.net/attachments/791571025368186890/1206329317290811522/image.png?ex=65db9cb9&is=65c927b9&hm=a6601f845365394723c97e49c5ff4c32a6b8c90d5d92c2ac04ed192af6db5162&=&format=webp&quality=lossless&width=687&height=615](https://media.discordapp.net/attachments/791571025368186890/1206329317290811522/image.png?ex=65db9cb9&is=65c927b9&hm=a6601f845365394723c97e49c5ff4c32a6b8c90d5d92c2ac04ed192af6db5162&=&format=webp&quality=lossless&width=687&height=615)
-
+[![image.png](https://i.postimg.cc/13P99Pg5/image.png)](https://postimg.cc/HVZG2q4f)
 
 
 > **Stripping Symbols off a binary**
@@ -76,8 +75,7 @@ To add debugging symbols to a binary, you have two options:
 
 Looking at the output:
 
-![https://media.discordapp.net/attachments/791571025368186890/1206332571517194270/image.png?ex=65db9fc1&is=65c92ac1&hm=6717ae73ea2c33744f1f8c4b6e319e4f81eb44f34c72d3fc2c889737f60af048&=&format=webp&quality=lossless&width=1057&height=543](https://media.discordapp.net/attachments/791571025368186890/1206332571517194270/image.png?ex=65db9fc1&is=65c92ac1&hm=6717ae73ea2c33744f1f8c4b6e319e4f81eb44f34c72d3fc2c889737f60af048&=&format=webp&quality=lossless&width=1057&height=543)
-
+[![image.png](https://i.postimg.cc/LXmffG0H/image.png)](https://postimg.cc/yJrkCpH5)
 
 We see that the symbols are back.
 
@@ -120,11 +118,11 @@ Here are some useful **nm** command options:
 
 understanding a basic screenshot
 
-![https://media.discordapp.net/attachments/791571025368186890/1206333678842683452/image.png?ex=65dba0c9&is=65c92bc9&hm=d44012f93cd3e14656d73e5256ec26e9d303b50737d2bcd82b75f56eed071b2f&=&format=webp&quality=lossless&width=855&height=550](https://media.discordapp.net/attachments/791571025368186890/1206333678842683452/image.png?ex=65dba0c9&is=65c92bc9&hm=d44012f93cd3e14656d73e5256ec26e9d303b50737d2bcd82b75f56eed071b2f&=&format=webp&quality=lossless&width=855&height=550)
+[![image.png](https://i.postimg.cc/xjNJ8KRx/image.png)](https://postimg.cc/t7yCmn8W)
 
 **Symbol Types**
 
-![https://media.discordapp.net/attachments/791571025368186890/1206334438175281253/image.png?ex=65dba17e&is=65c92c7e&hm=2173faf1ae738c1b4519e30c145e564f2ef442e1a7badbc7f3247c73ea233de6&=&format=webp&quality=lossless&width=864&height=487](https://media.discordapp.net/attachments/791571025368186890/1206334438175281253/image.png?ex=65dba17e&is=65c92c7e&hm=2173faf1ae738c1b4519e30c145e564f2ef442e1a7badbc7f3247c73ea233de6&=&format=webp&quality=lossless&width=864&height=487)
+[![image.png](https://i.postimg.cc/pT2Cxs86/image.png)](https://postimg.cc/7CW0nMK3)
 
 Looking at 2 screenshots which show you how exactly symbol works: 
 
@@ -133,7 +131,7 @@ The 1st one here shows you uninitialized Global variable
 
 Hence the symbol **B**
 
-![https://media.discordapp.net/attachments/791571025368186890/1206335184253882488/image.png?ex=65dba230&is=65c92d30&hm=3e6e21602bdb33c21ce7edaf91beed903f08c473ef40c4289b798202cb9585d0&=&format=webp&quality=lossless&width=886&height=312](https://media.discordapp.net/attachments/791571025368186890/1206335184253882488/image.png?ex=65dba230&is=65c92d30&hm=3e6e21602bdb33c21ce7edaf91beed903f08c473ef40c4289b798202cb9585d0&=&format=webp&quality=lossless&width=886&height=312)
+[![image.png](https://i.postimg.cc/50Nrp4Py/image.png)](https://postimg.cc/Lqwv8pFF)
 
 and 
 
@@ -143,7 +141,7 @@ This one shows you the initialized Global Variable
 Hence the symbol **D**
 
 
-![https://media.discordapp.net/attachments/791571025368186890/1206335223684665484/image.png?ex=65dba239&is=65c92d39&hm=fa84f780aaa25e7c7fa9159747ff19916101bea4570d0098adee36bee63ac3aa&=&format=webp&quality=lossless&width=982&height=222](https://media.discordapp.net/attachments/791571025368186890/1206335223684665484/image.png?ex=65dba239&is=65c92d39&hm=fa84f780aaa25e7c7fa9159747ff19916101bea4570d0098adee36bee63ac3aa&=&format=webp&quality=lossless&width=982&height=222)
+[![image.png](https://i.postimg.cc/XNgf4K7R/image.png)](https://postimg.cc/qgzhG3Kw)
 
 ### Strace
 
@@ -171,7 +169,7 @@ To protect such sensitive strings, encryption or encoding techniques can be impl
 > **Example 1**
 
 
-![https://media.discordapp.net/attachments/791571025368186890/1206339002374823946/image.png?ex=65dba5be&is=65c930be&hm=3745257d0b29dc4b0b5e750b1099c27799d95f723aa59af818a031b960bb9c31&=&format=webp&quality=lossless&width=888&height=571](https://media.discordapp.net/attachments/791571025368186890/1206339002374823946/image.png?ex=65dba5be&is=65c930be&hm=3745257d0b29dc4b0b5e750b1099c27799d95f723aa59af818a031b960bb9c31&=&format=webp&quality=lossless&width=888&height=571)
+[![image.png](https://i.postimg.cc/fL8RgbDr/image.png)](https://postimg.cc/5YFJXbHB)
 
 
 ## Basic GDB commands
@@ -184,7 +182,7 @@ info functions
 
 provides a list of all the functions in the source code of the program being debugged. This includes functions from the program's own source files as well as those from any included libraries.
 
-![https://media.discordapp.net/attachments/791571025368186890/1206342746353176626/image.png?ex=65dba93b&is=65c9343b&hm=599ec010ada9bf7a58ee76f6acb1cb784a2323d751a10c419e170bc4f090bd27&=&format=webp&quality=lossless&width=1000&height=793](https://media.discordapp.net/attachments/791571025368186890/1206342746353176626/image.png?ex=65dba93b&is=65c9343b&hm=599ec010ada9bf7a58ee76f6acb1cb784a2323d751a10c419e170bc4f090bd27&=&format=webp&quality=lossless&width=1000&height=793)
+[![image.png](https://i.postimg.cc/VkZLmjgg/image.png)](https://postimg.cc/v49dvxpx)
 
 
 ```bash
@@ -193,15 +191,14 @@ info sources
 the info sources command lists the source files from which the program was compiled, helping developers to navigate through the code they are debugging.
 
 
-![https://media.discordapp.net/attachments/791571025368186890/1206342861529030666/image.png?ex=65dba956&is=65c93456&hm=0894fa42d88f5bf7c876f402e909fb0461a0784fdb674584b7a16b0d59167429&=&format=webp&quality=lossless&width=931&height=211](https://media.discordapp.net/attachments/791571025368186890/1206342861529030666/image.png?ex=65dba956&is=65c93456&hm=0894fa42d88f5bf7c876f402e909fb0461a0784fdb674584b7a16b0d59167429&=&format=webp&quality=lossless&width=931&height=211)
+[![image.png](https://i.postimg.cc/JhyJL7Ny/image.png)](https://postimg.cc/mcsh3s6R)
 
 
 ```bash
 info variables
 ```
 
-![https://media.discordapp.net/attachments/791571025368186890/1206342960850149426/image.png?ex=65dba96e&is=65c9346e&hm=9e8e14d075880fbd73de7885613e117553bd41663586b9f4990c321b45a4a18b&=&format=webp&quality=lossless&width=1057&height=757](https://media.discordapp.net/attachments/791571025368186890/1206342960850149426/image.png?ex=65dba96e&is=65c9346e&hm=9e8e14d075880fbd73de7885613e117553bd41663586b9f4990c321b45a4a18b&=&format=webp&quality=lossless&width=1057&height=757)
-
+[![image.png](https://i.postimg.cc/pd1Pw7zk/image.png)](https://postimg.cc/XZdMFs2y)
 
 
 ```bash
@@ -211,7 +208,7 @@ list all the symbols that are visible within the scope of a specified function o
 
 how do we look at local variables? we have to mention the scope
 
-![https://cdn.discordapp.com/attachments/791571025368186890/1206344131534659695/image.png?ex=65dbaa85&is=65c93585&hm=5ef2219b61c1c46922d00b685de99a9b83a8c46b3d92e65966769374b9aae993&](https://cdn.discordapp.com/attachments/791571025368186890/1206344131534659695/image.png?ex=65dbaa85&is=65c93585&hm=5ef2219b61c1c46922d00b685de99a9b83a8c46b3d92e65966769374b9aae993&)
+[![image.png](https://i.postimg.cc/MTMzqDYw/image.png)](https://postimg.cc/qhTPG2YD)
 
 ```bash
 info files
@@ -219,7 +216,7 @@ info files
 
 provides detailed information about the files that the debugger is using. This typically includes the names of the source files, the associated program executables, and any shared libraries
 
-![https://media.discordapp.net/attachments/791571025368186890/1206345091996979240/image.png?ex=65dbab6a&is=65c9366a&hm=62fe59d0d12efed059e87c626dad7958bb664719a268daf2f8f9b0193ebf24cf&=&format=webp&quality=lossless&width=1006&height=889](https://media.discordapp.net/attachments/791571025368186890/1206345091996979240/image.png?ex=65dbab6a&is=65c9366a&hm=62fe59d0d12efed059e87c626dad7958bb664719a268daf2f8f9b0193ebf24cf&=&format=webp&quality=lossless&width=1006&height=889)
+[![image.png](https://i.postimg.cc/wM12WtH0/image.png)](https://postimg.cc/n9tqrhXD)
 
 
 ```bash
@@ -227,7 +224,7 @@ info registers
 ```
 display the current values of all registers. It shows the state of the CPU registers, including general purpose registers, floating-point registers, and special registers
 
-![https://cdn.discordapp.com/attachments/791571025368186890/1206386179432251452/image.png?ex=65dbd1ae&is=65c95cae&hm=b161e415efc4bf6bf172d407b3033d8ea0a17539e44dab3ea2e282b9f715ca27&](https://cdn.discordapp.com/attachments/791571025368186890/1206386179432251452/image.png?ex=65dbd1ae&is=65c95cae&hm=b161e415efc4bf6bf172d407b3033d8ea0a17539e44dab3ea2e282b9f715ca27&)
+[![image.png](https://i.postimg.cc/wB2xTMJq/image.png)](https://postimg.cc/gwwbgYNQ)
 
 
 ### Breakpoints
@@ -251,7 +248,7 @@ display the current values of all registers. It shows the state of the CPU regis
 Breakpoint 1 at 0x20a7: file test.c, line 398.
 ```
 
-![https://media.discordapp.net/attachments/791571025368186890/1206385858266013696/image.png?ex=65dbd162&is=65c95c62&hm=7dc7303edeb2cfe71659dc5a84662e9dc94321a95a1d1e657750fd186e510ad0&=&format=webp&quality=lossless&width=1057&height=558](https://media.discordapp.net/attachments/791571025368186890/1206385858266013696/image.png?ex=65dbd162&is=65c95c62&hm=7dc7303edeb2cfe71659dc5a84662e9dc94321a95a1d1e657750fd186e510ad0&=&format=webp&quality=lossless&width=1057&height=558)
+[![image.png](https://i.postimg.cc/jdq5WGtq/image.png)](https://postimg.cc/PNch9VC0)
 
 cpu registers at the current state where the breakpoint was hit
 
@@ -335,7 +332,7 @@ Breakpoint 1, minimax (board=0x7fffffffdec7, depth=1, isMax=true) at test.c:81
 
 Conditional breakpoints are a type of breakpoint that trigger only when a specified condition is true. They are particularly useful in scenarios involving loops or repetitive code. The conditions for these breakpoints can range from simple to complex expressions.
 
-![https://media.discordapp.net/attachments/791571025368186890/1206400511171891291/image.png?ex=65dbdf07&is=65c96a07&hm=87a0ce03d96adcbbf620d3bfd443ee90160d3bbb138ffbfc8416979d56014247&=&format=webp&quality=lossless&width=1057&height=246](https://media.discordapp.net/attachments/791571025368186890/1206400511171891291/image.png?ex=65dbdf07&is=65c96a07&hm=87a0ce03d96adcbbf620d3bfd443ee90160d3bbb138ffbfc8416979d56014247&=&format=webp&quality=lossless&width=1057&height=246)
+[![image.png](https://i.postimg.cc/qRWBjVMf/image.png)](https://postimg.cc/k6FdgHbw)
 
 ### diassembling a function
 

@@ -26,7 +26,6 @@ title: roundup03
 * Adding DC Sync rights
 
 * MDI DC Sync Detection
-![](https://media.discordapp.net/attachments/928373179003600907/1180217306618535986/image.png?ex=657c9e05&is=656a2905&hm=e0d10693e043b528ee59fd101aebf6ae985844fd368627b92650e573e183c602&=&format=webp&quality=lossless&width=1171&height=649)
 
 #### 11/09/2023
 

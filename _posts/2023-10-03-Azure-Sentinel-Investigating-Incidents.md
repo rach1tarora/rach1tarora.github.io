@@ -15,7 +15,9 @@ Sentinel offers a robust case management platform that covers the entire spectru
 
 It comes equipped with numerous features designed to support SOC teams, providing them with enhanced visibility and in-depth insights into the various aspects of incidents. These features encompass elements such as entity tracking, collaborative tools and standardized workflows, all working together to expedite the process from incident creation to resolution.
 
-![https://cdn.discordapp.com/attachments/928373179003600907/1158760034851893278/image.png?ex=651d6ae1&is=651c1961&hm=e62e0f27aafe0089905008e6d653de492745b8b4d848a8205da4cbbd19d466c3&](https://cdn.discordapp.com/attachments/928373179003600907/1158760034851893278/image.png?ex=651d6ae1&is=651c1961&hm=e62e0f27aafe0089905008e6d653de492745b8b4d848a8205da4cbbd19d466c3&)
+
+[![image.png](https://i.postimg.cc/4xVw9V3Q/image.png)](https://postimg.cc/sMfpFB7M)
+
 
 > ## Understanding the interface
 
@@ -44,7 +46,8 @@ As mentioned earlier, we want to ensure that all the necessary components and in
 
 > ### Incident Timeline
 
-![https://cdn.discordapp.com/attachments/928373179003600907/1158760432681623562/image.png?ex=651d6b3f&is=651c19bf&hm=6866dd665d1cac95dbb519413020f265b79e625832adec856e6bce5b425e17b0&](https://cdn.discordapp.com/attachments/928373179003600907/1158760432681623562/image.png?ex=651d6b3f&is=651c19bf&hm=6866dd665d1cac95dbb519413020f265b79e625832adec856e6bce5b425e17b0&)
+
+[![image.png](https://i.postimg.cc/2jwjjZwg/image.png)](https://postimg.cc/Hjr1BjFt)
 
 Let's begin with the incident timeline. As you are likely aware, an incident often comprises numerous security alerts, each providing only a fragment of the overall narrative. Each alert serves as a piece in this puzzle. 
 
@@ -108,9 +111,6 @@ We can zoom in to observe the relationships between these entities and their con
 [![image.png](https://i.postimg.cc/XNLMYgtk/image.png)](https://postimg.cc/CdRrvbhR)
 
 There's a wealth of information that can be further explored within these graphs, and an even broader range of insights available in the log analytics workspace, but that's a topic for another blog post.
-
-![https://www.noshitsecurity.com/img/nss_fh.png](https://www.noshitsecurity.com/img/nss_fh.png)
-
 
 ## Have any questions
 Do you have any questions? Feel free to reach out to me on [twitter](https://twitter.com/rach1tarora) or on [LinkedIn](https://www.linkedin.com/in/rach1tarora/).

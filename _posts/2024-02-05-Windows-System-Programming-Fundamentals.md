@@ -81,7 +81,7 @@ The majority of Windows systems now use 64-bit architecture. On these systems, 3
 
 If we want 4gb of addr space instead of 2 on a 64 bit system, go to project properties.
 
-![https://media.discordapp.net/attachments/791571025368186890/1206052295675088906/image.png?ex=65da9aba&is=65c825ba&hm=79556a182ee790336467e70072a2da9bb6014b7fc13c2a803525278766cf53a4&=&format=webp&quality=lossless&width=1162&height=712](https://media.discordapp.net/attachments/791571025368186890/1206052295675088906/image.png?ex=65da9aba&is=65c825ba&hm=79556a182ee790336467e70072a2da9bb6014b7fc13c2a803525278766cf53a4&=&format=webp&quality=lossless&width=1162&height=712)
+[![image.png](https://i.postimg.cc/0Qrj42sj/image.png)](https://postimg.cc/xJD9JQqV)
 
 ### Strings
 
@@ -148,7 +148,7 @@ If we remove the L there would be compile error, for that to work we need to exp
 
 > **Example 2** 
 
-![https://media.discordapp.net/attachments/791571025368186890/1206062006478831677/image.png?ex=65daa3c5&is=65c82ec5&hm=a2fc858aeb78bd37e33dbf7f91a3de185cfec4e066778cd0c0aebf15eea8aa25&=&format=webp&quality=lossless&width=1222&height=490](https://media.discordapp.net/attachments/791571025368186890/1206062006478831677/image.png?ex=65daa3c5&is=65c82ec5&hm=a2fc858aeb78bd37e33dbf7f91a3de185cfec4e066778cd0c0aebf15eea8aa25&=&format=webp&quality=lossless&width=1222&height=490)
+[![image.png](https://i.postimg.cc/KckDWtxP/image.png)](https://postimg.cc/NLtX99yF)
 
 **WCHAR buffer[128];**: This line declares a wide character array named **buffer** with a size of 128 elements. The type **WCHAR** represents a wide character, typically used for Unicode characters.
 
@@ -209,7 +209,7 @@ int main() {
 
 ```
 
-![https://cdn.discordapp.com/attachments/791571025368186890/1206065891352117308/image.png?ex=65daa764&is=65c83264&hm=ca2ae5f2c75a36b7c31bd7f81cdbacf48f66060deca1ec8573329156862d6407&](https://cdn.discordapp.com/attachments/791571025368186890/1206065891352117308/image.png?ex=65daa764&is=65c83264&hm=ca2ae5f2c75a36b7c31bd7f81cdbacf48f66060deca1ec8573329156862d6407&)
+[![image.png](https://i.postimg.cc/bNQy3V5K/image.png)](https://postimg.cc/N5jv0DB4)
 
 You can always press f1 on a structure to get more information through MSDN.
 
@@ -331,7 +331,7 @@ On 32-bit versions of Windows, most native Windows applications and libraries ar
 ### Numeric Versions
 
 
-![https://cdn.discordapp.com/attachments/791571025368186890/1206402637315055706/image.png?ex=65dbe102&is=65c96c02&hm=2bedec2d852b7a2689f82df04e0fe7cef1f51b51a3c02479035ae6b59bc667c1&](https://cdn.discordapp.com/attachments/791571025368186890/1206402637315055706/image.png?ex=65dbe102&is=65c96c02&hm=2bedec2d852b7a2689f82df04e0fe7cef1f51b51a3c02479035ae6b59bc667c1&)
+[![image.png](https://i.postimg.cc/MHGsvpLy/image.png)](https://postimg.cc/dkzRfww1)
 
 - **Classic Method:**
   - Historically, the **GetVersionEx** function was used to determine the version of Windows.
@@ -372,20 +372,19 @@ Add an XML file named "manifest" to your project. This will create an empty XML 
 
 
 In a new C# project, add a new item and search for a manifest file template.
-![https://media.discordapp.net/attachments/791571025368186890/1206405666965561365/image.png?ex=65dbe3d4&is=65c96ed4&hm=716aa8d00f5d36defa3376e3bcdb9d04291e4698b1a05da17a2d1ab928d56eef&=&format=webp&quality=lossless&width=1057&height=816](https://media.discordapp.net/attachments/791571025368186890/1206405666965561365/image.png?ex=65dbe3d4&is=65c96ed4&hm=716aa8d00f5d36defa3376e3bcdb9d04291e4698b1a05da17a2d1ab928d56eef&=&format=webp&quality=lossless&width=1057&height=816)
+[![image.png](https://i.postimg.cc/MprtFwvT/image.png)](https://postimg.cc/TKgrKZjM)
 
 
 For version detection, you need a specific GUID provided by Microsoft, which is a constant and will not change. This GUID is used in the manifest file to ensure your application can access the correct system information.
 
-![https://media.discordapp.net/attachments/791571025368186890/1206405687022723072/image.png?ex=65dbe3d9&is=65c96ed9&hm=d959aab0c1c36449d3e204b0bb25c4a6b3c53f615714bbf77305b5a4d08e2987&=&format=webp&quality=lossless&width=1057&height=762](https://media.discordapp.net/attachments/791571025368186890/1206405687022723072/image.png?ex=65dbe3d9&is=65c96ed9&hm=d959aab0c1c36449d3e204b0bb25c4a6b3c53f615714bbf77305b5a4d08e2987&=&format=webp&quality=lossless&width=1057&height=762)
+[![image.png](https://i.postimg.cc/fWv9ThYR/image.png)](https://postimg.cc/HjVxBRSq)
 
 Navigate to the properties of your project and locate the manifest file.
 In the manifest file, find the Windows 10 GUID section and uncomment it to activate it.
 
-![https://media.discordapp.net/attachments/791571025368186890/1206405723509227530/image.png?ex=65dbe3e2&is=65c96ee2&hm=bdfbd88b96589d858ec99fcd4347346ddb14ef356be20b05f1de5343e188545b&=&format=webp&quality=lossless&width=1057&height=742](https://media.discordapp.net/attachments/791571025368186890/1206405723509227530/image.png?ex=65dbe3e2&is=65c96ee2&hm=bdfbd88b96589d858ec99fcd4347346ddb14ef356be20b05f1de5343e188545b&=&format=webp&quality=lossless&width=1057&height=742)
+[![image.png](https://i.postimg.cc/8c1QpvMw/image.png)](https://postimg.cc/r0YYgKht)
 
-![https://media.discordapp.net/attachments/791571025368186890/1206405706010460180/image.png?ex=65dbe3de&is=65c96ede&hm=c1f6358d76af733886f2d900ef921ffba38dd7050e53a2858ce6e13b7de96bef&=&format=webp&quality=lossless&width=1057&height=516](https://media.discordapp.net/attachments/791571025368186890/1206405706010460180/image.png?ex=65dbe3de&is=65c96ede&hm=c1f6358d76af733886f2d900ef921ffba38dd7050e53a2858ce6e13b7de96bef&=&format=webp&quality=lossless&width=1057&height=516)
-
+[![image.png](https://i.postimg.cc/HLgCZFnf/image.png)](https://postimg.cc/BjMytYxg)
 
 
 
@@ -394,4 +393,4 @@ Microsoft does not always update the version number with new updates or services
 
 Output:
 
-![https://cdn.discordapp.com/attachments/791571025368186890/1206406796714188900/image.png?ex=65dbe4e2&is=65c96fe2&hm=650c4e0545ca0a13f6ee00db2f05fab320ed4866c50a6da49b92f0a344bf9926&](https://cdn.discordapp.com/attachments/791571025368186890/1206406796714188900/image.png?ex=65dbe4e2&is=65c96fe2&hm=650c4e0545ca0a13f6ee00db2f05fab320ed4866c50a6da49b92f0a344bf9926&)
+[![image.png](https://i.postimg.cc/8CSm7mXR/image.png)](https://postimg.cc/nX3D5BJr)

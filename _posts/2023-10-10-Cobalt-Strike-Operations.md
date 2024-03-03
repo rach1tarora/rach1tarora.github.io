@@ -9,7 +9,7 @@ usemathjax: true
 
 Notes from "Red Team Operations with Cobalt Strike (2019)" by Raphael Mudge on Youtube <a href="https://www.youtube.com/watch?v=q7VQeK533zI&list=PL9HO6M_MU2nfQ4kHSCzAQMqxQxH47d1no&index=1" style="color:red;" rel="noopener">here</a> 
 
-![https://media.discordapp.net/attachments/928373179003600907/1161604293552504914/image.png?ex=6538e74d&is=6526724d&hm=53cf4c43dcba8f94edc95e3196e292350488209a9139525051eef0e99000e02c&=&width=1074&height=816](https://media.discordapp.net/attachments/928373179003600907/1161604293552504914/image.png?ex=6538e74d&is=6526724d&hm=53cf4c43dcba8f94edc95e3196e292350488209a9139525051eef0e99000e02c&=&width=1074&height=816)
+[![image.png](https://i.postimg.cc/bvvyLsYD/image.png)](https://postimg.cc/LJrF8412)
 
 ### General Overview of a Red Team Operation
 
@@ -20,7 +20,7 @@ There are four goals of a typical attack
 - Positive C&C (C2) Command & Control
 - Post exploitation
 
-![https://media.discordapp.net/attachments/928373179003600907/1161602009657524285/image.png?ex=6538e52c&is=6526702c&hm=2c2959deae86fe7807c5964a95ed2bd6878c68884b3b81af3c1a551a341a1a38&=&width=1074&height=769](https://media.discordapp.net/attachments/928373179003600907/1161602009657524285/image.png?ex=6538e52c&is=6526702c&hm=2c2959deae86fe7807c5964a95ed2bd6878c68884b3b81af3c1a551a341a1a38&=&width=1074&height=769)
+[![image.png](https://i.postimg.cc/s23Qzjjs/image.png)](https://postimg.cc/DSYydK4M)
 
 The screenshot provided outlines the four objectives and the difficulties associated with each of them.
 
@@ -72,8 +72,7 @@ The screenshot provided outlines the four objectives and the difficulties associ
     
     A screenshot of a malleable C2 profile and a screenshot of the HTTP traffic generated based on this profile.
     
-    ![https://media.discordapp.net/attachments/928373179003600907/1161606121795104818/image.png?ex=6538e901&is=65267401&hm=4d30af1073cb8e8901e00827323c03ba8459e53cbf0ecccdbed2efb9574bec45&=&width=1074&height=762](https://media.discordapp.net/attachments/928373179003600907/1161606121795104818/image.png?ex=6538e901&is=65267401&hm=4d30af1073cb8e8901e00827323c03ba8459e53cbf0ecccdbed2efb9574bec45&=&width=1074&height=762)
-    
+[![image.png](https://i.postimg.cc/vmX1HJT9/image.png)](https://postimg.cc/d7kQ5S8t)    
 > ### **Aggressor Script**
     
 - The scripting language integrated into Cobalt Strike, available from version 3.0 onwards.
@@ -85,19 +84,18 @@ The screenshot provided outlines the four objectives and the difficulties associ
 
 ### **Collaboration Features in Cobalt Strike**
 
-![https://media.discordapp.net/attachments/928373179003600907/1161607418288033802/image.png?ex=6538ea36&is=65267536&hm=139746ed5b94e77e20a107b0aa3df9da117e309d78615170ce8eeb52e54d5caf&=&width=1074&height=654](https://media.discordapp.net/attachments/928373179003600907/1161607418288033802/image.png?ex=6538ea36&is=65267536&hm=139746ed5b94e77e20a107b0aa3df9da117e309d78615170ce8eeb52e54d5caf&=&width=1074&height=654)
+[![image.png](https://i.postimg.cc/Lhd5bRQd/image.png)](https://postimg.cc/CnNwZyVJ)
 
 The "team server" functions as the command center for the tool, coordinating offensive actions. It serves as the controller, hosts a web server, and is instrumental in facilitating spear phishing. The Cobalt Strike graphical user interface (GUI) client connects to this server.
 
 > **Starting a Team Server**
 
-![https://media.discordapp.net/attachments/928373179003600907/1161608391731466300/image.png?ex=6538eb1e&is=6526761e&hm=c75ab79450b8f99b5c9a9db9f87b35e5b08d264d2dc7d2797eec53cd4b357792&=&width=1074&height=679](https://media.discordapp.net/attachments/928373179003600907/1161608391731466300/image.png?ex=6538eb1e&is=6526761e&hm=c75ab79450b8f99b5c9a9db9f87b35e5b08d264d2dc7d2797eec53cd4b357792&=&width=1074&height=679)
+[![image.png](https://i.postimg.cc/6qVqggky/image.png)](https://postimg.cc/MfTzjPKS)
 
-![https://media.discordapp.net/attachments/928373179003600907/1161608725015052288/image.png?ex=6538eb6d&is=6526766d&hm=f2b057d552fa7e53f7b7a6d501ea8e4c79008aa2a1c2ac4a55e98a04c69b10ee&=&width=1074&height=129](https://media.discordapp.net/attachments/928373179003600907/1161608725015052288/image.png?ex=6538eb6d&is=6526766d&hm=f2b057d552fa7e53f7b7a6d501ea8e4c79008aa2a1c2ac4a55e98a04c69b10ee&=&width=1074&height=129)
 
 Starting a team server screenshot 
 
-![https://media.discordapp.net/attachments/928373179003600907/1161608965961039924/image.png?ex=6538eba7&is=652676a7&hm=3aa11bae518da2632fb54a660d63af252a890e2d001018210f928fd197c68d2e&=&width=1074&height=127](https://media.discordapp.net/attachments/928373179003600907/1161608965961039924/image.png?ex=6538eba7&is=652676a7&hm=3aa11bae518da2632fb54a660d63af252a890e2d001018210f928fd197c68d2e&=&width=1074&height=127)
+[![image.png](https://i.postimg.cc/zv5qM196/image.png)](https://postimg.cc/mzXxzKZy)
 
 - Host's Default IP: The host system's preconfigured IP address.
 - Shared Password: A common password that clients will employ to connect to the team server.
@@ -105,7 +103,7 @@ Starting a team server screenshot
 
 > **Connecting to a team Server**
 
-![https://media.discordapp.net/attachments/928373179003600907/1161609312653803590/image.png?ex=6538ebf9&is=652676f9&hm=1dca8b356cae33fc17ac9a39ecf3686ae718aa6147ff0e666cfe6cf062d1ce73&=&width=1074&height=660](https://media.discordapp.net/attachments/928373179003600907/1161609312653803590/image.png?ex=6538ebf9&is=652676f9&hm=1dca8b356cae33fc17ac9a39ecf3686ae718aa6147ff0e666cfe6cf062d1ce73&=&width=1074&height=660)
+[![image.png](https://i.postimg.cc/3x6YhGsg/image.png)](https://postimg.cc/RWcjQWVF)
 
 username: leet hacker nickname
 

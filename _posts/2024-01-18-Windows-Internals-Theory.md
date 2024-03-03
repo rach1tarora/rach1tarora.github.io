@@ -39,7 +39,7 @@ Windows is a vast topic, some resources before I start
 Line is dividing the user-mode and kernel-mode which are parts of the Windows OS.
 The boxes above the line represent user-mode processes, and the components below the line are kernel-mode OS services.
 
-![https://media.discordapp.net/attachments/791571025368186890/1201264836353478707/image.png?ex=65c9300f&is=65b6bb0f&hm=a05e613f016a29871cc0d1bd504c20e01ca80c9c1c0f94a68ff552c89d677672&=&format=webp&quality=lossless&width=1104&height=627](https://media.discordapp.net/attachments/791571025368186890/1201264836353478707/image.png?ex=65c9300f&is=65b6bb0f&hm=a05e613f016a29871cc0d1bd504c20e01ca80c9c1c0f94a68ff552c89d677672&=&format=webp&quality=lossless&width=1104&height=627)
+[![image.png](https://i.postimg.cc/sgX2xgMc/image.png)](https://postimg.cc/MvCwrxbM)
 
 1. **User Processes** - A program/application executed by the user such as Notepad,
 Google Chrome or Microsoft Word.
@@ -57,7 +57,7 @@ kernel is partially stored in a file called ntoskrnl.exe under "C:\Windows\Syste
 
 Processors may distinguish between these modes using various terms such as code privilege level, ring level, supervisor mode, and application mode. However, regardless of the terminology used, the processor grants the operating system kernel a higher privilege level compared to user mode applications. This differentiation in privilege levels provides a crucial foundation for operating system designers to guarantee that a malfunctioning application cannot compromise the stability of the entire system.
 
-![https://media.discordapp.net/attachments/791571025368186890/1201268962596499516/image.png?ex=65c933e7&is=65b6bee7&hm=b91b9d7f8abed0707a0d5ed4eb743f6342c15c9e9383116920110f0d44a125a7&=&format=webp&quality=lossless&width=918&height=685](https://media.discordapp.net/attachments/791571025368186890/1201268962596499516/image.png?ex=65c933e7&is=65b6bee7&hm=b91b9d7f8abed0707a0d5ed4eb743f6342c15c9e9383116920110f0d44a125a7&=&format=webp&quality=lossless&width=918&height=685)
+[![image.png](https://i.postimg.cc/1XbfZxHS/image.png)](https://postimg.cc/y3XVFbtp)
 
 Here's the arrangement of the process described:
 1. **User Application:** Initiates the file creation process by calling the CreateFile function from the WinAPI.
@@ -98,8 +98,8 @@ At the highest level of abstraction, a Windows process comprises the following:
 - A unique identifier called a **process ID** (internally part of an identifier called a client ID).
 - At least **one thread of execution** (although an “empty” process is possible, it is not useful).
     
-![https://media.discordapp.net/attachments/791571025368186890/1201244654532837466/image.png?ex=65c91d43&is=65b6a843&hm=a78b953a0bf8113ea461c451ca6f6e33def6087f299f2af37dc15d772b36e2f5&=&format=webp&quality=lossless&width=1144&height=441](https://media.discordapp.net/attachments/791571025368186890/1201244654532837466/image.png?ex=65c91d43&is=65b6a843&hm=a78b953a0bf8113ea461c451ca6f6e33def6087f299f2af37dc15d772b36e2f5&=&format=webp&quality=lossless&width=1144&height=441)
-    
+[![image.png](https://i.postimg.cc/vZsSQ4D1/image.png)](https://postimg.cc/bsmRgNx8)
+
 Processes may be in one of 5 states,   
 
 - **New** - The process is in the stage of being created.
@@ -153,8 +153,8 @@ Each process maintains its own private virtual address space, yet they can share
     
  **x86 vs x64 Memory Space**
     
-![https://media.discordapp.net/attachments/791571025368186890/1201253335613845715/image.png?ex=65c92559&is=65b6b059&hm=c3efa1a2cfb62b9ae1267dd023be0a9453a2ed56a31d72bb228fb33d4597d58b&=&format=webp&quality=lossless&width=987&height=423](https://media.discordapp.net/attachments/791571025368186890/1201253335613845715/image.png?ex=65c92559&is=65b6b059&hm=c3efa1a2cfb62b9ae1267dd023be0a9453a2ed56a31d72bb228fb33d4597d58b&=&format=webp&quality=lossless&width=987&height=423)
-    
+[![image.png](https://i.postimg.cc/XYqxN94Y/image.png)](https://postimg.cc/Mnk1dMnC)
+
 When working with
     Windows processes, it's important to note whether the process is x86 or x64.
     
@@ -186,7 +186,6 @@ A dynamic link library (DLL) is a collection of small programs that larger progr
 - Can be shared between processes
 - Many DLLs provided out-of-the-box with Windows
 
-![https://cdn.discordapp.com/attachments/791571025368186890/1201270329234968709/image.png?ex=65c9352d&is=65b6c02d&hm=5d8fa1178e6665d783a33e0397aeef785202976fa9d8eba9d982f4a02386d99f&](https://cdn.discordapp.com/attachments/791571025368186890/1201270329234968709/image.png?ex=65c9352d&is=65b6c02d&hm=5d8fa1178e6665d783a33e0397aeef785202976fa9d8eba9d982f4a02386d99f&)
     
 ## Job
     

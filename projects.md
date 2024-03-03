@@ -17,7 +17,7 @@ title: projects
 
    - More information and the report <a href="https://arorarachit.com/blog/sentinel-heatmap-rdp-bruteforce" style="color:red;" rel="noopener">here</a> 
 
-![https://media.discordapp.net/attachments/928373179003600907/1155463014322016287/image.png?width=1672&height=666](https://media.discordapp.net/attachments/854292624754999296/1151130590351986748/Picture1.png?width=1410&height=670)
+[![image.png](https://i.postimg.cc/SKjddT3G/image.png)](https://postimg.cc/XZS978VZ)
 
 
 <br>
@@ -69,9 +69,6 @@ They will then have a four-hour window to solve the challenges in the VM and the
 * Company Domain Controller → **Windows Server 2022**
 
     
-![https://media.discordapp.net/attachments/928373179003600907/1161195925205700641/image.png?ex=65376afa&is=6524f5fa&hm=6efaa284f784e6fde5b39c3c1430ca3e9a081f75cb00064c8c0198677c97d406&=&width=712&height=406](https://media.discordapp.net/attachments/928373179003600907/1161195925205700641/image.png?ex=65376afa&is=6524f5fa&hm=6efaa284f784e6fde5b39c3c1430ca3e9a081f75cb00064c8c0198677c97d406&=&width=712&height=406)
+[![image.png](https://i.postimg.cc/GtJVZSs2/image.png)](https://postimg.cc/N2FdXDDq)
 
  <br>
-    
-
-<br>

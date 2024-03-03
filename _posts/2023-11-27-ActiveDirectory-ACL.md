@@ -46,7 +46,7 @@ object ACL, it means the DACL
 
  Defines the permissions trustees (a user or group) have on an object.
 
-![https://media.discordapp.net/attachments/928373179003600907/1175722504271179846/image.png?ex=656c43e8&is=6559cee8&hm=dee0c8ca693c460627efcc1c8544e5f1b9a809a8fdec347dbae90d7a05a95fe0&=&width=1200&height=651](https://media.discordapp.net/attachments/928373179003600907/1175722504271179846/image.png?ex=656c43e8&is=6559cee8&hm=dee0c8ca693c460627efcc1c8544e5f1b9a809a8fdec347dbae90d7a05a95fe0&=&width=1200&height=651)
+[![image.png](https://i.postimg.cc/kMRN8wL0/image.png)](https://postimg.cc/c6Z8G7xh)
 
 ### DACL Structure
 
@@ -54,7 +54,7 @@ The access control list consists of multiple individual permissions known as **A
 
 Each entry has a permission type (allow or deny), a principal account (who is this permission for — *user, group, computer*), what objects the principal account can access, and the access rights [*read, write, Full Control*].
 
-![https://cdn.discordapp.com/attachments/928373179003600907/1175722685796466739/image.png?ex=656c4414&is=6559cf14&hm=f3575a6f518d4900a7c706b6511893566c4711aa93661ce9f0401b85671bcb5c&](https://cdn.discordapp.com/attachments/928373179003600907/1175722685796466739/image.png?ex=656c4414&is=6559cf14&hm=f3575a6f518d4900a7c706b6511893566c4711aa93661ce9f0401b85671bcb5c&)
+[![image.png](https://i.postimg.cc/PqGnX6sd/image.png)](https://postimg.cc/LJVbv38W)
 
 <br>
 
@@ -62,11 +62,11 @@ Each entry has a permission type (allow or deny), a principal account (who is th
 
 SACL - Logs success and failure audit messages when an object is accessed.
 
-![https://media.discordapp.net/attachments/928373179003600907/1175723100399218708/image.png?ex=656c4477&is=6559cf77&hm=eed21a73721769f8dcac3dc7a89316fbd5541787a8f05047427ca069640a99c7&=&width=969&height=651](https://media.discordapp.net/attachments/928373179003600907/1175723100399218708/image.png?ex=656c4477&is=6559cf77&hm=eed21a73721769f8dcac3dc7a89316fbd5541787a8f05047427ca069640a99c7&=&width=969&height=651)
+[![image.png](https://i.postimg.cc/HskVCLdT/image.png)](https://postimg.cc/nMNH4pXW)
 
 Every object have Security Descriptors 
 
-![https://cdn.discordapp.com/attachments/928373179003600907/1175723280347447317/image.png?ex=656c44a1&is=6559cfa1&hm=116251d3eefc3ea41016ad478acf82ca21cd20c5108abd64ec628c16c549926a&](https://cdn.discordapp.com/attachments/928373179003600907/1175723280347447317/image.png?ex=656c44a1&is=6559cfa1&hm=116251d3eefc3ea41016ad478acf82ca21cd20c5108abd64ec628c16c549926a&)
+[![image.png](https://i.postimg.cc/3R33CLw3/image.png)](https://postimg.cc/3ybM3Fpq)
 
 
 <br> 
@@ -86,7 +86,6 @@ object depending on the Access Mask flags. Is set to zero if not used.
 - **Inheritance type**: The type of object class that can inherit the ACE from
 this object
 
-![https://cdn.discordapp.com/attachments/928373179003600907/1175724280412123176/image.png?ex=656c4590&is=6559d090&hm=0d892a529f3321ca97f4484cb17e355d6be46a85f2b4b7efef1ffd569cd1684f&](https://cdn.discordapp.com/attachments/928373179003600907/1175724280412123176/image.png?ex=656c4590&is=6559d090&hm=0d892a529f3321ca97f4484cb17e355d6be46a85f2b4b7efef1ffd569cd1684f&)
 
 ```powershell
 PS C:\Users\Administrator> $(Get-ADUser anakin -Properties nTSecurityDescriptor).nTSecurityDescriptor.Access[0]

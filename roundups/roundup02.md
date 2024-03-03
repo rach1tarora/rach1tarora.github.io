@@ -53,7 +53,6 @@ title: roundup02
 
 * My notes, would be sharing them very soon
 
-![](https://media.discordapp.net/attachments/928373179003600907/1180186701365260420/image.png?ex=657c8184&is=656a0c84&hm=3d8324d5f44c2de052cb94cda29371290c23c3b44b95b885e9023db3731491b3&=&format=webp&quality=lossless&width=523&height=651)
 
 ## Have any questions
 Do you have any questions? Feel free to reach out to me on [Twitter](https://twitter.com/rach1tarora) or on [LinkedIn](https://www.linkedin.com/in/rach1tarora/).
