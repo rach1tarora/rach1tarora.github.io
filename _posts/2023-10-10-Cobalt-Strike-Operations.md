@@ -185,7 +185,7 @@ Employing distributed operations to prevent dependence on a single vulnerable po
     
 [![image.png](https://i.postimg.cc/TPWvHhjs/image.png)](https://postimg.cc/3y7qk8cj)
 
-> More information about Cobalt Strike in the upcoming blogs
+> More information about Cobalt Strike in the upcoming blogs.
 
 
 ## Have any questions
