@@ -34,31 +34,33 @@ I have posted the part one about [Windows Internals Theory.](https://arorarachit
   - Code that runs in kernel mode has the privilege to **directly access** these objects, unlike user mode processes which interact with the objects indirectly through handles. 
   - Handles are like **references or pointers** provided to user mode processes that allow them to use these objects in a controlled manner.
 
-![https://media.discordapp.net/attachments/791571025368186890/1208889540408901642/image.png?ex=65e4ed1e&is=65d2781e&hm=a5a25748499025106686d00eeb27cf846b3fd9d2f76bf0c9c0d9e5f431e1334a&=&format=webp&quality=lossless&width=1057&height=313](https://media.discordapp.net/attachments/791571025368186890/1208889540408901642/image.png?ex=65e4ed1e&is=65d2781e&hm=a5a25748499025106686d00eeb27cf846b3fd9d2f76bf0c9c0d9e5f431e1334a&=&format=webp&quality=lossless&width=1057&height=313)
+[![image.png](https://i.postimg.cc/Kvs05Q7n/image.png)](https://postimg.cc/6ynVWrm3)
 
 - The value assigned to a handle is always a multiple of four, and zero is not considered a valid value for a handle. To view more details about an item, one should perform a double-click action and then select 'Properties'.
 
-![https://media.discordapp.net/attachments/791571025368186890/1208890729850478592/image.png?ex=65e4ee3a&is=65d2793a&hm=29b94c3eef0e95c8963fec8a0f3b0cfeb83cc9da050d5c0f09f98357c6cde573&=&format=webp&quality=lossless&width=571&height=525](https://media.discordapp.net/attachments/791571025368186890/1208890729850478592/image.png?ex=65e4ee3a&is=65d2793a&hm=29b94c3eef0e95c8963fec8a0f3b0cfeb83cc9da050d5c0f09f98357c6cde573&=&format=webp&quality=lossless&width=571&height=525)
+[![image.png](https://i.postimg.cc/bNGxqPbt/image.png)](https://postimg.cc/nCJj163F)
 
 
 - The **access mask** indicates the permissions or types of operations that are permitted through a particular handle. Each handle grants a specific level of access to a resource or object.
 
 > ### _Showing Unnamed handles and Mappings_
 
-![https://media.discordapp.net/attachments/791571025368186890/1208892505014280252/image.png?ex=65e4efe1&is=65d27ae1&hm=6543ccadd3bd8cdb51da861758d309f9d19fecfb92bb0b75a2bcc52ad07ac663&=&format=webp&quality=lossless&width=1000&height=483](https://media.discordapp.net/attachments/791571025368186890/1208892505014280252/image.png?ex=65e4efe1&is=65d27ae1&hm=6543ccadd3bd8cdb51da861758d309f9d19fecfb92bb0b75a2bcc52ad07ac663&=&format=webp&quality=lossless&width=1000&height=483)
+[![image.png](https://i.postimg.cc/8507YFZn/image.png)](https://postimg.cc/62C62QJd)
 
 - Now, Unnamed handles are visible
 
-![https://media.discordapp.net/attachments/791571025368186890/1208892888826642482/image.png?ex=65e4f03c&is=65d27b3c&hm=d94f71f5f10a237745fba62b46c57bb5285b12e7d6fe410035fa0ecd114989d0&=&format=webp&quality=lossless&width=538&height=525](https://media.discordapp.net/attachments/791571025368186890/1208892888826642482/image.png?ex=65e4f03c&is=65d27b3c&hm=d94f71f5f10a237745fba62b46c57bb5285b12e7d6fe410035fa0ecd114989d0&=&format=webp&quality=lossless&width=538&height=525)
+[![image.png](https://i.postimg.cc/RFycHbxF/image.png)](https://postimg.cc/phQhNCTb)
 
 
 - The kernel have direct pointers to the object, bypassing the need for handles, which are only necessary in user mode. An object having more handles implies it is being accessed by multiple users or processes. 
 
-![https://media.discordapp.net/attachments/791571025368186890/1208894155279831100/image.png?ex=65e4f16a&is=65d27c6a&hm=ed0e5f07f9698c8f217359ef314b11d8fabb61735e5cf87b77a30915434b4114&=&format=webp&quality=lossless&width=595&height=525](https://media.discordapp.net/attachments/791571025368186890/1208894155279831100/image.png?ex=65e4f16a&is=65d27c6a&hm=ed0e5f07f9698c8f217359ef314b11d8fabb61735e5cf87b77a30915434b4114&=&format=webp&quality=lossless&width=595&height=525)
+
+[![image.png](https://i.postimg.cc/7ZnMWV0s/image.png)](https://postimg.cc/mPhHc7dC)
+
 
 - Certain objects are exclusively accessible and utilized by the kernel, not available to user mode.
 
-![https://media.discordapp.net/attachments/791571025368186890/1208894227560276048/image.png?ex=65e4f17c&is=65d27c7c&hm=92d7a1b2c6bba2ffd248049cd79160912088cdadca2f8a82bc4fc5dda40c43c9&=&format=webp&quality=lossless&width=1057&height=196](https://media.discordapp.net/attachments/791571025368186890/1208894227560276048/image.png?ex=65e4f17c&is=65d27c7c&hm=92d7a1b2c6bba2ffd248049cd79160912088cdadca2f8a82bc4fc5dda40c43c9&=&format=webp&quality=lossless&width=1057&height=196)
+
 
 
 > ### _Objects which are exposed by Windows API_
@@ -135,21 +137,21 @@ Explanation:
 - Search for the AC handle to examine its properties.
 
 
-![https://media.discordapp.net/attachments/791571025368186890/1208913304827727912/image.png?ex=65e50340&is=65d28e40&hm=56b8c4712afdfb7036f15790ddd57d8416c31bb25d2710a2241bb19a3a153cd4&=&format=webp&quality=lossless&width=1074&height=177](https://media.discordapp.net/attachments/791571025368186890/1208913304827727912/image.png?ex=65e50340&is=65d28e40&hm=56b8c4712afdfb7036f15790ddd57d8416c31bb25d2710a2241bb19a3a153cd4&=&format=webp&quality=lossless&width=1074&height=177)
+[![image.png](https://i.postimg.cc/tRz6yTYJ/image.png)](https://postimg.cc/qgzqxpcH)
 
 - Identify the event type as "notification," indicating it's a manual-reset event.
 - Note that the initial state of "signalled false" means the event starts as nonsignaled.
 
-![https://media.discordapp.net/attachments/791571025368186890/1208911619426492527/image.png?ex=65e501ae&is=65d28cae&hm=7ab4e489257fc3ba72d8f6731f4cf5a54815fc29aabc1e57be8d38ab438e2a82&=&format=webp&quality=lossless&width=598&height=583](https://media.discordapp.net/attachments/791571025368186890/1208911619426492527/image.png?ex=65e501ae&is=65d28cae&hm=7ab4e489257fc3ba72d8f6731f4cf5a54815fc29aabc1e57be8d38ab438e2a82&=&format=webp&quality=lossless&width=598&height=583)
+[![image.png](https://i.postimg.cc/mDBr6Y3w/image.png)](https://postimg.cc/8FXD7r0J)|
 
 - Execute the **SetEvent** function to change the event's state.
 - Observe the transition to "signalled true," which confirms the event's state has been altered.
 
-![https://media.discordapp.net/attachments/791571025368186890/1208913046345486407/image.png?ex=65e50302&is=65d28e02&hm=bb81d3e2c6cd9e026afb440a7e720e3813ebf783cf96fc18a7049948e493324d&=&format=webp&quality=lossless&width=657&height=619](https://media.discordapp.net/attachments/791571025368186890/1208913046345486407/image.png?ex=65e50302&is=65d28e02&hm=bb81d3e2c6cd9e026afb440a7e720e3813ebf783cf96fc18a7049948e493324d&=&format=webp&quality=lossless&width=657&height=619)
+[![image.png](https://i.postimg.cc/hvHWNgWB/image.png)](https://postimg.cc/bSHB27wC)
 
 - Upon closing the handle, the associated visual indicator will turn red and disappear, indicating the handle is no longer valid.
 
-![https://cdn.discordapp.com/attachments/791571025368186890/1208913253133066311/image.png?ex=65e50334&is=65d28e34&hm=5128cb042d2844777e24426e22ee50b7b05bc9c180ba4ba07cb2be4a47ec78fa&](https://cdn.discordapp.com/attachments/791571025368186890/1208913253133066311/image.png?ex=65e50334&is=65d28e34&hm=5128cb042d2844777e24426e22ee50b7b05bc9c180ba4ba07cb2be4a47ec78fa&)
+[![image.png](https://i.postimg.cc/xjGZ2Kvm/image.png)](https://postimg.cc/V56g90Hs)
 
 - Any subsequent attempt to reference the event handle will result in an "invalid handle" error because the handle has been closed.
 
@@ -200,7 +202,7 @@ When we launch **Windows Media Player (wmplayer)**, it creates a named object (l
 This mechanism involves creating a named synchronization object, such as a **mutex**, which acts as a signal for the application to recognize an active instance. 
   - If the application tries to create a mutex that already exists, it knows another process is running and will typically close or not start a new process.
 
-![https://media.discordapp.net/attachments/791571025368186890/1208920340898644028/image.png?ex=65e509cd&is=65d294cd&hm=3889d05c41e599e87fc7cecce462a080584bedc35f7a6a76f58f0c6670be03c4&=&format=webp&quality=lossless&width=1074&height=55](https://media.discordapp.net/attachments/791571025368186890/1208920340898644028/image.png?ex=65e509cd&is=65d294cd&hm=3889d05c41e599e87fc7cecce462a080584bedc35f7a6a76f58f0c6670be03c4&=&format=webp&quality=lossless&width=1074&height=55)
+[![image.png](https://i.postimg.cc/Fzvy9CtJ/image.png)](https://postimg.cc/9RxRbpQW)
 
 Using tools like Process Explorer, which utilize kernel drivers, you can close handles directly. This bypasses the need for the application's **CloseHandle** function. 
   - After closing the handle to the named object, if you try to run Windows Media Player again, it will start because it no longer detects an active instance signaled by the named object.
@@ -331,9 +333,10 @@ Explanation:
 
 7. **_FILE_MAP_READ FILE_MAP_WRITE_**: This constant specifies the type of access to the file mapping object, allowing both reading and writing to the memory.
 
-![https://media.discordapp.net/attachments/791571025368186890/1209002600792330260/image.png?ex=65e5566a&is=65d2e16a&hm=18efe3c3c7700621aeddcc521a58e5a6855f73fe18506e26555199723d480982&=&format=webp&quality=lossless&width=1048&height=531](https://media.discordapp.net/attachments/791571025368186890/1209002600792330260/image.png?ex=65e5566a&is=65d2e16a&hm=18efe3c3c7700621aeddcc521a58e5a6855f73fe18506e26555199723d480982&=&format=webp&quality=lossless&width=1048&height=531)
+[![image.png](https://i.postimg.cc/02Qvt83h/image.png)](https://postimg.cc/dDzg3KJ9)
 
-![https://media.discordapp.net/attachments/791571025368186890/1209002742597550110/image.png?ex=65e5568c&is=65d2e18c&hm=c2e060beb78ea6b3aebe1f6c5e190b6620b09f29dfb404a4900a2a254af85ce6&=&format=webp&quality=lossless&width=595&height=408](https://media.discordapp.net/attachments/791571025368186890/1209002742597550110/image.png?ex=65e5568c&is=65d2e18c&hm=c2e060beb78ea6b3aebe1f6c5e190b6620b09f29dfb404a4900a2a254af85ce6&=&format=webp&quality=lossless&width=595&height=408)
+[![image.png](https://i.postimg.cc/d0zDF7M7/image.png)](https://postimg.cc/HJ9T4kkH)
+
 
 
 > ## Objects Names and Sessions
@@ -472,9 +475,8 @@ The shared memory is mapped to the process's address space, and a pointer to the
 
 This program is an example of using private namespaces to control access to shared resources, such as shared memory, making them available only to processes that have the required privileges based on the SID.
 
-![https://media.discordapp.net/attachments/791571025368186890/1209004750507348018/image.png?ex=65e5586a&is=65d2e36a&hm=7188af84c5c1839f44e34dbb9df4d007b4a120bf266f5f9b036ddcbf22cf09b4&=&format=webp&quality=lossless&width=1057&height=157](https://media.discordapp.net/attachments/791571025368186890/1209004750507348018/image.png?ex=65e5586a&is=65d2e36a&hm=7188af84c5c1839f44e34dbb9df4d007b4a120bf266f5f9b036ddcbf22cf09b4&=&format=webp&quality=lossless&width=1057&height=157)
+[![image.png](https://i.postimg.cc/JnZ0z1mp/image.png)](https://postimg.cc/k6MqjP2S)
 
-![https://media.discordapp.net/attachments/791571025368186890/1209004825384329257/image.png?ex=65e5587c&is=65d2e37c&hm=8d15208baf8c6bd1440a72252efd3e289264029610f724ac0c732339c0a6b1db&=&format=webp&quality=lossless&width=1057&height=19](https://media.discordapp.net/attachments/791571025368186890/1209004825384329257/image.png?ex=65e5587c&is=65d2e37c&hm=8d15208baf8c6bd1440a72252efd3e289264029610f724ac0c732339c0a6b1db&=&format=webp&quality=lossless&width=1057&height=19)
 
 We cannot see the fullname in user mode
 
@@ -584,7 +586,7 @@ int main() {
   - Handles for GDI objects are also not reference or handle counted and are exclusive to the process that created them.
   - There is no officially documented method for sharing GDI object handles between processes.
 
-![https://media.discordapp.net/attachments/791571025368186890/1209013420192567357/image.png?ex=65e5607d&is=65d2eb7d&hm=e44a4f916ad676328be5fe065ba28638212d0fda4d6b24222f5efa43b85f46ac&=&format=webp&quality=lossless&width=201&height=241](https://media.discordapp.net/attachments/791571025368186890/1209013420192567357/image.png?ex=65e5607d&is=65d2eb7d&hm=e44a4f916ad676328be5fe065ba28638212d0fda4d6b24222f5efa43b85f46ac&=&format=webp&quality=lossless&width=201&height=241)
+[![image.png](https://i.postimg.cc/rz6D9KjX/image.png)](https://postimg.cc/LgT494GN)
 
   - If a process operates without a user interface, it won't utilize objects such as windows, menus, or graphical elements.
   - Neglecting to properly close these objects can result in leaks. GDI objects are particularly vulnerable since there is a system-wide limit, which is approximately 64,000.
