@@ -44,9 +44,11 @@ They will then have a four-hour window to solve the challenges in the VM and the
 
     - A blog has been published <a href="https://arorarachit.com/blog/azure-sentinel-investigating-incidents" style="color:red;" rel="noopener">here</a> , analyzing the observations drawn from individuals attempting to compromise the VM.
     
-    ![https://media.discordapp.net/attachments/928373179003600907/1155463014322016287/image.png?width=1672&height=666](https://media.discordapp.net/attachments/928373179003600907/1155463014322016287/image.png?width=1672&height=666)
-    
-	<br>
+[![image.png](https://i.postimg.cc/1X509FjJ/image.png)](https://postimg.cc/zb6H7y5g)
+
+
+<br>
+
 
 > **Active Directory Homelab**
 
