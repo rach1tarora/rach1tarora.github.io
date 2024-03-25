@@ -13,7 +13,7 @@ My interests lies in pentesting, and cloud. I have done 4 internships, and have 
 
 I'm currently searching for hybrid internships in the Washington, D.C. area for the Winter of 2024.
 
-Currently I'm learning exploit development, offensive coding and focusing on personal project where i build my own C2 Framework from ground up. 
+Currently I'm learning exploit development, offensive coding and focusing on personal project where I build my own C2 Framework from ground up. 
 
 I post blogs <a href="/blog" style="color:red;" rel="noopener">here</a>  and my  Linkedin -> <a href="#" class="fa fa-linkedin" href = "https://www.linkedin.com/in/rach1tarora/" target="_blank" rel="noopener" ></a> &nbsp;
 
