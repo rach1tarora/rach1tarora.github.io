@@ -6,6 +6,7 @@ description: Blog
 # baseurl: "/jekyllBear" # the subpath of your site, e.g. /blog/
 url: "https://arorarachit.com" # the base hostname & protocol for your site
 # host: 0.0.0.0
+author: Rachit Arora
 
 
 #########################
@@ -13,6 +14,8 @@ url: "https://arorarachit.com" # the base hostname & protocol for your site
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-feed
+
 
 whitelist:
   - jekyll-redirect-from
