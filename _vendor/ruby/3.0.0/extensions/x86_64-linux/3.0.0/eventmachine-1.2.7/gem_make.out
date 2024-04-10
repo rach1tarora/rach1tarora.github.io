@@ -1,5 +1,5 @@
 current directory: /mnt/f/rach1tarora.github.io/_vendor/ruby/3.0.0/gems/eventmachine-1.2.7/ext
-/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20240409-3699-6lx4m1.rb extconf.rb
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20240409-948-ydtgh6.rb extconf.rb
 mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
 
 You might have to install separate package for the ruby development
