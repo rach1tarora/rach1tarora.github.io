@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sentinel Heatmap (RDP bruteforce)"
-date:   2023-09-12	 09:29:20 +0700
+date:   2024-03-05	 09:29:20 +0700
 tags: [rdp,azure,siem,cloud,defence]
 categories: jekyll update
 usemathjax: true

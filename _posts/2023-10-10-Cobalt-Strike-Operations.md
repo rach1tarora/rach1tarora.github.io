@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cobalt Strike - Operations "
-date:   2023-10-10 09:19:20 +0700
+date:   2024-03-31 09:19:20 +0700
 tags: [pentesting,cobaltstrike]
 categories: jekyll update
 usemathjax: true

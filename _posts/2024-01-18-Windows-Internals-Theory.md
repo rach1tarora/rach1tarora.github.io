@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Windows Internals: Theory"
-date:   2024-01-18 07:29:20 +0700
+date:   2024-04-27 07:29:20 +0700
 tags: [windows]
 categories: jekyll update
 usemathjax: true

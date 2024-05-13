@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Active Directory: ACLs"
-date:   2023-11-27 07:29:20 +0700
+date:   2024-04-11 07:29:20 +0700
 tags: [defence,ad]
 categories: jekyll update
 usemathjax: true

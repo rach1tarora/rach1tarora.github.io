@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "HTB: Active"
-date:   2023-10-04 09:19:20 +0700
+date:   2024-03-24 09:19:20 +0700
 tags: [htb,pentesting,ctf]
 categories: jekyll update
 usemathjax: true

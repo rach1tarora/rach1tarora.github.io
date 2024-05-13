@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Azure Sentinel: Investigating Incidents"
-date:   2023-10-03 09:29:20 +0700
+date:   2024-03-08 09:29:20 +0700
 tags: [azure,defence,cloud,siem]
 categories: jekyll update
 usemathjax: true

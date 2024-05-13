@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linux Privilege Escalation"
-date:   2023-07-01 09:29:20 +0700
+date:   2024-02-11 09:29:20 +0700
 tags: [linux,privesc,pentesting]
 categories: jekyll update
 usemathjax: true

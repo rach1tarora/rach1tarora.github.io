@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GNU  Debugger- Fundamentals"
-date:   2024-02-11 07:29:20 +0700
+date:   2024-05-09 07:29:20 +0700
 tags: [windows]
 categories: jekyll update
 usemathjax: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Shodan Dorks
-date: 2022-12-19 1:58:47 +05:30
+date: 2024-01-23 1:58:47 +05:30
 tags: [dorks,shodan,web]
 description: Shodan is a search engine for Internet-connected devices. Dorks help to narrow down output.
 ---
