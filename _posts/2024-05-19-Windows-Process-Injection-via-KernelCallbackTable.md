@@ -16,17 +16,20 @@ usemathjax: true
   - [Step 1: Open a handle to the remote process](#step-1-open-a-handle-to-the-remote-process)
   - [Step 2: Retrieve the PEB Structure Information](#step-2-retrieve-the-peb-structure-information)
   - [Step 3: Reading the PEB and KernelCallbackTable using ReadProcessMemory](#step-3-reading-the-peb-and-kernelcallbacktable-using-readprocessmemory)
-  - [VirtualProtectEx to change mem permission](#virtualprotectex-to-change-mem-permission)
-  - [Writing to process memory using WriteProcessMemory](#writing-to-process-memory-using-writeprocessmemory)
-  - [Triggering the event using SendMessage](#triggering-the-event-using-sendmessage)
+  - [Step 4: VirtualProtectEx to change mem permission](#virtualprotectex-to-change-mem-permission)
+  - [Step 5: Writing to process memory using WriteProcessMemory](#writing-to-process-memory-using-writeprocessmemory)
+  - [Step 6: Triggering the event using SendMessage](#triggering-the-event-using-sendmessage)
 
 > ## Overview KernelCallbackTable
+
+
+![img](https://i.imgur.com/1zzBNVX.png)
 
 This method of process injection was used by [FinFisher/FinSpy](https://www.microsoft.com/security/blog/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/) and [Lazarus](https://blog.malwarebytes.com/threat-intelligence/2022/01/north-koreas-lazarus-apt-leverages-windows-update-client-github-in-latest-campaign/)
 
 The _**kernelcallbacktable**_ is always configured when there are UI-related elements linked to the application and it is initialized to an array of functions when user32.dll is loaded into a GUI process. It is utilized to manage all pointers and structures involved in sending messages within a process, such as interprocess communication. This allows for messages to be sent between applications via the kernel callback.
 
-The functions are invoked to perform various operations usually in response to window messages. For example, _**fnCOPYDATA**_ is executed in response to the _**WM_COPYDATA**_ message, so in the PoC, this function is replaced to demonstrate the injection. Finfisher uses the _**fnDWORD**_ function.
+ _**fnCOPYDATA**_ is executed in response to the _**WM_COPYDATA**_ message. Finfisher uses the _**fnDWORD**_ function.
 
 We simply duplicate the existing table or overwrite the address with our own payload in the kernelcallbacktable, set the _**fnCOPYDATA**_ function to address of payload, update the PEB with address of new table and invoke using _**WM_COPYDATA**_. By hooking into that table, we can define our own triggers, enabling us to send messages to the application, which will in turn execute our code.
 
@@ -170,7 +173,7 @@ printf("%d bytes written\\n", dwBytesRead);
 
 We are ready to trigger the event using _**SendMessage**_. To do this, we will need a handle to the window (_**hwnd**_). We will retrieve a window element since this is how we will send messages inside the process.
 
-To get the _**hwnd**_, we will use the _**FindWindow**_ We will retrieve a handle to that element.
+To get the _**hwnd**_, we will use the _**FindWindowEx**_ We will retrieve a handle to that element.
 
 Once we have the handle to _**shell_traywnd**_, we need to tie it to a process. We can do this using _**GetWindowThreadProcessId**_. Here is an example code:
 
