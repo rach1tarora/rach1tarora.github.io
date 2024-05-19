@@ -198,6 +198,6 @@ return 0;
 
 ```
 
-Once it hits _**CCCC**_, it will break. We have to ensure the shellcode returns properly and that the process survives the change.
+Once it hits _**CCCC**_, it will break. We have to ensure the shellcode returns properly and that the process survives the change or else it will crash.
 
 As this is a proof of concept, Explorer might crash. It's not recommended to run this on your machine; use a VM instead.
