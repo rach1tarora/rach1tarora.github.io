@@ -22,7 +22,7 @@ usemathjax: true
 
 > ## Overview KernelCallbackTable
 
-This method of process injection was used by [FinFisher/FinSpy](https://www.microsoft.com/security/blog/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/) and [Lazarus](https://blog.malwarebytes.com/threat-intelligence/2022/01/north-koreas-lazarus-apt-leverages-windows-update-client-github-in-latest-campaign/).
+This method of process injection was used by [FinFisher/FinSpy](https://www.microsoft.com/security/blog/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/) and [Lazarus](https://blog.malwarebytes.com/threat-intelligence/2022/01/north-koreas-lazarus-apt-leverages-windows-update-client-github-in-latest-campaign/)
 
 The _**kernelcallbacktable**_ is always configured when there are UI-related elements linked to the application and it is initialized to an array of functions when user32.dll is loaded into a GUI process. It is utilized to manage all pointers and structures involved in sending messages within a process, such as interprocess communication. This allows for messages to be sent between applications via the kernel callback.
 
