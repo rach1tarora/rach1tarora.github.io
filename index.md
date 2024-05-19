@@ -21,7 +21,7 @@ I post blogs <a href="/blog" style="color:red;" rel="noopener">here</a>  and my 
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
+[![Kernel-Callback-Table-Injection.png](https://i.postimg.cc/htm65gsB/Kernel-Callback-Table-Injection.png)](https://postimg.cc/VJYKJx2G)
 
 <br>
 
