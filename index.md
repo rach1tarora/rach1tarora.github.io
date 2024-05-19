@@ -21,8 +21,7 @@ I post blogs <a href="/blog" style="color:red;" rel="noopener">here</a>  and my 
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/LGOLR17"  ><a href="//imgur.com/a/LGOLR17"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
+![img](https://imgur.com/a/LGOLR17)
 <br>
 
 ### Work Experience
