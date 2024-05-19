@@ -26,7 +26,7 @@ This method of process injection was used by [FinFisher/FinSpy](https://www.mic
 
 The _**kernelcallbacktable**_ is always configured when there are UI-related elements linked to the application and it is initialized to an array of functions when user32.dll is loaded into a GUI process. It is utilized to manage all pointers and structures involved in sending messages within a process, such as interprocess communication. This allows for messages to be sent between applications via the kernel callback.
 
-The functions are invoked to perform various operations usually in response to window messages. For example, _**fnCOPYDATA**_ is executed in response to the _**WM_COPYDATA**_ message, so in the PoC, this function is replaced to demonstrate the injection. Finfisher uses the _**fnDWORD**_ function
+The functions are invoked to perform various operations usually in response to window messages. For example, _**fnCOPYDATA**_ is executed in response to the _**WM_COPYDATA**_ message, so in the PoC, this function is replaced to demonstrate the injection. Finfisher uses the _**fnDWORD**_ function.
 
 We simply duplicate the existing table or overwrite the address with our own payload in the kernelcallbacktable, set the _**fnCOPYDATA**_ function to address of payload, update the PEB with address of new table and invoke using _**WM_COPYDATA**_. By hooking into that table, we can define our own triggers, enabling us to send messages to the application, which will in turn execute our code.
 
