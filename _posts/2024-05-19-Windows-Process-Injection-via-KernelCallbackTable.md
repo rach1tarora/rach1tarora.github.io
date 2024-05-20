@@ -25,7 +25,9 @@ usemathjax: true
 
 ![img](https://i.imgur.com/1zzBNVX.png)
 
-Code can be found [here](https://github.com/rach1tarora/offensive-coding/blob/main/Windows/process_injection/KernelCallbackTable/code.c)
+Code can be found <a href="https://github.com/rach1tarora/offensive-coding/blob/main/Windows/process_injection/KernelCallbackTable/code.c" style="color:red;" rel="noopener">here</a> 
+
+<br> 
 
 This method of process injection was used by [FinFisher/FinSpy](https://www.microsoft.com/security/blog/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/) and [Lazarus](https://blog.malwarebytes.com/threat-intelligence/2022/01/north-koreas-lazarus-apt-leverages-windows-update-client-github-in-latest-campaign/)
 
