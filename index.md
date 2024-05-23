@@ -4,21 +4,6 @@ title: Personal Blog
 ---
 
 
-<head>
-
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4DCSC46ZDE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-4DCSC46ZDE');
-</script>
-  
-</head>
-
 ### whoami
 
 I'm Rachit Arora, and I have a keen interest in Security Research and Cloud security. My profile is mainly red side. 
