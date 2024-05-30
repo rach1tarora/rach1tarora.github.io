@@ -7,8 +7,6 @@ categories: jekyll update
 usemathjax: true
 ---
 
-<!-- # Windows Process injection via KernelCallbackTable -->
-
 ### Contents
 - [Overview](#overview-kernelcallbacktable)
 - [Finding KernelCallbackTable](#finding-kernelcallbacktable)
