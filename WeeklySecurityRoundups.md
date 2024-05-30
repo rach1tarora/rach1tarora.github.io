@@ -6,6 +6,8 @@ title: WeeklySecurityRoundups
 
 A long running series where I documented everything I did in my freetime for learning security.
 
+More updates. 
+
 
 <br>
 
