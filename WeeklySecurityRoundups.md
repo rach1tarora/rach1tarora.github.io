@@ -6,8 +6,6 @@ title: WeeklySecurityRoundups
 A long running series where I documented everything I did in my freetime for learning security.
 
 
-
-
 <br>
 
 WSR: #08 - April 01 2024 - April 07 2024
@@ -24,6 +22,7 @@ WSR: #07 - February 26 2024 - March 31 2024
 * Mentally prepared myself for the Masters Challenge in UMD
 * Cleared CRTP by alteredsecurity
 
+<br>
 
 WSR: #06 - February 19 2024 - February 25 2024
 * Published : February 26, 2024
