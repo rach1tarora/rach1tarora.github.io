@@ -6,13 +6,11 @@ title: Personal Blog
 
 ### whoami
 
-I'm Rachit Arora, and I have a keen interest in Security Research and Cloud security. My profile is mainly red side. 
+I'm Rachit and I like Cybersecurity.
 
 I'm currently an international graduate student @ University of Maryland, College Park studying M.Eng Cybersecurity. 
 
-My interests lies in pentesting, and cloud. I have done 4 internships, and have around 1 year of internship exp. I've done OSCP, CRTP, AZ500 and SC100. 
-
-I'm currently searching for hybrid internships in the Washington, D.C. area for the Winter of 2024.
+I'm currently searching for hybrid internships in the Washington, D.C. area for the Spring of 2025.
 
 
 I post blogs <a href="/blog" style="color:red;" rel="noopener">here</a>  and my  Linkedin -> <a href="#" class="fa fa-linkedin" href = "https://www.linkedin.com/in/rach1tarora/" target="_blank" rel="noopener" ></a> &nbsp;

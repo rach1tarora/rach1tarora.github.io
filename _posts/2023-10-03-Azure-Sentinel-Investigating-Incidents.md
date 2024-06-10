@@ -9,6 +9,27 @@ usemathjax: true
 
 > ## Overview
 
+- Created a CTF for NSS, which involved Forensic Analysis, Cryptography and Privilege Escalation ( Docker Container Breakout). 
+
+    - More information about the challenge and the badge <a href="https://www.credly.com/org/noshitsecurity/badge/rage" style="color:red;" rel="noopener">here</a> .
+
+- The first part of the  CTF will be finding a Private key(.pem) , which will grant them access to a Linux virtual machine (VM) hosted in Microsoft Azure.
+They will then have a four-hour window to solve the challenges in the VM and the access would be given by Just-in-time (JIT) in Azure.
+
+- The CTF comprised of the following Elements -
+
+    - **Digital Forensics** and **Cryptography** ( Steganography, Morse Code, Public Key Cryptography , basic encryption, hashing and validation techniques.) 
+    This will lead them to the Private key.
+
+    - Once inside the VM, they will have to **Docker Breakout** to break-out of the container and then perform a **Privilege Escalation**.
+
+- Everything in the VM is being monitored by **Microsoft Sentinel**.
+
+    - A blog has been published <a href="https://arorarachit.com/blog/azure-sentinel-investigating-incidents" style="color:red;" rel="noopener">here</a> , analyzing the observations drawn from individuals attempting to compromise the VM.
+    
+[![image.png](https://i.postimg.cc/1X509FjJ/image.png)](https://postimg.cc/zb6H7y5g)
+
+
 How does Incident page in Microsoft Sentinel help SOC?
 
 Sentinel offers a robust case management platform that covers the entire spectrum of tasks involved in investigating, prioritizing, and handling security incidents. 

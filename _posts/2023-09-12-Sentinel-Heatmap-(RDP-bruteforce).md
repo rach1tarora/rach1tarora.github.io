@@ -10,7 +10,13 @@ usemathjax: true
 
 During my college , I created a project on Azure that monitors and records all attempted RDP (Remote Desktop Protocol) bruteforce attacks, and then presents this data as a heatmap for easy visualization.
 
-This is a report not a guide.
+> ###  Brief Description
+
+- Used custom PowerShell script to extract metadata from Windows Event Viewer to be forwarded to third party API in order to derive geolocation data.
+
+- Configured Log Analytics Workspace in Azure to ingest custom logs containing geographic information (latitude, longitude, state/province, and country)
+
+- Used Azure Sentinel (Microsoft's cloud SIEM) workbook to display global attack data (RDP brute force) on world map according to physical location and magnitude of attack.
 
 [![image.png](https://i.postimg.cc/SKjddT3G/image.png)](https://postimg.cc/XZS978VZ)
 
