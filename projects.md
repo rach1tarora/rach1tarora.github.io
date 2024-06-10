@@ -5,7 +5,7 @@ title: projects
 
 ### **Projects**
 
-These are the projects which I have done/Working on.
+These are the projects which I have done/Working on. Those are listed down below
 
 
 > **Custom C2 Framework in C#**
