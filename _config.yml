@@ -64,7 +64,7 @@ Projects: /projects
 # Add general links to site pages here
 links:
   Projects: /projects
-  WeeklySecurityRoundups: /WeeklySecurityRoundups
+  MonthlySecurityRoundups: /MonthlySecurityRoundups
   Contact: /contact
 
 # Add links for more focus here

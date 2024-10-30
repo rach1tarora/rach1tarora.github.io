@@ -27,6 +27,31 @@ I post blogs <a href="/blog" style="color:red;" target="_blank" rel="noopener">h
 
 <br>
 
+### Talks and CTF
+
+> **OWASP Mumbai Talk - Introduction to Malware Analysis**
+
+* Presented at: OWASP Mumbai Online Meetup, Date: 26th October 2024 - Virtual
+* Windows architecture and internals, PE (Portable Executable), Static and Dynamic Analysis, RC4, AES, XOR, Live Demonstration, Payload Encryption/Obfuscation Techniques,CTF Binaries.
+* Watch the recording here: [Zoom Recording Link](https://us06web.zoom.us/rec/share/1e4BH0nsnGbopHDdUo1w8nWtyAvvl8nnBT5Bwk8sp2ns-ZJUmhvg0Ry3XrUUBxug.ddrWkkHFdl6MOZkY)  
+**Passcode:** Y..ff$2B
+
+
+> **Defcon 32 2024 CTF with Cloud Village - Key of Lost Secrets - Azure CTF**
+
+* Azure supports versioning for both keys and secrets. In this challenge, the flag is divided into two parts. One part is encrypted with versioned keys, and the other part is stored in versioned secrets. Participants must write a Python script to decrypt the encrypted message using the versioned keys for one half of the flag and the versioned secrets for the other half.
+* You can verify my contributions here: <a href="https://dc32.cloud-village.org/" style="color:red;" target="_blank" rel="noopener">dc32.cloud-village.org</a> and find the Challenge Repository: <a href="https://github.com/rach1tarora/ctfs-talks/tree/main/2024/Defcon32-Cloud%20Village" style="color:red;" target="_blank" rel="noopener">Github</a>
+
+
+
+> **RSA 2024 CTF with Cloud Village - BotSilverQuest - Azure CTF**
+
+* I created a CTF challenge where participants had to find a flag in a zip backup file stored in Azure Blob Storage. Despite the zip file being deleted, the storage had versioning enabled and it could be recovered.
+* This challenge highlighted how blob versioning can lead to sensitive data leakage through previous versions of the blob.
+* You can verify my contributions here: <a href="https://rsa2024.cloud-village.org/" style="color:red;" target="_blank" rel="noopener">rsa2024.cloud-village.org</a> and find the Challenge Repository: <a href="https://github.com/rach1tarora/ctfs-talks/tree/main/2024/RSA-2024-CloudVillage" style="color:red;" target="_blank" rel="noopener">Github</a>
+
+
+
 ### Certifications & CVEs
 
 > **CVE-2023-47184**
@@ -51,8 +76,7 @@ More information about CVE-2023-49743 <a href="https://www.cve.org/CVERecord?id=
 - <a href="https://www.credly.com/badges/fcfbfadf-81a1-490a-85c0-73ed7d2cebb5" target="_blank" rel="noopener">Microsoft Certified: Cybersecurity Architect Expert</a> (SC-100)
 - <a href="https://www.credly.com/badges/5b111be7-2ec8-441b-b77a-dbc61460dc7c" target="_blank" rel="noopener">Microsoft Certified: Security, Compliance, and Identity Fundamentals</a> (SC-900)
 - <a href="https://verified.elearnsecurity.com/certificates/f61e9c01-e250-4faa-99cb-869382a47ccd" target="_blank" rel="noopener">eLearnSecurity Junior Penetration Tester</a> (eJPT)
-
-All certifications can be verified on credly <a href="https://www.credly.com/users/rachit-arora.6027f270" style="color:red;" target="_blank" rel="noopener">here</a>
+* All certifications can be verified on credly <a href="https://www.credly.com/users/rachit-arora.6027f270" style="color:red;" target="_blank" rel="noopener">here</a>
 
 <br>
 

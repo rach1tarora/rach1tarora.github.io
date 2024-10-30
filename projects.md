@@ -8,10 +8,12 @@ title: projects
 These are the projects which I have done/Working on. Those are listed down below
 
 
-> **Custom C2 Framework in C#**
+> **Talks & Ctfs**
 
-- I'm currently developing a custom C2 framework in C#.
-- You can find the repository here: <a href="https://github.com/rach1tarora/C2-Framework" style="color:red;" rel="noopener" target="_blank">github.com/rach1tarora/C2-Framework</a>.
+- All the talks I presented and CTFs I created for various conferences like OWASP, Defcon, RSA. 
+
+- You can find the repository here: <a href="https://github.com/rach1tarora/ctfs-talks" style="color:red;" rel="noopener" target="_blank">github.com/rach1tarora/ctfs-talks</a>.
+
 
 <br>
 
@@ -20,16 +22,6 @@ These are the projects which I have done/Working on. Those are listed down below
 - I maintain a GitHub repository called "Offensive Coding" where I have various coding projects I've worked on. These projects include tools for Windows and Linux, shellcoding, Python scripting, and much more.
 
 - You can find the repository here: <a href="https://github.com/rach1tarora/offensive-coding" style="color:red;" rel="noopener" target="_blank">github.com/rach1tarora/offensive-coding</a>.
-
-<br>
-
-> **RSA 2024 CTF with Cloud Village - BotSilverQuest - Azure CTF**
-
-- I created a CTF challenge where participants had to find a flag in a zip backup file stored in Azure Blob Storage. Despite the zip file being deleted, the storage had versioning enabled and it could be recovered.
-
-- This challenge highlighted how blob versioning can lead to sensitive data leakage through previous versions of the blob.
-
-- You can verify my contributions here: <a href="https://rsa2024.cloud-village.org/" style="color:red;" rel="noopener" target="_blank">https://rsa2024.cloud-village.org/</a>.
 
 <br>
 
