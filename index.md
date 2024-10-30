@@ -8,7 +8,7 @@ title: Personal Blog
 I'm Rachit and I like Cybersecurity.
 I'm currently an international graduate student @ University of Maryland, College Park studying M.Eng Cybersecurity. 
 
-I'm currently looking for hybrid internships in the Washington, D.C. area for the Spring of 2025.
+I'm currently looking for hybrid internships/co-op in the Washington, D.C. area for the Spring of 2025.
 
 I post blogs <a href="/blog" style="color:red;" target="_blank" rel="noopener">here</a> and my LinkedIn -> <a href="https://www.linkedin.com/in/rach1tarora/" class="fa fa-linkedin" target="_blank" rel="noopener"></a> &nbsp;
 
