@@ -6,7 +6,6 @@ title: Personal Blog
 ### whoami
 
 I'm Rachit and I like Cybersecurity.
-
 I'm currently an international graduate student @ University of Maryland, College Park studying M.Eng Cybersecurity. 
 
 I'm currently looking for hybrid internships in the Washington, D.C. area for the Spring of 2025.
