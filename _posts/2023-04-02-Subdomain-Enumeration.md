@@ -6,7 +6,7 @@ tags: [web]
 description: Subdomain Enumeration
 ---
 
-> #### Using subfinder
+> #### Using subfinder.
 ```
 subfinder -d hltv.org -all -cs | tee  domains.txt
 ```
