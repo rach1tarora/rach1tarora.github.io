@@ -15,6 +15,15 @@ I post blogs <a href="/blog" style="color:red;" target="_blank" rel="noopener">h
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+
+<br>
+
+### Education
+
+* Master of Engineering (M.Eng.) in Cybersecurity @ University of Maryland, College Park - UMD [**Current**]
+* Bachelor's degree in Information Technology @ Sikkim Manipal Institute of Technology - SMU [**Graduated 2023**]
+
 <br>
 
 ### Work Experience
@@ -32,8 +41,7 @@ I post blogs <a href="/blog" style="color:red;" target="_blank" rel="noopener">h
 
 * Presented at: OWASP Mumbai Online Meetup, Date: 26th October 2024 - Virtual
 * Windows architecture and internals, PE (Portable Executable), Static and Dynamic Analysis, RC4, AES, XOR, Live Demonstration, Payload Encryption/Obfuscation Techniques,CTF Binaries.
-* Watch the recording here: [Zoom Recording Link](https://us06web.zoom.us/rec/share/1e4BH0nsnGbopHDdUo1w8nWtyAvvl8nnBT5Bwk8sp2ns-ZJUmhvg0Ry3XrUUBxug.ddrWkkHFdl6MOZkY)  
-**Passcode:** Y..ff$2B
+* Watch the recording here: <a href="https://us06web.zoom.us/rec/share/1e4BH0nsnGbopHDdUo1w8nWtyAvvl8nnBT5Bwk8sp2ns-ZJUmhvg0Ry3XrUUBxug.ddrWkkHFdl6MOZkY" style="color:red;" target="_blank" rel="noopener">Zoom Recording Link</a> **Passcode:** Y..ff$2B
 
 
 > **Defcon 32 2024 CTF with Cloud Village - Key of Lost Secrets - Azure CTF**
@@ -77,12 +85,21 @@ More information about CVE-2023-49743 <a href="https://www.cve.org/CVERecord?id=
 - <a href="https://verified.elearnsecurity.com/certificates/f61e9c01-e250-4faa-99cb-869382a47ccd" target="_blank" rel="noopener">eLearnSecurity Junior Penetration Tester</a> (eJPT)
 * All certifications can be verified on credly <a href="https://www.credly.com/users/rachit-arora.6027f270" style="color:red;" target="_blank" rel="noopener">here</a>
 
+
 <br>
 
-### Education
+### CTFs 
 
-* Master of Engineering (M.Eng.) in Cybersecurity @ University of Maryland, College Park - UMD [**Current**]
-* Bachelor's degree in Information Technology @ Sikkim Manipal Institute of Technology - SMU [**Graduated 2023**]
+
+- 2nd Place SANS x WICYS 2024
+- 5th BuckeyeCTF 2024
+- 4th SwampCTF 2024 
+- 10th LA CTF 2024
+- 1st CSAW CTF Qualification Round 2023 
+- 8th vsCTF 2023
+- 20 BlueHens CTF 2023
+
+
 
 <br>
 
