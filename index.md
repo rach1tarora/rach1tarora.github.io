@@ -28,6 +28,7 @@ I post blogs <a href="/blog" style="color:red;" target="_blank" rel="noopener">h
 
 ### Work Experience
 
+* Cloud CTF Engineer @ Cloud Village
 * Cybersecurity Intern @ Authbase
 * Azure Security Engineer Intern @ NoShitSecurity
 * Penetration Testing Intern @ Virtually Testing Foundation
@@ -46,15 +47,12 @@ I post blogs <a href="/blog" style="color:red;" target="_blank" rel="noopener">h
 
 > **Defcon 32 2024 CTF with Cloud Village - Key of Lost Secrets - Azure CTF**
 
-* Azure supports versioning for both keys and secrets. In this challenge, the flag is divided into two parts. One part is encrypted with versioned keys, and the other part is stored in versioned secrets. Participants must write a Python script to decrypt the encrypted message using the versioned keys for one half of the flag and the versioned secrets for the other half.
 * You can verify my contributions here: <a href="https://dc32.cloud-village.org/" style="color:red;" target="_blank" rel="noopener">dc32.cloud-village.org</a> and find the Challenge Repository: <a href="https://github.com/rach1tarora/ctfs-talks/tree/main/2024/Defcon32-Cloud%20Village" style="color:red;" target="_blank" rel="noopener">Github</a>
 
 
 
 > **RSA 2024 CTF with Cloud Village - BotSilverQuest - Azure CTF**
 
-* I created a CTF challenge where participants had to find a flag in a zip backup file stored in Azure Blob Storage. Despite the zip file being deleted, the storage had versioning enabled and it could be recovered.
-* This challenge highlighted how blob versioning can lead to sensitive data leakage through previous versions of the blob.
 * You can verify my contributions here: <a href="https://rsa2024.cloud-village.org/" style="color:red;" target="_blank" rel="noopener">rsa2024.cloud-village.org</a> and find the Challenge Repository: <a href="https://github.com/rach1tarora/ctfs-talks/tree/main/2024/RSA-2024-CloudVillage" style="color:red;" target="_blank" rel="noopener">Github</a>
 
 
