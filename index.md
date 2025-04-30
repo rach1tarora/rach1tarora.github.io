@@ -5,16 +5,13 @@ title: Personal Blog
 
 ### whoami
 
-I'm Rachit and I like Cybersecurity.
+I'm Rachit and I do security.
 I'm currently an international graduate student @ University of Maryland, College Park studying M.Eng Cybersecurity. 
-
-I'm currently looking for hybrid internships/co-op in the Washington, D.C. area for the Spring of 2025.
 
 I post blogs <a href="/blog" style="color:red;" target="_blank" rel="noopener">here</a> and my LinkedIn -> <a href="https://www.linkedin.com/in/rach1tarora/" class="fa fa-linkedin" target="_blank" rel="noopener"></a> &nbsp;
 
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 
 
 <br>
@@ -28,15 +25,21 @@ I post blogs <a href="/blog" style="color:red;" target="_blank" rel="noopener">h
 
 ### Work Experience
 
-* Cloud CTF Engineer @ Cloud Village
-* Cybersecurity Intern @ Authbase
-* Azure Security Engineer Intern @ NoShitSecurity
-* Penetration Testing Intern @ Virtually Testing Foundation
-* Intern @ Qualitykiosk
+* Security Engineer Intern at Amazon
+* Cloud CTF Engineer at Cloud Village
+* Cybersecurity Intern at Authbase
+* Azure Security Engineer Intern at NoShitSecurity
 
 <br>
 
-### Talks and CTF
+### Speaker and CTF Developer Experience
+
+> **Think You’re Stealthy? How to Detect Attacks in AD**
+
+* Presented at BsidesCharm 2025 by Rachit Arora, Aakash Raman, Sai Sathvik Ruppa.
+* As Active Directory attacks rise, red teamers often focus on “pwning” systems, but real-world engagements require understanding the artifacts these tools leave. In “ Think You’re Stealthy? How to Detect Attacks in AD“, we’ll explore the workings of commonly used AD pentest tools and the artifacts they leave behind. Ideal for anyone looking to deepen their knowledge of defense in AD environments.
+* You can find the slides here: <a href="https://github.com/rach1tarora/speaker-ctfdev/tree/main/2025/Talks/BsidesCharm" style="color:red;" target="_blank" rel="noopener">Github</a>
+
 
 > **OWASP Mumbai Talk - Introduction to Malware Analysis**
 
@@ -45,17 +48,11 @@ I post blogs <a href="/blog" style="color:red;" target="_blank" rel="noopener">h
 * Watch the recording here: <a href="https://us06web.zoom.us/rec/share/1e4BH0nsnGbopHDdUo1w8nWtyAvvl8nnBT5Bwk8sp2ns-ZJUmhvg0Ry3XrUUBxug.ddrWkkHFdl6MOZkY" style="color:red;" target="_blank" rel="noopener">Zoom Recording Link</a> **Passcode:** Y..ff$2B
 
 
-> **Defcon 32 2024 CTF with Cloud Village - Key of Lost Secrets - Azure CTF**
+> **CTFs I created with Cloud Village**
 
-* You can verify my contributions here: <a href="https://dc32.cloud-village.org/" style="color:red;" target="_blank" rel="noopener">dc32.cloud-village.org</a> and find the Challenge Repository: <a href="https://github.com/rach1tarora/ctfs-talks/tree/main/2024/Defcon32-Cloud%20Village" style="color:red;" target="_blank" rel="noopener">Github</a>
-
-
-
-> **RSA 2024 CTF with Cloud Village - BotSilverQuest - Azure CTF**
-
-* You can verify my contributions here: <a href="https://rsa2024.cloud-village.org/" style="color:red;" target="_blank" rel="noopener">rsa2024.cloud-village.org</a> and find the Challenge Repository: <a href="https://github.com/rach1tarora/ctfs-talks/tree/main/2024/RSA-2024-CloudVillage" style="color:red;" target="_blank" rel="noopener">Github</a>
-
-
+* Collection of CTFs I have built for different villages for various conferences like Defcon, RSA and bsides.
+* Windows architecture and internals, PE (Portable Executable), Static and Dynamic Analysis, RC4, AES, XOR, Live Demonstration, Payload Encryption/Obfuscation Techniques,CTF Binaries.
+* You can see all the challenges I made here <a href="https://github.com/rach1tarora/speaker-ctfdev" style="color:red;" target="_blank" rel="noopener">Github</a>
 
 ### Certifications & CVEs
 
@@ -74,6 +71,7 @@ More information about CVE-2023-49743 <a href="https://www.cve.org/CVERecord?id=
 
 > **Certifications**
 
+- <a href="https://www.credly.com/badges/b92a6f29-2eed-4f24-b756-930e7c88701e/public_url" target="_blank" rel="noopener">GIAC Foundational Cybersecurity Technologies</a> (GFACT)
 - <a href="https://www.credential.net/7a7f48e2-7cd8-4f6e-b7bf-c51ceb73cf9d" target="_blank" rel="noopener">Certified Red Team Professional</a> (CRTP)
 - <a href="https://www.credential.net/57148f07-f47e-497e-b34f-bb60c6ee28c3#gs.4w8fyh%5C" target="_blank" rel="noopener">OffSec Certified Professional</a> (OSCP)
 - <a href="https://www.credly.com/badges/1c258de3-a8dc-4586-b6a9-ff4d3a53c9b7" target="_blank" rel="noopener">Microsoft Certified: Azure Security Engineer Associate</a> (AZ-500)
