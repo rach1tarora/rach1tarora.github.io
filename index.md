@@ -51,7 +51,6 @@ I post blogs <a href="/blog" style="color:red;" target="_blank" rel="noopener">h
 > **CTFs I created with Cloud Village**
 
 * Collection of CTFs I have built for different villages for various conferences like Defcon, RSA and bsides.
-* Windows architecture and internals, PE (Portable Executable), Static and Dynamic Analysis, RC4, AES, XOR, Live Demonstration, Payload Encryption/Obfuscation Techniques,CTF Binaries.
 * You can see all the challenges I made here <a href="https://github.com/rach1tarora/speaker-ctfdev" style="color:red;" target="_blank" rel="noopener">Github</a>
 
 ### Certifications & CVEs
