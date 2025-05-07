@@ -17,7 +17,7 @@ Read and analyzed the blog: *Reverse Engineering Ticketmaster’s Rotating Barco
 Successfully cleared the **GIAC Foundational Cybersecurity Technologies (GFACT)** certification.
 Credential link: [Credly Badge](https://www.credly.com/badges/b92a6f29-2eed-4f24-b756-930e7c88701e/public_url)
 
-Developed five cloud-based challenges for security competitions:
+Developed five cloud-based challenges for conferences RSA, BsidesCharm, BsidesSF, BsidesMumbai:
 
 * **4 Azure** and **1 AWS** challenges for **Cloud Village**
 * Currently contributing to **Bsides Mumbai** as part of their CTF development team
