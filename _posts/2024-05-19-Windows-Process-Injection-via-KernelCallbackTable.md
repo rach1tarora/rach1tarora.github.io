@@ -21,7 +21,6 @@ usemathjax: true
 > ## Overview KernelCallbackTable
 
 
-![img](https://i.imgur.com/1zzBNVX.png)
 
 Code can be found <a href="https://github.com/rach1tarora/offensive-coding/blob/main/Windows/process_injection/KernelCallbackTable/code.c" style="color:red;" rel="noopener">here</a> 
 
