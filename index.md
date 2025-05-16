@@ -38,7 +38,7 @@ I post blogs <a href="/blog" style="color:red;" target="_blank" rel="noopener">h
 
 * Presented at BsidesCharm 2025 by Rachit Arora, Aakash Raman, Sai Sathvik Ruppa.
 * As Active Directory attacks rise, red teamers often focus on “pwning” systems, but real-world engagements require understanding the artifacts these tools leave. In “ Think You’re Stealthy? How to Detect Attacks in AD“, we’ll explore the workings of commonly used AD pentest tools and the artifacts they leave behind. Ideal for anyone looking to deepen their knowledge of defense in AD environments.
-* You can find the slides here: <a href="https://github.com/rach1tarora/speaker-ctfdev/tree/main/2025/Talks/BsidesCharm" style="color:red;" target="_blank" rel="noopener">Github</a>
+* You can find the slides here: <a href="https://github.com/rach1tarora/infosec-talks-and-ctfs/tree/main/2025/Talks/BsidesCharm" style="color:red;" target="_blank" rel="noopener">Github</a>
 
 
 > **OWASP Mumbai Talk - Introduction to Malware Analysis**
@@ -50,8 +50,8 @@ I post blogs <a href="/blog" style="color:red;" target="_blank" rel="noopener">h
 
 > **CTFs I created with Cloud Village**
 
-* Collection of CTFs I have built for different villages for various conferences like Defcon, RSA and bsides.
-* You can see all the challenges I made here <a href="https://github.com/rach1tarora/speaker-ctfdev" style="color:red;" target="_blank" rel="noopener">Github</a>
+* Collection of CTFs I have built for different villages for various conferences like Defcon, RSA and Bsides.
+* You can see all the challenges I made here <a href="https://github.com/rach1tarora/infosec-talks-and-ctfs" style="color:red;" target="_blank" rel="noopener">Github</a>
 
 ### Certifications & CVEs
 

@@ -12,7 +12,7 @@ These are the projects which I have done/Working on. Those are listed down below
 
 - All the talks I presented and CTFs I created for various conferences like OWASP, Defcon, RSA. 
 
-- You can find the repository here: <a href="https://github.com/rach1tarora/speaker-ctfdev" style="color:red;" rel="noopener" target="_blank">github.com/rach1tarora/speaker-ctfdev</a>.
+- You can find the repository here: <a href="https://github.com/rach1tarora/infosec-talks-and-ctfs" style="color:red;" rel="noopener" target="_blank">github.com/rach1tarora/infosec-talks-and-ctfs</a>.
 
 
 <br>
