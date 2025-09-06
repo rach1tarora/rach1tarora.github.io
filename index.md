@@ -27,8 +27,8 @@ I post blogs <a href="/blog" style="color:red;" target="_blank" rel="noopener">h
 
 * Security Engineer Intern at Amazon
 * Cloud CTF Engineer at Cloud Village
-* Cybersecurity Intern at Authbase
 * Azure Security Engineer Intern at NoShitSecurity
+* Intern at QualityKiosk
 
 <br>
 
@@ -87,13 +87,7 @@ More information about CVE-2023-49743 <a href="https://www.cve.org/CVERecord?id=
 
 
 - 2nd Place SANS x WICYS 2024
-- 5th BuckeyeCTF 2024
-- 4th SwampCTF 2024 
-- 10th LA CTF 2024
-- 1st CSAW CTF Qualification Round 2023 
-- 8th vsCTF 2023
-- 20 BlueHens CTF 2023
-
+- 79th Huntress CTF 2024
 
 
 <br>
