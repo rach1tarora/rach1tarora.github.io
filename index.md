@@ -88,9 +88,10 @@ More information about CVE-2023-49743 <a href="https://www.cve.org/CVERecord?id=
 
 ### CTFs 
 
-- 2nd Place SANS x WICYS 2024
+- 2nd Place at  <a href="https://ranges.io/profile/rachitarora" style="color:red;" target="_blank" rel="noopener">SANS x WICYS 2024</a>.
 - 79th Huntress CTF 2024
 - 1st with L3ak at  <a href="https://ctftime.org/event/2799" style="color:red;" target="_blank" rel="noopener">ImaginaryCTF 2025</a>.
+
 
 
 <br>
