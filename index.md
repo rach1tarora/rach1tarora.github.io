@@ -5,8 +5,9 @@ title: Personal Blog
 
 ### whoami
 
-I'm Rachit and I do security.
-I'm currently an international graduate student @ University of Maryland, College Park studying M.Eng Cybersecurity. 
+I'm Rachit currently an international graduate student @ University of Maryland, College Park studying M.Eng Cybersecurity. I will be graduating December 2025. Currently looking for **Full time security roles**.
+ 
+CTF's with <a href="https://ctftime.org/team/220336" style="color:red;" target="_blank" rel="noopener">L3ak CTF Team</a>.
 
 I post blogs <a href="/blog" style="color:red;" target="_blank" rel="noopener">here</a> and my LinkedIn -> <a href="https://www.linkedin.com/in/rach1tarora/" class="fa fa-linkedin" target="_blank" rel="noopener"></a> &nbsp;
 
@@ -18,7 +19,7 @@ I post blogs <a href="/blog" style="color:red;" target="_blank" rel="noopener">h
 
 ### Education
 
-* Master of Engineering (M.Eng.) in Cybersecurity @ University of Maryland, College Park - UMD [**Current**]
+* Master of Engineering (M.Eng.) in Cybersecurity @ University of Maryland, College Park - UMD [**Current**] 
 * Bachelor's degree in Information Technology @ Sikkim Manipal Institute of Technology - SMU [**Graduated 2023**]
 
 <br>
@@ -70,6 +71,8 @@ More information about CVE-2023-49743 <a href="https://www.cve.org/CVERecord?id=
 
 > **Certifications**
 
+- <a href="https://www.credly.com/badges/fa0dd931-f58a-4000-a9e5-48ab8e74bdd0/public_url" target="_blank" rel="noopener">GIAC Security Essentials Certification 
+</a> (GSEC)
 - <a href="https://www.credly.com/badges/b92a6f29-2eed-4f24-b756-930e7c88701e/public_url" target="_blank" rel="noopener">GIAC Foundational Cybersecurity Technologies</a> (GFACT)
 - <a href="https://www.credential.net/7a7f48e2-7cd8-4f6e-b7bf-c51ceb73cf9d" target="_blank" rel="noopener">Certified Red Team Professional</a> (CRTP)
 - <a href="https://www.credential.net/57148f07-f47e-497e-b34f-bb60c6ee28c3#gs.4w8fyh%5C" target="_blank" rel="noopener">OffSec Certified Professional</a> (OSCP)
@@ -85,9 +88,9 @@ More information about CVE-2023-49743 <a href="https://www.cve.org/CVERecord?id=
 
 ### CTFs 
 
-
 - 2nd Place SANS x WICYS 2024
 - 79th Huntress CTF 2024
+- 1st with L3ak at  <a href="https://ctftime.org/event/2799" style="color:red;" target="_blank" rel="noopener">ImaginaryCTF 2025</a>.
 
 
 <br>
