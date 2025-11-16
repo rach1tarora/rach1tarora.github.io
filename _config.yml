@@ -59,12 +59,13 @@ exclude:
 exclude: [vendor]
 
 Blog: /blog
+CTFs: /ctfs
+Notes: /notes
 Projects: /projects
 
 # Add general links to site pages here
 links:
   Projects: /projects
-  MonthlySecurityRoundups: /MonthlySecurityRoundups
   Contact: /contact
 
 # Add links for more focus here

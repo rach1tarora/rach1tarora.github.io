@@ -141,22 +141,50 @@ img {
 }
 
 code {
-    font-family: monospace;
-    padding: 2px;
-    background-color: #272822;
-    color: #222;
+    font-family: 'Courier New', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    padding: 3px 6px;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
     border-radius: 3px;
+    font-size: 0.9em;
+    border: 1px solid #3a3a3a;
+}
+
+pre {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 16px 20px;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin: 1.5em 0;
+    border: 1px solid #3a3a3a;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    line-height: 1.7;
+    font-size: 0.9em;
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+    color: #d4d4d4;
+    font-size: inherit;
+    border: none;
+    font-family: inherit;
 }
 
 .highlight,
 .code {
-    padding: 1px 15px;
-    background-color: #272822;
-    color: #222;
-    border-radius: 3px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    overflow:auto;
+    padding: 16px 20px;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    border-radius: 6px;
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
+    overflow: auto;
+    border: 1px solid #3a3a3a;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    line-height: 1.7;
+    font-size: 0.9em;
 }
 
 blockquote {
@@ -299,11 +327,30 @@ ul.discover-posts li small a {
     }
 
     code {
-        background-color: #272822;
+        background-color: #1e1e1e;
+        color: #d4d4d4;
+        border: 1px solid #3a3a3a;
+    }
+
+    pre {
+        background-color: #1e1e1e;
+        color: #d4d4d4;
+        border: 1px solid #3a3a3a;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
     }
 
     pre code {
-        color: #ddd;
+        background-color: transparent;
+        color: #d4d4d4;
+        border: none;
+    }
+
+    .highlight,
+    .code {
+        background-color: #1e1e1e;
+        color: #d4d4d4;
+        border: 1px solid #3a3a3a;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
     }
 
     blockquote {
@@ -348,19 +395,23 @@ small a {
     text-align: center;
 }
 
-.highlight pre { background-color: #272822; }
-.highlight .hll { background-color: #272822; }
-.highlight .c { color: #75715e } /* Comment */
+.highlight pre { 
+    background-color: #1e1e1e; 
+    border: 1px solid #3a3a3a;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+.highlight .hll { background-color: #2d2d2d; }
+.highlight .c { color: #6a9955 } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
 .highlight .k { color: #66d9ef } /* Keyword */
 .highlight .l { color: #ae81ff } /* Literal */
 .highlight .n { color: #f8f8f2 } /* Name */
 .highlight .o { color: #f92672 } /* Operator */
 .highlight .p { color: #f8f8f2 } /* Punctuation */
-.highlight .cm { color: #75715e } /* Comment.Multiline */
-.highlight .cp { color: #75715e } /* Comment.Preproc */
-.highlight .c1 { color: #75715e } /* Comment.Single */
-.highlight .cs { color: #75715e } /* Comment.Special */
+.highlight .cm { color: #6a9955 } /* Comment.Multiline */
+.highlight .cp { color: #6a9955 } /* Comment.Preproc */
+.highlight .c1 { color: #6a9955 } /* Comment.Single */
+.highlight .cs { color: #6a9955 } /* Comment.Special */
 .highlight .ge { font-style: italic } /* Generic.Emph */
 .highlight .gs { font-weight: bold } /* Generic.Strong */
 .highlight .kc { color: #66d9ef } /* Keyword.Constant */
@@ -410,6 +461,6 @@ small a {
 .highlight .il { color: #ae81ff } /* Literal.Number.Integer.Long */
 
 .highlight .gh { } /* Generic Heading & Diff Header */
-.highlight .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
+.highlight .gu { color: #6a9955; } /* Generic.Subheading & Diff Unified/Comment? */
 .highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */

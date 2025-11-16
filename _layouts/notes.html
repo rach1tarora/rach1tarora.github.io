@@ -10,15 +10,13 @@ layout: compress
 
     {{ content }}
 
-    <h2>Blog</h2>
-
     <div class="search-container" style="margin: 20px 0;">
-        <input type="text" id="blog-search" placeholder="Search blog posts..." style="width: 100%; padding: 10px; font-size: 16px; background-color: inherit; color: inherit; border: 1px dashed; border-radius: 4px;">
+        <input type="text" id="notes-search" placeholder="Search notes..." style="width: 100%; padding: 10px; font-size: 16px; background-color: inherit; color: inherit; border: 1px dashed; border-radius: 4px;">
     </div>
 
-    <ul class="blog-posts" id="blog-posts-list">
+    <ul class="blog-posts" id="notes-posts-list">
         {% for post in site.posts %}
-        {% unless post.tags contains 'notes' or post.tags contains 'ctf' %}
+        {% if post.tags contains 'notes' %}
         {% assign post_content = post.content | strip_html | strip_newlines | downcase %}
         <li data-title="{{ post.title | downcase | escape }}" data-content="{{ post_content | escape }}" data-date="{{ post.date | date: '%b %-d, %Y' }}">
             <span>
@@ -30,12 +28,12 @@ layout: compress
             </span>
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         </li>
-        {% endunless %}
+        {% endif %}
         {% endfor %}
     </ul>
 
     <div id="no-results" style="display: none; margin-top: 20px; color: #888; font-style: italic;">
-        No blog posts found matching your search.
+        No notes found matching your search.
     </div>
 
 </main>
@@ -46,9 +44,9 @@ layout: compress
 (function() {
     'use strict';
     
-    function initBlogSearch() {
-        var searchInput = document.getElementById('blog-search');
-        var postsList = document.getElementById('blog-posts-list');
+    function initNotesSearch() {
+        var searchInput = document.getElementById('notes-search');
+        var postsList = document.getElementById('notes-posts-list');
         var noResults = document.getElementById('no-results');
         
         if (!searchInput || !postsList) {
@@ -93,9 +91,9 @@ layout: compress
     }
     
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initBlogSearch);
+        document.addEventListener('DOMContentLoaded', initNotesSearch);
     } else {
-        initBlogSearch();
+        initNotesSearch();
     }
 })();
 </script>
@@ -103,3 +101,4 @@ layout: compress
 </body>
 
 </html>
+
