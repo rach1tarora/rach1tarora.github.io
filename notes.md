@@ -7,3 +7,4 @@ permalink: /notes
 
 Quick notes and snippets
 
+

@@ -141,16 +141,19 @@ img {
 }
 
 code {
-    font-family: 'Courier New', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    font-family: 'Courier New', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'Liberation Mono', monospace;
     padding: 3px 6px;
     background-color: #1e1e1e;
     color: #d4d4d4;
     border-radius: 3px;
     font-size: 0.9em;
     border: 1px solid #3a3a3a;
+    font-variant-ligatures: none;
+    font-feature-settings: normal;
 }
 
 pre {
+    font-family: 'Courier New', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'Liberation Mono', monospace;
     background-color: #1e1e1e;
     color: #d4d4d4;
     padding: 16px 20px;
@@ -161,19 +164,26 @@ pre {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     line-height: 1.7;
     font-size: 0.9em;
+    font-variant-ligatures: none;
+    font-feature-settings: normal;
+    white-space: pre;
+    word-wrap: normal;
 }
 
 pre code {
+    font-family: 'Courier New', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'Liberation Mono', monospace;
     background-color: transparent;
     padding: 0;
     color: #d4d4d4;
     font-size: inherit;
     border: none;
-    font-family: inherit;
+    font-variant-ligatures: none;
+    font-feature-settings: normal;
 }
 
 .highlight,
 .code {
+    font-family: 'Courier New', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'Liberation Mono', monospace;
     padding: 16px 20px;
     background-color: #1e1e1e;
     color: #d4d4d4;
@@ -185,6 +195,10 @@ pre code {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     line-height: 1.7;
     font-size: 0.9em;
+    font-variant-ligatures: none;
+    font-feature-settings: normal;
+    white-space: pre;
+    word-wrap: normal;
 }
 
 blockquote {
@@ -327,30 +341,46 @@ ul.discover-posts li small a {
     }
 
     code {
+        font-family: 'Courier New', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'Liberation Mono', monospace;
         background-color: #1e1e1e;
         color: #d4d4d4;
         border: 1px solid #3a3a3a;
+        font-variant-ligatures: none;
+        font-feature-settings: normal;
     }
 
     pre {
+        font-family: 'Courier New', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'Liberation Mono', monospace;
         background-color: #1e1e1e;
         color: #d4d4d4;
         border: 1px solid #3a3a3a;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+        font-variant-ligatures: none;
+        font-feature-settings: normal;
+        white-space: pre;
+        word-wrap: normal;
     }
 
     pre code {
+        font-family: 'Courier New', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'Liberation Mono', monospace;
         background-color: transparent;
         color: #d4d4d4;
+        font-variant-ligatures: none;
+        font-feature-settings: normal;
         border: none;
     }
 
     .highlight,
     .code {
+        font-family: 'Courier New', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'Liberation Mono', monospace;
         background-color: #1e1e1e;
         color: #d4d4d4;
         border: 1px solid #3a3a3a;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+        font-variant-ligatures: none;
+        font-feature-settings: normal;
+        white-space: pre;
+        word-wrap: normal;
     }
 
     blockquote {
@@ -395,10 +425,15 @@ small a {
     text-align: center;
 }
 
-.highlight pre { 
-    background-color: #1e1e1e; 
+.highlight pre {
+    font-family: 'Courier New', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'Liberation Mono', monospace;
+    background-color: #1e1e1e;
     border: 1px solid #3a3a3a;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    font-variant-ligatures: none;
+    font-feature-settings: normal;
+    white-space: pre;
+    word-wrap: normal;
 }
 .highlight .hll { background-color: #2d2d2d; }
 .highlight .c { color: #6a9955 } /* Comment */
