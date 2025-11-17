@@ -5,6 +5,7 @@ date: 2025-01-01 12:00:00 +0000
 tags: [ctf, cloud, azure]
 description: Writeup for the Cloud challenge "The Fall of the Great Wall" from PwnSec CTF 2025
 blood_count: 1
+permalink: /ctfs/:slug
 ---
 
 ## Challenge Overview
