@@ -187,5 +187,5 @@ flag{7h3r3_1n_7h3_m157_3n0rm0u5_m4j3571c_51l3n7_4nd_73rr1bl3_5700d_7h3_6r347_w4l
 ```
 
 ## Have any questions
-Do you have any questions? Feel free to reach out to me on [twitter](https://twitter.com/rach1tarora) or on [LinkedIn](https://www.linkedin.com/in/rach1tarora/).
+Do you have any questions? Feel free to reach out to me on {% include social-link.html platform="x" inline=true %} or on {% include social-link.html platform="linkedin" inline=true %}.
 

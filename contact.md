@@ -4,7 +4,7 @@ title: contact
 ---
 ### Contact me
 
-You can contact me on various platforms like twitter and LinkedIn or mail me at 
+You can contact me through the profiles below or email me at
 
 >  <a href = "mailto:arorarachit@outlook.com" target="_blank" rel="noopener"> arorarachit@outlook.com </a>
 or
@@ -12,20 +12,11 @@ or
  
 
 ### Socials
-<!-- Add font awesome icons -->
-* Twitter: <a href="#" class="fa fa-twitter" href = "https://twitter.com/rach1tarora" target="_blank" rel="noopener" ></a> &nbsp; 
-<br>
 
-* Linkedin:<a href="#" class="fa fa-linkedin" href = "https://www.linkedin.com/in/rach1tarora/" target="_blank" rel="noopener" ></a> &nbsp; 
-<br>
-
-* Github: <a href="#" class="fa fa-github" href = "https://github.com/rach1tarora" target="_blank" rel="noopener" ></a> &nbsp; 
-
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-
-
-
-
-<!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<ul class="contact-socials">
+  <li>{% include social-link.html platform="bugcrowd" %}</li>
+  <li>{% include social-link.html platform="github" %}</li>
+  <li>{% include social-link.html platform="linkedin" %}</li>
+  <li>{% include social-link.html platform="x" %}</li>
+</ul>
 

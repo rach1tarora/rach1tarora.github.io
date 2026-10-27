@@ -1,7 +1,6 @@
 <nav class="site-nav" aria-label="Primary navigation">
     <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Index</a>
     <a href="{{ site.SecurityResearch | relative_url }}"{% if page.url == site.SecurityResearch %} aria-current="page"{% endif %}>Research</a>
-    <a href="{{ site.Career | relative_url }}"{% if page.url == site.Career %} aria-current="page"{% endif %}>Career</a>
     <a href="{{ site.Blog | relative_url }}"{% if page.url == site.Blog %} aria-current="page"{% endif %}>Blog</a>
     <a href="{{ site.Projects | relative_url }}"{% if page.url == site.Projects %} aria-current="page"{% endif %}>Projects</a>
 </nav>

@@ -1,8 +1,11 @@
 <footer class="bottom-footer">
+    {% if include.back_to_blog %}<p><a href="{{ '/blog' | relative_url }}">← Back to all writings</a></p>{% endif %}
     <p class="footer-links">
         <a href="{{ '/contact' | relative_url }}">Contact</a>
-        <a href="https://github.com/rach1tarora" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://www.linkedin.com/in/rach1tarora/" target="_blank" rel="noopener">LinkedIn</a>
+        {% include social-link.html platform="bugcrowd" %}
+        {% include social-link.html platform="github" %}
+        {% include social-link.html platform="linkedin" %}
+        {% include social-link.html platform="x" %}
     </p>
     <p class="footer-meta">© {{ site.time | date: "%Y" }} Rachit Arora</p>
 </footer>

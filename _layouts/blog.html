@@ -18,7 +18,7 @@ layout: compress
 
     <ul class="blog-posts" id="blog-posts-list">
         {% for post in site.posts %}
-        {% unless post.tags contains 'notes' or post.tags contains 'ctf' %}
+        {% unless post.tags contains 'notes' %}
         {% assign post_content = post.content | strip_html | strip_newlines | downcase %}
         <li data-title="{{ post.title | downcase | escape }}" data-content="{{ post_content | escape }}" data-date="{{ post.date | date: '%b %-d, %Y' }}">
             <span>

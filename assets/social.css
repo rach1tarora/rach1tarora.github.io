@@ -1,0 +1,146 @@
+/* Brand silhouettes traced from the supplied reference images.
+   CSS geometry only: no logo images, icon fonts, or external requests. */
+.home-links,
+.timeline-links,
+.footer-links,
+.contact-socials {
+    align-items: baseline;
+}
+
+.home-links > a,
+.timeline-links > a,
+.footer-links > a,
+.social-link {
+    display: inline-block;
+    min-height: 44px;
+    padding-block: max(0px, calc((44px - 1.5em) / 2));
+    line-height: 1.5;
+    vertical-align: baseline;
+}
+
+.social-link {
+    --social-icon-size: 1.35em;
+    --social-icon-gap: 0.5em;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.social-link > .social-label + span {
+    margin-inline-start: var(--social-icon-gap);
+}
+
+.social-link .social-label {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #4f6fab;
+    text-underline-offset: 0.28em;
+}
+
+.social-link:hover,
+.social-link:focus-visible {
+    text-decoration: none;
+}
+
+.social-link:hover .social-label,
+.social-link:focus-visible .social-label {
+    text-decoration-color: var(--accent);
+}
+
+.social-link:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+    border-radius: 3px;
+}
+
+/* Keep the text links if CSS clipping is unavailable. */
+.social-icon {
+    display: none;
+}
+
+@supports (clip-path: polygon(evenodd, 0% 0%, 100% 0%, 100% 100%)) {
+    .social-icon {
+        position: relative;
+        display: inline-block;
+        width: var(--social-icon-size);
+        height: var(--social-icon-size);
+        margin-inline-end: var(--social-icon-gap);
+        /* Center the mark on the visible capitals, not the line's leading. */
+        vertical-align: calc((0.7em - var(--social-icon-size)) / 2);
+        color: #f4f5f7;
+        pointer-events: none;
+    }
+
+    .social-icon::before,
+    .social-icon::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+    }
+
+    .social-icon--bugcrowd::before {
+        background: #f26922;
+        clip-path: polygon(25% 6.667%, 75% 6.667%, 100% 50%, 75% 93.333%, 25% 93.333%, 0% 50%);
+    }
+
+    .social-icon--bugcrowd::after {
+        background: #fff;
+        clip-path: polygon(evenodd, 29.00% 22.67%, 40.00% 22.67%, 43.33% 25.00%, 43.67% 45.00%, 44.33% 45.00%, 46.67% 42.00%, 49.67% 40.33%, 52.00% 39.67%, 58.33% 39.67%, 63.67% 41.67%, 68.00% 46.00%, 69.67% 49.33%, 71.00% 54.33%, 71.00% 62.33%, 68.67% 69.33%, 64.67% 74.00%, 61.33% 76.00%, 58.00% 77.00%, 51.67% 77.00%, 46.67% 75.00%, 44.33% 72.33%, 43.67% 72.33%, 43.67% 76.67%, 34.67% 76.67%, 34.67% 31.67%, 33.33% 30.33%, 29.00% 30.33%, 29.00% 22.67%, 29.00% 22.67%, 52.33% 47.00%, 48.33% 48.33%, 45.67% 51.00%, 44.33% 54.33%, 44.00% 60.67%, 45.00% 64.33%, 47.67% 68.00%, 51.00% 69.67%, 55.00% 69.67%, 57.67% 68.67%, 60.33% 66.00%, 62.00% 62.00%, 62.33% 57.00%, 61.33% 52.67%, 60.00% 50.33%, 56.00% 47.33%, 52.33% 47.00%, 29.00% 22.67%);
+    }
+
+    .social-icon--github::before {
+        background: currentColor;
+        clip-path: polygon(evenodd, 45.80% 1.53%, 53.82% 1.53%, 65.27% 3.82%, 74.43% 8.02%, 79.01% 11.07%, 87.40% 19.08%, 91.22% 24.43%, 94.27% 30.15%, 97.33% 39.31%, 98.47% 47.33%, 98.09% 56.87%, 95.80% 66.41%, 92.37% 74.05%, 87.02% 81.68%, 81.68% 87.02%, 74.05% 92.37%, 67.18% 95.42%, 64.89% 95.42%, 62.98% 93.89%, 62.21% 77.10%, 61.07% 74.05%, 59.54% 71.76%, 57.63% 70.61%, 57.63% 69.85%, 61.45% 69.47%, 67.94% 66.79%, 73.66% 62.21%, 77.10% 56.87%, 78.63% 51.91%, 78.63% 44.27%, 77.48% 40.08%, 74.05% 34.73%, 74.81% 32.82%, 74.81% 24.81%, 73.66% 22.14%, 66.41% 23.28%, 62.21% 26.34%, 54.96% 24.81%, 45.42% 24.81%, 37.79% 26.34%, 33.21% 23.28%, 29.39% 22.14%, 25.95% 22.14%, 24.81% 26.34%, 25.57% 35.11%, 24.05% 36.64%, 21.37% 43.51%, 20.99% 49.62%, 21.76% 54.20%, 25.19% 61.07%, 29.39% 65.27%, 34.73% 68.32%, 41.22% 69.85%, 41.98% 70.61%, 36.64% 75.95%, 34.35% 77.10%, 30.92% 77.10%, 29.01% 76.34%, 23.66% 69.85%, 20.23% 67.94%, 16.03% 68.32%, 14.89% 69.08%, 14.89% 70.61%, 17.94% 71.37%, 19.85% 73.28%, 22.14% 79.01%, 26.34% 83.59%, 30.15% 85.11%, 35.88% 85.11%, 37.79% 84.35%, 37.79% 93.13%, 36.26% 95.04%, 33.21% 95.42%, 24.81% 91.60%, 17.94% 86.64%, 12.60% 81.30%, 8.02% 74.81%, 4.96% 68.70%, 2.29% 59.92%, 1.53% 54.96%, 1.53% 45.42%, 2.67% 38.55%, 5.34% 30.53%, 10.31% 21.76%, 18.32% 12.98%, 25.95% 7.63%, 37.02% 3.05%, 45.80% 1.53%, 45.80% 1.53%);
+    }
+
+    .social-icon--linkedin {
+        border-radius: 8%;
+        background-color: #0077b5;
+        /* The circular i dot and its straight stem. */
+        background-image: radial-gradient(circle closest-side, #fff 98%, transparent 100%), linear-gradient(#fff, #fff);
+        background-size: 16.77% 16.77%, 13.55% 47.1%;
+        background-position: 16.28% 15.5%, 17.17% 71.95%;
+        background-repeat: no-repeat;
+    }
+
+    .social-icon--linkedin::after {
+        background: #fff;
+        clip-path: polygon(64.52% 37.42%, 76.77% 38.71%, 80% 40.65%, 83.87% 45.81%, 85.16% 50.97%, 85.16% 85.16%, 71.61% 85.16%, 71.61% 56.77%, 68.39% 50.97%, 63.23% 49.03%, 56.13% 50.97%, 52.26% 57.42%, 52.26% 85.16%, 38.71% 85.16%, 38.71% 38.06%, 51.61% 38.06%, 51.61% 44.52%, 52.9% 44.52%, 52.9% 43.23%, 56.77% 40%, 64.52% 37.42%);
+    }
+
+    .social-icon--x::before {
+        background: currentColor;
+        clip-path: polygon(evenodd, 2.46% 1.09%, 30.60% 1.09%, 55.19% 37.16%, 86.34% 1.09%, 94.26% 1.09%, 59.56% 41.26%, 59.02% 42.90%, 97.54% 98.91%, 69.67% 98.91%, 43.44% 60.66%, 10.38% 98.91%, 2.46% 98.91%, 39.62% 55.74%, 2.46% 1.09%, 2.46% 1.09%, 14.75% 7.38%, 15.57% 9.56%, 72.40% 92.08%, 85.79% 92.62%, 27.60% 7.65%, 14.75% 7.38%, 2.46% 1.09%);
+    }
+}
+
+@supports (font-size: 1cap) {
+    .social-icon {
+        vertical-align: calc((1cap - var(--social-icon-size)) / 2);
+    }
+}
+
+.social-link--inline {
+    --social-icon-size: 1em;
+    --social-icon-gap: 0.3em;
+    min-height: 0;
+    padding-block: 0;
+    line-height: inherit;
+}
+
+.contact-socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem 1.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+@media (forced-colors: active) {
+    .social-icon {
+        display: none;
+    }
+
+    .social-link .social-label {
+        text-decoration-color: LinkText;
+    }
+}

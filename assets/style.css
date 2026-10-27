@@ -845,8 +845,140 @@ a:focus-visible {
     font-size: 0.92rem;
 }
 
+.timeline-links {
+    margin: 0.65rem 0 0;
+    font-size: 0.9rem;
+}
+
 .company-name {
     color: #54b7e7;
+}
+
+/* CSS outlines traced from the supplied wordmark; no font or image download. */
+.amazon-lockup {
+    position: relative;
+    display: inline-block;
+    margin-inline: 0.08em 0.05em;
+    color: #f4f5f7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.065em;
+    white-space: nowrap;
+}
+
+@supports (clip-path: polygon(evenodd, 0% 0%, 100% 0%, 100% 100%)) {
+    .amazon-lockup {
+        width: 3.8em;
+        height: 1.15em;
+        /* Lettering ends at 58.94% of the silhouette. Align that edge to
+           the text baseline; the remaining 41.06% is the smile below it. */
+        vertical-align: -0.472em;
+    }
+
+    .amazon-lockup > span {
+        /* Keep the text as a fallback while the CSS silhouettes are displayed. */
+        position: absolute;
+        opacity: 0;
+    }
+
+    .amazon-lockup::before,
+    .amazon-lockup::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+    }
+
+    .amazon-lockup::before {
+        background: currentColor;
+        clip-path: polygon(evenodd,
+            0% 0%, 6.40% 0.00%, 8.30% 0.00%, 10.50% 1.66%, 11.80% 3.97%,
+            12.60% 6.62%, 13.30% 11.26%, 13.50% 15.56%, 13.50% 41.39%, 13.90% 45.03%,
+            14.80% 48.68%, 14.80% 50.66%, 12.10% 58.28%, 11.50% 58.28%, 10.30% 54.30%,
+            9.80% 51.32%, 8.60% 54.97%, 6.90% 57.95%, 6.00% 58.61%, 3.20% 58.28%,
+            1.70% 55.96%, 0.90% 53.31%, 0.20% 48.68%, 0.00% 45.36%, 0.20% 37.09%,
+            0.70% 33.11%, 1.90% 28.48%, 3.00% 26.16%, 4.70% 24.17%, 9.10% 22.52%,
+            9.00% 14.90%, 8.30% 11.92%, 7.40% 10.93%, 6.10% 11.26%, 5.30% 12.58%,
+            4.90% 13.91%, 4.30% 18.87%, 1.20% 18.21%, 0.50% 16.89%, 0.80% 11.92%,
+            2.20% 5.30%, 4.40% 1.32%, 6.40% 0.00%, 0% 0%, 47.00% 0.00%,
+            48.90% 0.00%, 51.30% 1.99%, 53.00% 5.96%, 53.80% 10.60%, 54.00% 13.58%,
+            54.00% 39.74%, 54.30% 44.04%, 55.30% 48.34%, 55.40% 50.33%, 52.70% 58.28%,
+            52.10% 58.28%, 51.70% 57.28%, 50.40% 51.32%, 48.40% 56.62%, 47.10% 58.28%,
+            44.20% 58.61%, 43.40% 57.95%, 41.70% 54.30%, 40.70% 48.01%, 40.60% 39.07%,
+            40.80% 36.42%, 41.50% 31.79%, 42.60% 28.15%, 44.90% 24.50%, 49.70% 22.19%,
+            49.60% 15.23%, 49.00% 12.25%, 48.00% 10.93%, 47.10% 10.93%, 46.00% 12.25%,
+            45.40% 14.24%, 44.80% 18.87%, 41.80% 18.21%, 41.10% 16.89%, 41.40% 11.59%,
+            42.10% 7.62%, 42.90% 4.97%, 44.70% 1.66%, 47.00% 0.00%, 0% 0%,
+            24.30% 0.66%, 26.20% 0.66%, 27.30% 1.99%, 28.60% 5.96%, 29.20% 9.93%,
+            29.90% 5.96%, 30.70% 3.31%, 32.60% 0.66%, 34.40% 0.66%, 35.40% 1.66%,
+            37.10% 5.96%, 37.60% 8.94%, 37.90% 13.58%, 37.90% 56.62%, 37.70% 57.62%,
+            34.00% 57.95%, 33.60% 56.62%, 33.60% 18.54%, 33.30% 15.89%, 32.40% 13.91%,
+            30.70% 14.57%, 30.00% 16.89%, 29.70% 19.54%, 29.60% 56.95%, 29.30% 57.95%,
+            25.50% 57.62%, 25.30% 56.29%, 25.30% 19.54%, 25.00% 16.23%, 24.40% 14.24%,
+            23.80% 13.58%, 22.30% 14.57%, 21.80% 16.23%, 21.40% 19.87%, 21.30% 56.95%,
+            21.00% 57.95%, 17.40% 57.95%, 17.10% 57.28%, 17.00% 3.31%, 17.40% 1.66%,
+            20.80% 1.66%, 21.10% 2.65%, 21.20% 10.26%, 21.50% 7.28%, 22.50% 3.31%,
+            24.30% 0.66%, 0% 0%, 76.80% 0.66%, 79.50% 0.99%, 81.90% 4.64%,
+            83.70% 11.59%, 84.50% 17.88%, 84.90% 24.17%, 84.90% 36.09%, 83.80% 47.35%,
+            82.90% 51.66%, 81.70% 55.30%, 80.20% 57.95%, 79.00% 58.94%, 76.20% 58.61%,
+            73.80% 54.64%, 72.10% 47.68%, 71.30% 41.06%, 71.00% 36.09%, 71.00% 23.18%,
+            71.40% 17.22%, 72.20% 11.26%, 73.90% 4.64%, 75.30% 1.99%, 76.80% 0.66%,
+            0% 0%, 94.60% 0.66%, 96.50% 0.66%, 97.90% 2.32%, 99.00% 5.63%,
+            99.70% 10.26%, 100.00% 16.56%, 100.00% 56.95%, 99.70% 57.95%, 96.10% 57.95%,
+            95.80% 57.28%, 95.60% 18.21%, 94.80% 14.24%, 93.40% 13.58%, 92.30% 15.89%,
+            91.60% 21.85%, 91.50% 56.95%, 91.20% 57.95%, 87.60% 57.95%, 87.30% 56.95%,
+            87.30% 2.65%, 87.60% 1.66%, 91.00% 1.66%, 91.30% 2.65%, 91.40% 10.93%,
+            91.90% 6.95%, 92.70% 3.64%, 94.60% 0.66%, 0% 0%, 58.00% 1.66%,
+            68.90% 1.66%, 69.10% 2.32%, 69.00% 11.92%, 63.20% 38.74%, 63.20% 39.40%,
+            65.30% 39.74%, 67.20% 41.06%, 69.00% 43.71%, 69.40% 45.36%, 69.40% 55.63%,
+            69.10% 56.62%, 66.80% 53.64%, 64.00% 51.99%, 61.10% 52.65%, 59.00% 54.64%,
+            57.90% 56.62%, 57.30% 55.96%, 57.30% 43.38%, 63.60% 13.58%, 63.60% 12.91%,
+            58.10% 12.91%, 57.80% 11.92%, 57.80% 2.65%, 58.00% 1.66%, 0% 0%,
+            77.70% 11.26%, 76.80% 12.25%, 76.20% 14.24%, 75.80% 17.22%, 75.50% 22.85%,
+            75.50% 35.10%, 75.80% 41.39%, 76.60% 46.69%, 77.30% 48.01%, 78.50% 48.01%,
+            79.60% 45.36%, 80.10% 41.72%, 80.40% 35.43%, 80.40% 24.83%, 79.70% 14.24%,
+            78.70% 11.59%, 77.70% 11.26%, 0% 0%, 7.70% 30.79%, 5.90% 32.45%,
+            4.80% 36.09%, 4.50% 40.07%, 4.60% 43.71%, 4.90% 46.03%, 5.70% 48.01%,
+            6.80% 48.34%, 7.60% 47.35%, 8.80% 42.38%, 9.10% 38.74%, 9.10% 30.79%,
+            7.70% 30.79%, 0% 0%, 48.20% 30.79%, 46.30% 32.78%, 45.30% 36.42%,
+            45.10% 43.05%, 45.40% 45.70%, 46.20% 48.01%, 47.40% 48.34%, 48.00% 47.68%,
+            48.90% 45.03%, 49.40% 42.05%, 49.70% 37.75%, 49.70% 30.79%, 48.20% 30.79%,
+            0% 0%);
+    }
+
+    .amazon-lockup::after {
+        background: #ff9900;
+        clip-path: polygon(evenodd,
+            0% 0%, 62.40% 60.26%, 65.80% 60.93%, 66.70% 61.92%, 67.10% 63.58%,
+            67.00% 71.85%, 66.20% 80.46%, 64.80% 88.41%, 63.40% 92.72%, 62.90% 92.38%,
+            62.90% 90.73%, 64.40% 77.48%, 64.60% 69.54%, 64.00% 67.88%, 63.10% 67.22%,
+            57.20% 67.88%, 57.20% 66.56%, 57.60% 65.23%, 58.90% 62.91%, 62.40% 60.26%,
+            0% 0%, 14.20% 63.91%, 14.90% 63.91%, 20.20% 73.18%, 25.70% 79.80%,
+            31.50% 84.44%, 36.70% 86.75%, 44.00% 87.09%, 46.50% 86.42%, 54.50% 81.46%,
+            57.80% 78.15%, 61.50% 73.18%, 62.10% 73.51%, 62.50% 76.16%, 61.60% 79.47%,
+            58.30% 86.09%, 54.70% 91.39%, 51.00% 95.36%, 44.70% 99.34%, 42.30% 100.00%,
+            37.30% 99.67%, 31.00% 96.36%, 28.20% 93.71%, 23.90% 88.08%, 20.00% 81.13%,
+            16.40% 72.85%, 14.10% 66.23%, 14.20% 63.91%, 0% 0%);
+    }
+}
+
+@media (forced-colors: active) {
+    .amazon-lockup {
+        width: auto;
+        height: auto;
+        color: CanvasText;
+        vertical-align: baseline;
+    }
+
+    .amazon-lockup > span {
+        position: static;
+        opacity: 1;
+    }
+
+    .amazon-lockup::before,
+    .amazon-lockup::after {
+        content: none;
+    }
 }
 
 .card-grid {
@@ -982,6 +1114,7 @@ a:focus-visible {
 }
 
 .home-links,
+.timeline-links,
 .footer-links {
     display: flex;
     flex-wrap: wrap;
@@ -1007,24 +1140,71 @@ a:focus-visible {
     color: var(--muted);
 }
 
-.cve-preview-header {
+.research-teaser > .section-heading {
+    margin-bottom: 1.25rem;
+}
+
+.research-teaser-summary {
+    margin: 0 0 0.8rem;
+    color: #9ba5c4;
+    font-size: 0.9rem;
+}
+
+.research-teaser-list {
+    max-width: 72rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid var(--line);
+}
+
+.research-teaser-list > li {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: start;
+    gap: 0.4rem 1rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.research-teaser-identity {
     display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 0.75rem;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 1rem;
+    min-width: 0;
 }
 
-.cve-preview-header h3 {
-    margin-bottom: 0.8rem;
+.research-teaser-identity > a {
+    display: inline-flex;
+    align-items: center;
+    min-width: 0;
+    max-width: 100%;
+    min-height: 44px;
+    font-size: 0.9rem;
+    overflow-wrap: anywhere;
 }
 
-.research-preview-card .cve-preview-type {
-    color: var(--muted);
-    font-size: 0.76rem;
+.research-teaser-list .severity-badge {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
 }
 
-.research-preview-card > p:last-child {
-    margin-top: 0.85rem;
+.research-teaser-product {
+    color: #9ba5c4;
+    font-size: 0.82rem;
+}
+
+.research-teaser > .section-note {
+    margin-top: 0.65rem;
+}
+
+.research-teaser > .section-note > a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 44px;
 }
 
 table:not(.portfolio-table) {
@@ -1129,7 +1309,7 @@ table:not(.portfolio-table) td {
         margin-bottom: 4rem;
     }
 
-    .cve-preview-header {
+    .research-teaser-identity {
         align-items: flex-start;
         flex-direction: column;
         gap: 0;

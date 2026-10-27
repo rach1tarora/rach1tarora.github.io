@@ -6,10 +6,12 @@ description: Security engineer working on red teaming, penetration testing, and 
 
 <header class="home-hero">
   <h1 class="home-name">RACHIT ARORA</h1>
-  <p class="home-intro">I'm a Security Engineer at Amazon working on red teaming and penetration testing. I also research vulnerabilities, build CTF challenges, and play with <a href="https://ctftime.org/team/220336" target="_blank" rel="noopener">L3ak</a>.</p>
+  <p class="home-intro">I'm a Security Engineer at Amazon working on red teaming and penetration testing. I also do independent security research, build CTF challenges, and play with <a href="https://ctftime.org/team/220336" target="_blank" rel="noopener">L3ak</a>.</p>
   <p class="home-links">
-    <a href="https://github.com/rach1tarora" target="_blank" rel="noopener">GitHub</a>
-    <a href="https://www.linkedin.com/in/rach1tarora/" target="_blank" rel="noopener">LinkedIn</a>
+    {% include social-link.html platform="github" %}
+    {% include social-link.html platform="bugcrowd" %}
+    {% include social-link.html platform="linkedin" %}
+    {% include social-link.html platform="x" %}
     <a href="{{ '/contact' | relative_url }}">Contact</a>
   </p>
 </header>
@@ -18,38 +20,52 @@ description: Security engineer working on red teaming, penetration testing, and 
   <h2 id="home-career-heading" class="section-heading">CAREER</h2>
   <div class="timeline">
     <article class="timeline-entry featured">
-      <h3>Security Engineer @ <span class="company-name">Amazon</span></h3>
-      <p class="entry-status">Present</p>
+      <h3>Security Engineer @ <span class="amazon-lockup" role="img" aria-label="Amazon"><span aria-hidden="true">amazon</span></span></h3>
+      <p class="entry-status">Feb 2026 – Present</p>
       <p class="timeline-description">Red teaming and penetration testing.</p>
     </article>
     <article class="timeline-entry">
+      <h3>Independent Security Researcher</h3>
+      <p class="entry-status">Jan 2024 – Present</p>
+      <p class="timeline-description">Vulnerability research and coordinated disclosure.</p>
+      <p class="timeline-links">
+        {% include social-link.html platform="bugcrowd" %}
+        {% include social-link.html platform="github" %}
+      </p>
+    </article>
+    <article class="timeline-entry">
       <h3>Crew @ Cloud Village</h3>
-      <p class="entry-status">Present</p>
+      <p class="entry-status">Jan 2024 – Present</p>
       <p class="timeline-description">Building security challenges for villages at DEF CON, RSA Conference, and BSides.</p>
     </article>
     <article class="timeline-entry">
-      <h3>Azure Security Engineer Intern @ NoShitSecurity</h3>
-      <p class="entry-status">Past</p>
+      <h3>Security Engineer Intern @ <span class="amazon-lockup" role="img" aria-label="Amazon"><span aria-hidden="true">amazon</span></span></h3>
+      <p class="entry-status">June 2025 – Aug 2025</p>
     </article>
   </div>
-  <p class="section-note"><a href="{{ '/career' | relative_url }}">View full career</a></p>
 </section>
 
-<section class="portfolio-section" aria-labelledby="home-research-heading">
+{% assign home_cve_count = 0 %}
+{% for finding in site.data.cves %}
+  {% if finding.cve_url %}{% assign home_cve_count = home_cve_count | plus: 1 %}{% endif %}
+{% endfor %}
+{% assign home_pending_count = site.data.cves.size | minus: home_cve_count %}
+
+<section class="portfolio-section research-teaser" aria-labelledby="home-research-heading">
   <h2 id="home-research-heading" class="section-heading">SECURITY RESEARCH</h2>
-  <div class="card-grid projects-grid research-preview-grid">
-    {% for cve in site.data.cves limit: 3 %}
-    <article class="portfolio-card research-preview-card{% if forloop.first %} featured{% endif %}">
-      <div class="cve-preview-header">
-        <h3><a href="{{ cve.url }}" target="_blank" rel="noopener">{{ cve.id }}</a></h3>
-        <span class="severity-badge severity-{{ cve.severity | downcase }}">{{ cve.severity }}</span>
+  <p class="research-teaser-summary">{{ home_cve_count }} {% if home_cve_count == 1 %}CVE{% else %}CVEs{% endif %}{% if home_pending_count > 0 %} · {{ home_pending_count }} {% if home_pending_count == 1 %}advisory{% else %}advisories{% endif %} awaiting a CVE{% endif %}</p>
+  <ul class="research-teaser-list" aria-label="Recent vulnerability disclosures">
+    {% for cve in site.data.cves limit: 2 %}
+    <li>
+      <div class="research-teaser-identity">
+        <a href="{% if cve.cve_url %}{{ cve.cve_url }}{% else %}{{ cve.url }}{% endif %}" target="_blank" rel="noopener">{{ cve.id }}</a>
+        <span class="research-teaser-product">{{ cve.product | escape }}</span>
       </div>
-      <p class="cve-preview-type">{{ cve.type }} · {{ cve.cvss }}</p>
-      <p>{{ cve.summary }}</p>
-    </article>
+      <span class="severity-badge severity-{{ cve.severity | downcase }}">{{ cve.severity }}</span>
+    </li>
     {% endfor %}
-  </div>
-  <p class="section-note"><a href="{{ '/security-research' | relative_url }}">View all CVEs and security research</a></p>
+  </ul>
+  <p class="section-note"><a href="{{ '/security-research' | relative_url }}">View all research <span aria-hidden="true">→</span></a></p>
 </section>
 
 <section class="portfolio-section" aria-labelledby="home-certifications-heading">
@@ -96,7 +112,6 @@ description: Security engineer working on red teaming, penetration testing, and 
       <p>eLearnSecurity Junior Penetration Tester</p>
     </article>
   </div>
-  <p class="section-note"><a href="{{ '/career' | relative_url }}#certifications-heading">View certification details</a></p>
 </section>
 
 <section class="portfolio-section" aria-labelledby="home-community-heading">
@@ -110,12 +125,7 @@ description: Security engineer working on red teaming, penetration testing, and 
       <h3><a href="https://github.com/rach1tarora/infosec-talks-and-ctfs">Cloud Village CTFs</a></h3>
       <p>Security challenges built for villages at DEF CON, RSA Conference, and BSides.</p>
     </article>
-    <article class="portfolio-card">
-      <h3><a href="https://ctftime.org/event/2799">CTF Competitions</a></h3>
-      <p>1st place with L3ak at ImaginaryCTF 2025 and 2nd place at SANS x WiCyS 2024.</p>
-    </article>
   </div>
-  <p class="section-note"><a href="{{ '/career' | relative_url }}#talks-heading">View talks and CTF work</a></p>
 </section>
 
 <section class="portfolio-section" aria-labelledby="home-education-heading">

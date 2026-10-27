@@ -1,0 +1,4 @@
+{%- assign social = site.data.socials[include.platform] -%}
+{%- if social -%}
+<a class="social-link{% if include.inline %} social-link--inline{% endif %}{% if include.class %} {{ include.class | escape }}{% endif %}" href="{{ social.url | escape }}" target="_blank" rel="noopener"><span class="social-icon social-icon--{{ include.platform | escape }}" aria-hidden="true"></span><span class="social-label">{{ include.label | default: social.label | escape }}</span>{% if include.arrow %}<span aria-hidden="true">↗</span>{% endif %}</a>
+{%- endif -%}
