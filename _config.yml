@@ -59,6 +59,8 @@ exclude:
 exclude: [vendor]
 
 Blog: /blog
+Career: /career
+SecurityResearch: /security-research
 CTFs: /ctfs
 Notes: /notes
 Projects: /projects

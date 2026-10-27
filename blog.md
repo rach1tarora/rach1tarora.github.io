@@ -5,4 +5,4 @@ description: Here be writings
 permalink: /blog
 ---
 
-Here is my stuff
+Security write-ups, notes, and things I learn along the way.

@@ -1,15 +1,7 @@
-<h2 class="title">{{ site.title }}</h2>
-<nav>
-    <a href="{{ site.url }}">Home</a> 
-    <a href="{{ site.url }}{{ site.Blog }}">Blog</a>
-    <a href="{{ site.url }}{{ site.Notes }}">Notes</a>
-    <a href="{{ site.url }}{{ site.CTFs }}">CTFs</a>
-
-    {% for link in site.links %}
-        <a href="{{ site.url }}{{ link[1] }}">{{ link[0] }}</a>
-    {% endfor %}
-    
-    {% for link in site.special_links %}
-            <a href="{{ link[1] }}">[{{ link[0] }}]</a>
-    {% endfor %}
+<nav class="site-nav" aria-label="Primary navigation">
+    <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Index</a>
+    <a href="{{ site.SecurityResearch | relative_url }}"{% if page.url == site.SecurityResearch %} aria-current="page"{% endif %}>Research</a>
+    <a href="{{ site.Career | relative_url }}"{% if page.url == site.Career %} aria-current="page"{% endif %}>Career</a>
+    <a href="{{ site.Blog | relative_url }}"{% if page.url == site.Blog %} aria-current="page"{% endif %}>Blog</a>
+    <a href="{{ site.Projects | relative_url }}"{% if page.url == site.Projects %} aria-current="page"{% endif %}>Projects</a>
 </nav>

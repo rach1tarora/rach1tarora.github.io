@@ -1,60 +1,37 @@
 ---
 layout: default
-title: projects
+title: Projects
+description: Security tools, labs, CTFs, and other projects by Rachit Arora.
+permalink: /projects
 ---
 
-### **Projects**
+<header class="page-intro">
+    <h1>PROJECTS</h1>
+    <p>Security tools, labs, CTFs, and other things I have worked on.</p>
+</header>
 
-These are the projects which I have done/Working on. Those are listed down below
-
-
-> **Talks & Ctfs**
-
-- All the talks I presented and CTFs I created for various conferences like OWASP, Defcon, RSA. 
-
-- You can find the repository here: <a href="https://github.com/rach1tarora/infosec-talks-and-ctfs" style="color:red;" rel="noopener" target="_blank">github.com/rach1tarora/infosec-talks-and-ctfs</a>.
-
-
-<br>
-
-> **Offensive Coding**
-
-- I maintain a GitHub repository called "Offensive Coding" where I have various coding projects I've worked on. These projects include tools for Windows and Linux, shellcoding, Python scripting, and much more.
-
-- You can find the repository here: <a href="https://github.com/rach1tarora/offensive-coding" style="color:red;" rel="noopener" target="_blank">github.com/rach1tarora/offensive-coding</a>.
-
-<br>
-
-> **Sentinel Heatmap (RDP Bruteforce)**    
-
-- During my college, I created a project on Azure that monitors and records all attempted RDP (Remote Desktop Protocol) bruteforce attacks, and then presents this data as a heatmap for easy visualization.
-
-- More information and the report: <a href="https://arorarachit.com/blog/sentinel-heatmap-rdp-bruteforce" style="color:red;" rel="noopener" target="_blank">here</a>.
-
-[![image.png](https://i.postimg.cc/SKjddT3G/image.png)](https://postimg.cc/XZS978VZ)
-
-<br>
-
-> **Tempus CTF**
-    
-- Created a CTF for NSS, which involved Forensic Analysis, Cryptography, and Privilege Escalation (Docker Container Breakout).
-
-- More information about the challenge and the badge: <a href="https://www.credly.com/org/noshitsecurity/badge/rage" style="color:red;" rel="noopener" target="_blank">here</a>.
-
-- A blog has been published: <a href="https://arorarachit.com/blog/azure-sentinel-investigating-incidents" style="color:red;" rel="noopener" target="_blank">here</a>, analyzing the observations drawn from individuals attempting to compromise the VM.
-
-[![image.png](https://i.postimg.cc/1X509FjJ/image.png)](https://postimg.cc/zb6H7y5g)
-
-<br>
-
-> **Active Directory Homelab**
-
-- Gained hands-on experience and established a strong foundation by setting up an Active Directory Homelab.
-
-- Learnt about Enumeration, Lateral Movement, Domain Privesc, and Persistence.
-
-- Practiced attacks like Kerberoasting, AS-REP Roasting, and DCSync and utilized tools like BloodHound, SharpHound, Powerview, and ADModule.
-
-- Fixed the vulnerabilities to explore the defensive aspect of the process.
-
-<br>
+<section class="portfolio-section" aria-labelledby="projects-heading">
+    <h2 id="projects-heading" class="section-heading">SIDE PROJECTS &amp; TOOLING</h2>
+    <div class="card-grid projects-grid">
+        <article class="portfolio-card featured">
+            <h3><a href="https://github.com/rach1tarora/offensive-coding">Offensive Coding</a></h3>
+            <p>Security tooling and experiments across Windows, Linux, shellcoding, and Python.</p>
+        </article>
+        <article class="portfolio-card">
+            <h3><a href="https://github.com/rach1tarora/infosec-talks-and-ctfs">Talks &amp; CTFs</a></h3>
+            <p>Conference talks and security challenges created for communities including Cloud Village.</p>
+        </article>
+        <article class="portfolio-card">
+            <h3><a href="https://arorarachit.com/blog/sentinel-heatmap-rdp-bruteforce">Sentinel Heatmap</a></h3>
+            <p>An Azure project that collected attempted RDP brute-force attacks and plotted their locations on a heatmap.</p>
+        </article>
+        <article class="portfolio-card">
+            <h3><a href="https://www.credly.com/org/noshitsecurity/badge/rage">Tempus CTF</a></h3>
+            <p>A CTF covering forensic analysis, cryptography, privilege escalation, and Docker container breakout techniques.</p>
+        </article>
+        <article class="portfolio-card">
+            <h3>Active Directory Homelab</h3>
+            <p>A lab for practicing AD enumeration, lateral movement, privilege escalation, persistence, and defensive remediation.</p>
+        </article>
+    </div>
+</section>
