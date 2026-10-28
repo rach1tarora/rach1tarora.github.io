@@ -819,10 +819,6 @@ a:focus-visible {
     background: #7c86aa;
 }
 
-.timeline-entry.featured::before {
-    background: var(--heading);
-}
-
 .timeline-entry h3 {
     margin: 0 0 0.2rem;
     font-size: clamp(1.15rem, 1.7vw, 1.55rem);

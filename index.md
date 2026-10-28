@@ -71,7 +71,7 @@ description: Security engineer working on red teaming, penetration testing, and 
 <section class="portfolio-section" aria-labelledby="home-certifications-heading">
   <h2 id="home-certifications-heading" class="section-heading">CERTIFICATIONS</h2>
   <div class="card-grid certification-grid">
-    <article class="portfolio-card certification-card featured">
+    <article class="portfolio-card certification-card">
       <h3><a href="https://www.credly.com/badges/fa0dd931-f58a-4000-a9e5-48ab8e74bdd0/public_url">GCIH</a></h3>
       <p>GIAC Certified Incident Handler</p>
     </article>
